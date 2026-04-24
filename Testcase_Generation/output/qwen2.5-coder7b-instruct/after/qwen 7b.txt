@@ -1,0 +1,33 @@
+================================================================================
+OPTIMIZED SRS-AWARE HYBRID TEST GENERATION SUMMARY
+================================================================================
+
+Generated: 2026-04-11 10:26:32.872986
+Total Tests: 913
+
+IMPROVEMENTS APPLIED:
+ Deduplication (fixed 22% overlap)
+ SRS-specific prompts for FR6, FR8, FR24, etc.
+  Enhanced validation blocking placeholders
+  Priority targeting for critical SRS gaps
+
+PHASE 1 - FAST BATCH:
+  Tests: 409
+  Types: positive, negative, edge, integration
+
+PHASE 2 - COMPREHENSIVE:
+  Tests: 504
+  Types: performance, security, usability, compatibility, api, data_integrity, reliability
+
+BY TYPE:
+  positive: 101
+  negative: 104
+  edge: 102
+  integration: 102
+  performance: 75
+  security: 60
+  usability: 72
+  compatibility: 75
+  api: 75
+  data_integrity: 75
+  reliability: 72

@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "total_views": 20,
+    "generated_from": "acceptance_units.json",
+    "generation_timestamp": "2026-01-30T12:36:05.117385Z"
+  },
+  "canonical_views": [
+    {
+      "scenario_id": "SCN_001",
+      "scenario_title": "Successful user registration",
+      "user_story": "As an end user, I want to register for the application using a valid email address and password so that I can create a personal account and securely access the system’s task management features.",
+      "preconditions": [
+        "Given the user is on the application landing page"
+      ],
+      "actions": [
+        "When the user clicks on the \"Sign Up\" option",
+        "And provides a valid email address and a password meeting minimum security requirements"
+      ],
+      "outcomes": [
+        "Then the system creates a new user account",
+        "And POST /api/auth/signup returns HTTP 201",
+        "And the user sees a confirmation message stating \"Account created\"",
+        "And the user is redirected to the login page"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_001",
+          "UAS_002",
+          "UAS_003",
+          "UAS_004",
+          "UAS_005",
+          "UAS_006",
+          "UAS_007",
+          "UAS_008",
+          "UAS_009"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_002",
+      "scenario_title": "Successful user login",
+      "user_story": "As a registered user, I want to log in using my email and password so that I can securely access my personal dashboard and manage my tasks.",
+      "preconditions": [
+        "Given the user is on the login page"
+      ],
+      "actions": [
+        "When the user enters valid credentials"
+      ],
+      "outcomes": [
+        "Then POST /api/auth/login returns HTTP 200 with an authentication token",
+        "And the user is redirected to the User Dashboard"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_010",
+          "UAS_011",
+          "UAS_012",
+          "UAS_013",
+          "UAS_014",
+          "UAS_015"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_003",
+      "scenario_title": "Empty task state",
+      "user_story": "As a user, I want the dashboard to clearly indicate when I have no tasks so that I understand the current state of my account and am encouraged to create my first task.",
+      "preconditions": [
+        "Given the user has no tasks associated with their account"
+      ],
+      "actions": [
+        "When the user logs in successfully"
+      ],
+      "outcomes": [
+        "Then the dashboard displays the message \"No tasks found. Create your first!\""
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_016",
+          "UAS_017",
+          "UAS_018",
+          "UAS_019",
+          "UAS_020"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_004",
+      "scenario_title": "Create new task",
+      "user_story": "As a user, I want to create a new task by providing a task title so that I can track and manage my activities effectively within the application.",
+      "preconditions": [
+        "Given the user is logged in and on the dashboard"
+      ],
+      "actions": [
+        "When the user submits a valid task title"
+      ],
+      "outcomes": [
+        "Then POST /api/tasks returns HTTP 201",
+        "And the task is saved with the user's identifier",
+        "And the task appears in the Active Tasks list"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_021",
+          "UAS_022",
+          "UAS_023",
+          "UAS_024",
+          "UAS_025",
+          "UAS_026",
+          "UAS_027"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_005",
+      "scenario_title": "Edit task title",
+      "user_story": "As a user, I want to modify the title of an existing task so that I can correct mistakes or reflect updated requirements.",
+      "preconditions": [
+        "Given the user owns a task titled \"Buy groceries\""
+      ],
+      "actions": [
+        "When the user edits the task title to \"Buy organic groceries\""
+      ],
+      "outcomes": [
+        "Then PUT /api/tasks/{taskId} returns HTTP 200",
+        "And the updated title is reflected immediately in the UI"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_028",
+          "UAS_029",
+          "UAS_030",
+          "UAS_031",
+          "UAS_032",
+          "UAS_033"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_006",
+      "scenario_title": "Complete task",
+      "user_story": "As a user, I want to mark a task as completed so that I can distinguish finished work from pending tasks.",
+      "preconditions": [
+        "Given the user has an active task"
+      ],
+      "actions": [
+        "When the user marks the task as completed"
+      ],
+      "outcomes": [
+        "Then the task status is updated to \"completed\"",
+        "And the task is moved to the Completed Tasks section"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_034",
+          "UAS_035",
+          "UAS_036",
+          "UAS_037",
+          "UAS_038",
+          "UAS_039"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_007",
+      "scenario_title": "Delete task",
+      "user_story": "As a user, I want to permanently delete a task so that I can remove tasks that are no longer relevant.",
+      "preconditions": [
+        "Given the user initiates deletion of a task"
+      ],
+      "actions": [
+        "When the user confirms the deletion"
+      ],
+      "outcomes": [
+        "Then DELETE /api/tasks/{taskId} returns HTTP 200",
+        "And the task is removed from the dashboard",
+        "And a confirmation message \"Task deleted\" is displayed"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_040",
+          "UAS_041",
+          "UAS_042",
+          "UAS_043",
+          "UAS_044",
+          "UAS_045",
+          "UAS_046"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_008",
+      "scenario_title": "Unauthorized task access attempt",
+      "user_story": "As a user, I want the system to restrict access strictly to my own tasks so that my personal data remains private and secure.",
+      "preconditions": [
+        "Given the user manually alters the task URL to reference another user's task"
+      ],
+      "actions": [],
+      "outcomes": [
+        "Then the API returns HTTP 403 Forbidden",
+        "And the UI displays an error message indicating insufficient permissions"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_047",
+          "UAS_048",
+          "UAS_049",
+          "UAS_050",
+          "UAS_051"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_009",
+      "scenario_title": "Admin login",
+      "user_story": "As an administrator, I want to log in to the system so that I can access administrative features within the scope of my assigned privileges.",
+      "preconditions": [],
+      "actions": [
+        "When the admin logs in with valid credentials"
+      ],
+      "outcomes": [
+        "Then the Admin Dashboard loads successfully"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_052",
+          "UAS_053",
+          "UAS_054",
+          "UAS_055"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_010",
+      "scenario_title": "Admin manages own tasks",
+      "user_story": "As an admin, I want full create, read, update, and delete access to my own tasks so that I can manage my responsibilities independently.",
+      "preconditions": [
+        "Given the admin is logged in"
+      ],
+      "actions": [],
+      "outcomes": [
+        "Then the admin can create, edit, complete, and delete tasks owned by the admin account"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_056",
+          "UAS_057",
+          "UAS_058",
+          "UAS_059"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_011",
+      "scenario_title": "Read-only users list",
+      "user_story": "As an admin, I want to view a list of users in a read-only format so that I can see system users without being able to modify their details.",
+      "preconditions": [
+        "Given the admin opens the Users tab",
+        "And edit and delete actions are disabled",
+        "And a tooltip indicates \"View only – Contact Super Admin for changes\""
+      ],
+      "actions": [],
+      "outcomes": [],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_060",
+          "UAS_061",
+          "UAS_062",
+          "UAS_063",
+          "UAS_064"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_012",
+      "scenario_title": "Block role modification",
+      "user_story": "As an admin, I should be prevented from changing user roles so that role-based security and hierarchy are maintained.",
+      "preconditions": [],
+      "actions": [
+        "When the admin attempts to update a user's role"
+      ],
+      "outcomes": [
+        "Then PUT /api/users/{userId}/role returns HTTP 403"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_065",
+          "UAS_066",
+          "UAS_067",
+          "UAS_068"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_013",
+      "scenario_title": "Admin accesses another user's tasks",
+      "user_story": "As an admin, I should not be allowed to access or manipulate tasks belonging to other users so that ownership boundaries are enforced.",
+      "preconditions": [],
+      "actions": [
+        "When the admin queries tasks for a different user"
+      ],
+      "outcomes": [
+        "Then the API returns HTTP 403 Forbidden",
+        "And the admin’s task list remains unchanged"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_069",
+          "UAS_070",
+          "UAS_071",
+          "UAS_072",
+          "UAS_073"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_014",
+      "scenario_title": "Super admin login",
+      "user_story": "As a super admin, I want to log in to the system so that I can perform unrestricted administrative",
+      "preconditions": [
+        "Given a super admin account exists"
+      ],
+      "actions": [
+        "When the super admin logs in"
+      ],
+      "outcomes": [
+        "Then the Global Dashboard is displayed"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_074",
+          "UAS_075",
+          "UAS_076",
+          "UAS_077",
+          "UAS_078"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_015",
+      "scenario_title": "View global stats",
+      "user_story": "As a super admin, I want to view global statistics across all users and tasks so that I have complete visibility into system usage.",
+      "preconditions": [],
+      "actions": [],
+      "outcomes": [],
+      "postconditions": [],
+      "has_executable_steps": false,
+      "traceability": {
+        "source_units": [
+          "UAS_079",
+          "UAS_080"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_016",
+      "scenario_title": "View all tasks",
+      "user_story": "As a super admin, I want to view tasks belonging to any user so that I can monitor and manage activity across the entire system.",
+      "preconditions": [],
+      "actions": [
+        "When the super admin calls GET /api/tasks"
+      ],
+      "outcomes": [
+        "Then tasks from all users are returned"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_081",
+          "UAS_082",
+          "UAS_083",
+          "UAS_084"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_017",
+      "scenario_title": "Filter tasks by user",
+      "user_story": "As a super admin, I want to filter tasks by individual users so that I can focus on specific accounts when required.",
+      "preconditions": [],
+      "actions": [
+        "When the super admin selects a specific user"
+      ],
+      "outcomes": [
+        "Then GET /api/tasks?user_id={id} returns only that user’s tasks"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_085",
+          "UAS_086",
+          "UAS_087",
+          "UAS_088"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_018",
+      "scenario_title": "Edit another user's task",
+      "user_story": "As a super admin, I want to update any user’s task so that I can correct issues or enforce system-level changes.",
+      "preconditions": [],
+      "actions": [
+        "When the super admin updates a task"
+      ],
+      "outcomes": [
+        "Then the task is updated successfully",
+        "And task history records \"Updated by Super Admin\""
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_089",
+          "UAS_090",
+          "UAS_091",
+          "UAS_092",
+          "UAS_093"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_019",
+      "scenario_title": "Update user role",
+      "user_story": "As a super admin, I want to promote or demote users so that administrative responsibilities are correctly assigned.",
+      "preconditions": [],
+      "actions": [
+        "When the super admin updates a user role"
+      ],
+      "outcomes": [
+        "Then PUT /api/users/{userId}/role returns HTTP 200",
+        "And the new role is applied immediately"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_094",
+          "UAS_095",
+          "UAS_096",
+          "UAS_097",
+          "UAS_098"
+        ]
+      }
+    },
+    {
+      "scenario_id": "SCN_020",
+      "scenario_title": "Archive user",
+      "user_story": "As a super admin, I want to archive users so that inactive or removed accounts are properly deactivated along with their tasks.",
+      "preconditions": [],
+      "actions": [
+        "When the super admin archives a user"
+      ],
+      "outcomes": [
+        "Then the user status is set to \"deleted\"",
+        "And all associated tasks are archived"
+      ],
+      "postconditions": [],
+      "has_executable_steps": true,
+      "traceability": {
+        "source_units": [
+          "UAS_099",
+          "UAS_100",
+          "UAS_101",
+          "UAS_102",
+          "UAS_103"
+        ]
+      }
+    }
+  ]
+}

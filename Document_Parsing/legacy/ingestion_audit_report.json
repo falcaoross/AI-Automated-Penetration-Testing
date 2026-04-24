@@ -1,0 +1,145 @@
+{
+  "report_generated_at": "2026-03-05T08:00:42.893476+00:00",
+  "document_summary": {
+    "doc_id": "doc_a7518e16b02c3792",
+    "doc_type": "SPEC",
+    "source_file": "srs_example.pdf",
+    "total_pages_ingested": 58,
+    "total_paragraphs_extracted": 3127,
+    "tables_detected": 37,
+    "ocr_used": true
+  },
+  "structural_coverage": {
+    "pages_unmapped": [],
+    "pages_with_multiple_headings": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      34,
+      55,
+      57
+    ],
+    "pages_with_no_headings": [
+      1,
+      2,
+      31,
+      32,
+      33,
+      35,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "sections_spanning_multiple_pages": {
+      "__SKIP__TOC__": [
+        2,
+        31,
+        32,
+        33,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    "paragraph_stats": {
+      "total": 3127,
+      "min_per_page": 2,
+      "max_per_page": 226,
+      "avg_per_page": 53.91
+    }
+  },
+  "heading_detection_summary": {
+    "total_headings": 2090,
+    "by_method": {
+      "titlecase": 567,
+      "numeric": 1518,
+      "allcaps": 5
+    },
+    "unique_section_paths": 36
+  },
+  "metadata_completeness": {
+    "fields": {
+      "doc_id": true,
+      "title": true,
+      "doc_type": true,
+      "version": false,
+      "source_file": true,
+      "ingestion_timestamp": true,
+      "language": true
+    },
+    "all_complete": false
+  },
+  "data_quality": {
+    "para_ids_unique": true,
+    "total": 3127,
+    "unique": 3127,
+    "section_map_coverage": "58/58 pages mapped"
+  },
+  "blocking_issues": [],
+  "warnings": [
+    "Version not detected — defaulted to 'unknown'",
+    "OCR used on 13 image(s) — text accuracy may vary"
+  ],
+  "final_verdict": {
+    "status": "PARTIALLY READY",
+    "reasons": [
+      "Version not detected — defaulted to 'unknown'",
+      "OCR used on 13 image(s) — text accuracy may vary"
+    ]
+  }
+}

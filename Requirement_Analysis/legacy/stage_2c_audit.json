@@ -1,0 +1,200 @@
+{
+  "audit_version": "1.0",
+  "stage": "Stage 2C – Normalize for CRU",
+  "generated_at": "2026-03-05T08:04:54.540109+00:00",
+  "input_file": "output/requirements_extracted_grouped.json",
+  "output_file": "output/requirements_normalized_for_cru.json",
+  "doc_metadata_used": {
+    "doc_id": "doc_a7518e16b02c3792",
+    "doc_type": "SPEC",
+    "version": "unknown",
+    "source_file": "srs_example.pdf"
+  },
+  "summary": {
+    "total_requirements": 16,
+    "split_candidates": 0,
+    "requirement_type_distribution": {
+      "standard": 9,
+      "constraint": 1,
+      "planguage": 6
+    }
+  },
+  "split_candidate_ids": [],
+  "invariant_checks": {
+    "duplicate_ids": [],
+    "missing_doc_id": [],
+    "missing_source_file": [],
+    "missing_page": [],
+    "missing_requirement_type": []
+  },
+  "pass": true,
+  "pass_criteria": {
+    "no_duplicate_ids": true,
+    "doc_id_on_all": true,
+    "source_file_on_all": true,
+    "requirement_type_on_all": true
+  },
+  "per_requirement": {
+    "REQ-5ae33ffbb2": {
+      "requirement_type": "standard",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 3,
+      "section_path": "1. Introduction > 1.2 Scope",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0003_s0020"
+      ]
+    },
+    "REQ-176cd511dd": {
+      "requirement_type": "standard",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 6,
+      "section_path": "2. Overall description > The mobile application will need to communicate to a GPS",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0006_s0053"
+      ]
+    },
+    "REQ-998f03b714": {
+      "requirement_type": "standard",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 6,
+      "section_path": "2. Overall description > Since this is a data-centric product it will need somewhere",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0006_s0055"
+      ]
+    },
+    "REQ-f94fd8b8dc": {
+      "requirement_type": "standard",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 7,
+      "section_path": "5",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0007_s0062"
+      ]
+    },
+    "REQ-52d9b1db77": {
+      "requirement_type": "constraint",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 7,
+      "section_path": "5 > 2.4 Constraints",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0007_s0066"
+      ]
+    },
+    "REQ-1c3e7be646": {
+      "requirement_type": "standard",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 11,
+      "section_path": "9 > TITLE: User registration - Mobile application",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0011_s0108"
+      ]
+    },
+    "REQ-6fb4876aa5": {
+      "requirement_type": "standard",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 12,
+      "section_path": "10 > TITLE: User log-in - Mobile application",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0012_s0114"
+      ]
+    },
+    "REQ-0bd9d1c635": {
+      "requirement_type": "standard",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 12,
+      "section_path": "DESC:",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0012_s0130",
+        "doc_a7518e16b02c3792_p0013_s0137"
+      ]
+    },
+    "REQ-2116983954": {
+      "requirement_type": "standard",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 25,
+      "section_path": "23 > TAG: ApplicationMemoryUsage",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0025_s0532"
+      ]
+    },
+    "REQ-33aa790198": {
+      "requirement_type": "planguage",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 26,
+      "section_path": "24 > TAG: CommunicationSecurity",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0026_s0558"
+      ]
+    },
+    "REQ-5056421036": {
+      "requirement_type": "standard",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 27,
+      "section_path": "25",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0563"
+      ]
+    },
+    "REQ-b6f7e74c0e": {
+      "requirement_type": "planguage",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 27,
+      "section_path": "25 > TAG: AdminLoginAccountSecurity",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0566"
+      ]
+    },
+    "REQ-4c79cc259b": {
+      "requirement_type": "planguage",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 27,
+      "section_path": "25 > TAG: RestaurantOwnerAccountSecurity",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0569"
+      ]
+    },
+    "REQ-3208c9474e": {
+      "requirement_type": "planguage",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 27,
+      "section_path": "25 > TAG: AdminAccountSecurity",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0572"
+      ]
+    },
+    "REQ-f4d4c393e6": {
+      "requirement_type": "planguage",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 27,
+      "section_path": "25 > TAG: UserCreateAccountSecurity",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0575"
+      ]
+    },
+    "REQ-6ae45e6c46": {
+      "requirement_type": "planguage",
+      "split_candidate": false,
+      "split_candidate_reason": "none",
+      "page": 27,
+      "section_path": "25 > TAG: RestaurantOwnerCreateAccountSecurity",
+      "para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0578"
+      ]
+    }
+  }
+}

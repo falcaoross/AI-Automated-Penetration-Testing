@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "generated": "2026-04-24T14:28:31.737870",
+    "model": "llama3:8b",
+    "total_test_cases": 0,
+    "phase1_count": 0,
+    "phase2_count": 0,
+    "validation": "SRS-aware with placeholder blocking and deduplication",
+    "improvements": [
+      "Deduplication applied (fixed 22% overlap)",
+      "SRS-specific prompts for critical requirements",
+      "Enhanced validation with stricter checks"
+    ]
+  },
+  "phase1_test_cases": [],
+  "phase2_test_cases": []
+}

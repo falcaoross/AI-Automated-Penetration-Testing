@@ -1,0 +1,2751 @@
+{
+  "metadata": {
+    "stage": "Stage 4: Semantic Chunking & Capability Tagging",
+    "version": "2.1",
+    "input_total_crus": 108,
+    "source_stage_metadata": {
+      "pipeline_stage": "03_cru_normalization",
+      "generated_at": "2026-04-03T15:22:02.490532+00:00",
+      "requirements_file": "..\\02_Requirement_Understanding\\output\\requirements.json",
+      "skeleton_file": "..\\01_Multi_Source_Document_Ingestion\\01_output\\DOC-SRS_EXAMPLE_skeleton.json",
+      "total_crus": 108,
+      "invalid_crus": 0,
+      "clean": true,
+      "builder_flags": 12,
+      "validation_flags": 0
+    },
+    "total_chunks": 50,
+    "avg_chunk_size": 2.16,
+    "max_chunk_size": 4,
+    "min_chunk_size": 1,
+    "application_domain": "Restaurant/Food Service",
+    "chunk_type_distribution": {
+      "functional": 36,
+      "performance": 7,
+      "constraint": 2,
+      "portability": 1,
+      "testability": 1,
+      "quality": 1,
+      "security": 1,
+      "reliability": 1
+    },
+    "capability_tag_distribution": {
+      "Generic": 4,
+      "Search & Filtering": 18,
+      "Location & Maps": 9,
+      "User Interface": 11,
+      "Restaurant Discovery": 21,
+      "Notifications": 4,
+      "Portability": 5,
+      "CRUD Operations": 9,
+      "Profile & Account Management": 3,
+      "Authentication": 10,
+      "Reporting & Admin": 9,
+      "Security": 3,
+      "Performance": 7,
+      "Reservation & Booking": 1,
+      "Reliability": 1
+    },
+    "all_crus_present": true,
+    "duplicate_cru_ids_found": false,
+    "size_limit_violated": false,
+    "domain_consistency": true
+  },
+  "chunks": [
+    {
+      "chunk_id": "CHUNK_001",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Generic"
+      ],
+      "cru_ids": [
+        "CRU-FR1-01",
+        "CRU-FR1-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR1-01",
+          "actor": "User",
+          "action": "A user should be able to download the mobile application through either an application store or similar service on the mobile phone.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Download mobile application",
+          "acceptance_criteria": "In order for a user to download the mobile application."
+        },
+        {
+          "cru_id": "CRU-FR1-02",
+          "actor": "User",
+          "action": "The application should be free to download.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Download mobile application",
+          "acceptance_criteria": "In order for a user to download the mobile application."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR1"
+        ],
+        "sections": [
+          "3.2.1.1"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 9,
+            "para": 6
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_002",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Location & Maps",
+        "User Interface"
+      ],
+      "cru_ids": [
+        "CRU-FR10-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR10-01",
+          "actor": "User",
+          "action": "A user should be able to switch between a map view and a list view for all search options.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Switch result view",
+          "acceptance_criteria": "In order for a user to switch between result views."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR10"
+        ],
+        "sections": [
+          "3.2.1.10"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 11,
+            "para": 13
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_003",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Restaurant Discovery",
+        "Notifications",
+        "User Interface"
+      ],
+      "cru_ids": [
+        "CRU-FR11-01",
+        "CRU-FR11-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR11-01",
+          "actor": "User",
+          "action": "A user should be able to select the information link, which is included on all result items.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Selecting the information link",
+          "acceptance_criteria": "In order to show information about the restaurants."
+        },
+        {
+          "cru_id": "CRU-FR11-02",
+          "actor": "User",
+          "action": "The link will direct the user to an information page, which includes a picture of the restaurant, the restaurant name, address, phone number, e-mail address, type of food, average price, restaurant description and a menu with name, description and price of the different dishes.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Selecting the information link",
+          "acceptance_criteria": "In order to show information about the restaurants."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR11"
+        ],
+        "sections": [
+          "3.2.1.11"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 12,
+            "para": 2
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_004",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-FR12-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR12-01",
+          "actor": "User",
+          "action": "A user should be able to input a maximum and a minimum price range.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search by price",
+          "acceptance_criteria": "In order for a user to search by price."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR12"
+        ],
+        "sections": [
+          "3.2.1.12"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 12,
+            "para": 8
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_005",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Location & Maps",
+        "Portability"
+      ],
+      "cru_ids": [
+        "CRU-FR13-01",
+        "CRU-FR13-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR13-01",
+          "actor": "User",
+          "action": "A user should be able to input a maximum and a minimum distance, according to his/her position.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search by destination",
+          "acceptance_criteria": "In order for a user to search by destination."
+        },
+        {
+          "cru_id": "CRU-FR13-02",
+          "actor": "User",
+          "action": "The user should be able to input a higher or lower maximum distance and a higher minimum distance than set by default.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search by destination",
+          "acceptance_criteria": "In order for a user to search by destination."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR13"
+        ],
+        "sections": [
+          "3.2.1.13"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 12,
+            "para": 14
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_006",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Restaurant Discovery",
+        "CRUD Operations"
+      ],
+      "cru_ids": [
+        "CRU-FR14-01",
+        "CRU-FR14-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR14-01",
+          "actor": "User",
+          "action": "Integers should be accepted as input when a user searches by price or destination.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Accepted input for price and destination search",
+          "acceptance_criteria": "In order for a user to search with valid input."
+        },
+        {
+          "cru_id": "CRU-FR14-02",
+          "actor": "User",
+          "action": "If the system receives an invalid input the user should be informed and prompted to insert an accepted input.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Accepted input for price and destination search",
+          "acceptance_criteria": "In order for a user to search with valid input."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR14"
+        ],
+        "sections": [
+          "3.2.1.14"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 12,
+            "para": 20
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_007",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-FR15-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR15-01",
+          "actor": "User",
+          "action": "A user should be able to select a restaurant type in a given list as input.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search by restaurant type",
+          "acceptance_criteria": "In order for a user to search by restaurant type."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR15"
+        ],
+        "sections": [
+          "3.2.1.15"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 12,
+            "para": 26
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_008",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-FR16-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR16-01",
+          "actor": "User",
+          "action": "A user should be able to select a specific dish in a given list as input.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search by specific dish",
+          "acceptance_criteria": "In order for a user to search by specific dish."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR16"
+        ],
+        "sections": [
+          "3.2.1.16"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 13,
+            "para": 3
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_009",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-FR17-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR17-01",
+          "actor": "User",
+          "action": "A user should be able to conduct a search by providing either restaurant name, restaurant description, restaurant address, restaurant type or restaurant menu in the free-text search field.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Free-text search",
+          "acceptance_criteria": "In order for a user to search through the free-text search."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR17"
+        ],
+        "sections": [
+          "3.2.1.17"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 13,
+            "para": 9
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_010",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Portability",
+        "User Interface"
+      ],
+      "cru_ids": [
+        "CRU-FR18-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR18-01",
+          "actor": "User",
+          "action": "If no match is found the user should be informed but kept on the search page in order to get the possibility to conduct a new search right away.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - No match found",
+          "acceptance_criteria": "In order for user to conduct a new search if no match is found."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR18"
+        ],
+        "sections": [
+          "3.2.1.18"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 13,
+            "para": 15
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_011",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Restaurant Discovery",
+        "Location & Maps"
+      ],
+      "cru_ids": [
+        "CRU-FR19-01",
+        "CRU-FR19-02",
+        "CRU-FR19-03",
+        "CRU-FR19-04"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR19-01",
+          "actor": "User",
+          "action": "When viewing the results in a list, a user should be able to sort the results according to price, distance, restaurant type, specific dish or restaurant name.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Sorting results",
+          "acceptance_criteria": "In order for a user to sort results in a list."
+        },
+        {
+          "cru_id": "CRU-FR19-02",
+          "actor": "User",
+          "action": " When sorting by restaurant name, specific dish or restaurant type the results should be ordered alphabetically.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Sorting results",
+          "acceptance_criteria": "In order for a user to sort results in a list."
+        },
+        {
+          "cru_id": "CRU-FR19-03",
+          "actor": "User",
+          "action": " When sorting by price the results should be ordered from cheapest to most expensive.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Sorting results",
+          "acceptance_criteria": "In order for a user to sort results in a list."
+        },
+        {
+          "cru_id": "CRU-FR19-04",
+          "actor": "User",
+          "action": " When sorting by distance the results should be ordered from closets to furthest distance according to the user’s position.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Sorting results",
+          "acceptance_criteria": "In order for a user to sort results in a list."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR19"
+        ],
+        "sections": [
+          "3.2.1.19"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 13,
+            "para": 21
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_012",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Notifications",
+        "CRUD Operations"
+      ],
+      "cru_ids": [
+        "CRU-FR2-01",
+        "CRU-FR2-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR2-01",
+          "actor": "User",
+          "action": "When a new/updated version or release of the software is released, the user should check for these manually.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Download and notify users of new releases",
+          "acceptance_criteria": "In order for a user to download a new/updated release."
+        },
+        {
+          "cru_id": "CRU-FR2-02",
+          "actor": "User",
+          "action": "The download of the new release should be done through the mobile phone in the same way as downloading the mobile application.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Download and notify users of new releases",
+          "acceptance_criteria": "In order for a user to download a new/updated release."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR2"
+        ],
+        "sections": [
+          "3.2.1.2"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 9,
+            "para": 12
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_013",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Location & Maps",
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-FR20-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR20-01",
+          "actor": "User",
+          "action": "When viewing the results in a list or a map, a user should be able to filter the results in a filtering menu.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Filtering results",
+          "acceptance_criteria": "In order for a user to filter results in a list or a map."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR20"
+        ],
+        "sections": [
+          "3.2.1.20"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 14,
+            "para": 3
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_014",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Profile & Account Management",
+        "User Interface",
+        "Authentication"
+      ],
+      "cru_ids": [
+        "CRU-FR21-01",
+        "CRU-FR21-02",
+        "CRU-FR21-03"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR21-01",
+          "actor": "User",
+          "action": "On the mobile application, a user should have a profile page.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Profile page",
+          "acceptance_criteria": "In order for a user to have a profile page on the mobile application."
+        },
+        {
+          "cru_id": "CRU-FR21-02",
+          "actor": "User",
+          "action": "On the profile page a user can edit his/her information, which includes the password, e-mail address and phone number.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Profile page",
+          "acceptance_criteria": "In order for a user to have a profile page on the mobile application."
+        },
+        {
+          "cru_id": "CRU-FR21-03",
+          "actor": "User",
+          "action": "A user should also be able to choose what language the mobile application should be set to.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Profile page",
+          "acceptance_criteria": "In order for a user to have a profile page on the mobile application."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR21"
+        ],
+        "sections": [
+          "3.2.1.21"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 14,
+            "para": 11
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_015",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Authentication",
+        "Profile & Account Management",
+        "CRUD Operations"
+      ],
+      "cru_ids": [
+        "CRU-FR22-01",
+        "CRU-FR22-02",
+        "CRU-FR22-03"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR22-01",
+          "actor": "Restaurant Owner",
+          "action": "registers on the web-portal by providing user-name And password And address And e-mail address And phone number And mobile number",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Create an account",
+          "acceptance_criteria": "A restaurant owner should be able to register and apply for verification through the web portal."
+        },
+        {
+          "cru_id": "CRU-FR22-02",
+          "actor": "Restaurant Owner",
+          "action": "applies for verification",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Create an account",
+          "acceptance_criteria": "A restaurant owner should be able to register and apply for verification through the web portal."
+        },
+        {
+          "cru_id": "CRU-FR22-03",
+          "actor": "Restaurant Owner",
+          "action": "receives a confirmation e-mail",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Create an account",
+          "acceptance_criteria": "A restaurant owner should be able to register and apply for verification through the web portal."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR22"
+        ],
+        "sections": [
+          "3.2.2.1"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 14,
+            "para": 18
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_016",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Restaurant Discovery",
+        "Authentication",
+        "Profile & Account Management"
+      ],
+      "cru_ids": [
+        "CRU-FR23-01",
+        "CRU-FR23-02",
+        "CRU-FR23-03"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR23-01",
+          "actor": "Restaurant Owner",
+          "action": "logs in with his/her account",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Restaurant owner log-in",
+          "acceptance_criteria": "A restaurant owner should be logged into the web-portal."
+        },
+        {
+          "cru_id": "CRU-FR23-02",
+          "actor": "Restaurant Owner",
+          "action": "enters his/her email address in the “Retrieve password” form",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Restaurant owner log-in",
+          "acceptance_criteria": "A restaurant owner should be logged into the web-portal."
+        },
+        {
+          "cru_id": "CRU-FR23-03",
+          "actor": "Restaurant Owner",
+          "action": "submits the form",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Restaurant owner log-in",
+          "acceptance_criteria": "A restaurant owner should be logged into the web-portal."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR23"
+        ],
+        "sections": [
+          "3.2.2.2"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 15,
+            "para": 3
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_017",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Reporting & Admin",
+        "Authentication"
+      ],
+      "cru_ids": [
+        "CRU-FR24-01",
+        "CRU-FR24-02",
+        "CRU-FR24-03",
+        "CRU-FR24-04"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR24-01",
+          "actor": "Restaurant Owner",
+          "action": "log in",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage information In order to manage information",
+          "acceptance_criteria": "Allows a restaurant owner to log into the web-portal and manage information about their restaurant."
+        },
+        {
+          "cru_id": "CRU-FR24-02",
+          "actor": "Restaurant Owner",
+          "action": "manage information",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage information In order to manage information",
+          "acceptance_criteria": "Allows a restaurant owner to log into the web-portal and manage information about their restaurant."
+        },
+        {
+          "cru_id": "CRU-FR24-03",
+          "actor": "Restaurant Owner",
+          "action": "fill in mandatory fields",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage information In order to manage information",
+          "acceptance_criteria": "Allows a restaurant owner to log into the web-portal and manage information about their restaurant."
+        },
+        {
+          "cru_id": "CRU-FR24-04",
+          "actor": "Restaurant Owner",
+          "action": "fill in optional fields",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage information In order to manage information",
+          "acceptance_criteria": "Allows a restaurant owner to log into the web-portal and manage information about their restaurant."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR24"
+        ],
+        "sections": [
+          "3.2.2.3"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 16,
+            "para": 0
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_018",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Reporting & Admin",
+        "CRUD Operations"
+      ],
+      "cru_ids": [
+        "CRU-FR24-05",
+        "CRU-FR24-06",
+        "CRU-FR24-07"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR24-05",
+          "actor": "Restaurant Owner",
+          "action": "add information",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage information In order to manage information",
+          "acceptance_criteria": "Allows a restaurant owner to log into the web-portal and manage information about their restaurant."
+        },
+        {
+          "cru_id": "CRU-FR24-06",
+          "actor": "Restaurant Owner",
+          "action": "delete information",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage information In order to manage information",
+          "acceptance_criteria": "Allows a restaurant owner to log into the web-portal and manage information about their restaurant."
+        },
+        {
+          "cru_id": "CRU-FR24-07",
+          "actor": "Restaurant Owner",
+          "action": "edit information",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage information In order to manage information",
+          "acceptance_criteria": "Allows a restaurant owner to log into the web-portal and manage information about their restaurant."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR24"
+        ],
+        "sections": [
+          "3.2.2.3"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 16,
+            "para": 0
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_019",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-FR25-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR25-01",
+          "actor": "Restaurant Owner",
+          "action": "selects a preferred language",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Restaurant owner - Selecting preferred language on the web-portal",
+          "acceptance_criteria": "A restaurant owner should be able to select a preferred language for understanding the web-portal."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR25"
+        ],
+        "sections": [
+          "3.2.2.4"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 17,
+            "para": 3
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_020",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Authentication",
+        "Reporting & Admin"
+      ],
+      "cru_ids": [
+        "CRU-FR26-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR26-01",
+          "actor": "Administrator",
+          "action": "logs in",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Administrator log in",
+          "acceptance_criteria": "An administrator should be able to log in to the web-portal."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR26"
+        ],
+        "sections": [
+          "3.2.3.1"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 18,
+            "para": 1
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_021",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Restaurant Discovery",
+        "Authentication"
+      ],
+      "cru_ids": [
+        "CRU-FR27-01",
+        "CRU-FR27-02",
+        "CRU-FR27-03"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR27-01",
+          "actor": "Administrator",
+          "action": "log in",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Verify restaurant owner",
+          "acceptance_criteria": "Allows an administrator to verify or reject a restaurant owner for system access."
+        },
+        {
+          "cru_id": "CRU-FR27-02",
+          "actor": "Administrator",
+          "action": "verify a restaurant owner",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Verify restaurant owner",
+          "acceptance_criteria": "Allows an administrator to verify or reject a restaurant owner for system access."
+        },
+        {
+          "cru_id": "CRU-FR27-03",
+          "actor": "Administrator",
+          "action": "reject a restaurant owner",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Verify restaurant owner",
+          "acceptance_criteria": "Allows an administrator to verify or reject a restaurant owner for system access."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR27"
+        ],
+        "sections": [
+          "3.2.3.2"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 18,
+            "para": 4
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_022",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Restaurant Discovery",
+        "Reporting & Admin",
+        "CRUD Operations"
+      ],
+      "cru_ids": [
+        "CRU-FR28-01",
+        "CRU-FR28-02",
+        "CRU-FR28-03",
+        "CRU-FR28-04"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR28-01",
+          "actor": "Administrator",
+          "action": "logs in",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant types",
+          "acceptance_criteria": "Allows the administrator to manage the list of restaurant types."
+        },
+        {
+          "cru_id": "CRU-FR28-02",
+          "actor": "Administrator",
+          "action": "creates a new restaurant type",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant types",
+          "acceptance_criteria": "Allows the administrator to manage the list of restaurant types."
+        },
+        {
+          "cru_id": "CRU-FR28-03",
+          "actor": "Administrator",
+          "action": "edits an existing restaurant type",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant types",
+          "acceptance_criteria": "Allows the administrator to manage the list of restaurant types."
+        },
+        {
+          "cru_id": "CRU-FR28-04",
+          "actor": "Administrator",
+          "action": "deletes a restaurant type",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant types",
+          "acceptance_criteria": "Allows the administrator to manage the list of restaurant types."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR28"
+        ],
+        "sections": [
+          "3.2.3.3"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 18,
+            "para": 8
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_023",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Restaurant Discovery",
+        "Reporting & Admin",
+        "CRUD Operations"
+      ],
+      "cru_ids": [
+        "CRU-FR29-01",
+        "CRU-FR29-02",
+        "CRU-FR29-03",
+        "CRU-FR29-04"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR29-01",
+          "actor": "Administrator",
+          "action": "logs in",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant dishes",
+          "acceptance_criteria": "Allows the administrator to manage dishes in the list."
+        },
+        {
+          "cru_id": "CRU-FR29-02",
+          "actor": "Administrator",
+          "action": "creates a new dish",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant dishes",
+          "acceptance_criteria": "Allows the administrator to manage dishes in the list."
+        },
+        {
+          "cru_id": "CRU-FR29-03",
+          "actor": "Administrator",
+          "action": "edits an existing dish",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant dishes",
+          "acceptance_criteria": "Allows the administrator to manage dishes in the list."
+        },
+        {
+          "cru_id": "CRU-FR29-04",
+          "actor": "Administrator",
+          "action": "deletes a dish",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant dishes",
+          "acceptance_criteria": "Allows the administrator to manage dishes in the list."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR29"
+        ],
+        "sections": [
+          "3.2.3.4"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 19,
+            "para": 2
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_024",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Authentication",
+        "Notifications",
+        "Security"
+      ],
+      "cru_ids": [
+        "CRU-FR3-01",
+        "CRU-FR3-02",
+        "CRU-FR3-03"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR3-01",
+          "actor": "User",
+          "action": "Given that a user has downloaded the mobile application, then the user should be able to register through the mobile application.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "User registration - Mobile application",
+          "acceptance_criteria": "In order for a user to register on the mobile application."
+        },
+        {
+          "cru_id": "CRU-FR3-02",
+          "actor": "User",
+          "action": "The user must provide user-name, password and e-mail address.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "User registration - Mobile application",
+          "acceptance_criteria": "In order for a user to register on the mobile application."
+        },
+        {
+          "cru_id": "CRU-FR3-03",
+          "actor": "User",
+          "action": "The user can choose to provide a regularly used phone number.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "User registration - Mobile application",
+          "acceptance_criteria": "In order for a user to register on the mobile application."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR3"
+        ],
+        "sections": [
+          "3.2.1.3"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 9,
+            "para": 18
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_025",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Restaurant Discovery",
+        "Reporting & Admin",
+        "CRUD Operations"
+      ],
+      "cru_ids": [
+        "CRU-FR30-01",
+        "CRU-FR30-02",
+        "CRU-FR30-03"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR30-01",
+          "actor": "Administrator",
+          "action": "adds restaurant information",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant information",
+          "acceptance_criteria": "An administrator should manage restaurant information through the web-portal."
+        },
+        {
+          "cru_id": "CRU-FR30-02",
+          "actor": "Administrator",
+          "action": "deletes the information",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant information",
+          "acceptance_criteria": "An administrator should manage restaurant information through the web-portal."
+        },
+        {
+          "cru_id": "CRU-FR30-03",
+          "actor": "Administrator",
+          "action": "edits the information",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant information",
+          "acceptance_criteria": "An administrator should manage restaurant information through the web-portal."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR30"
+        ],
+        "sections": [
+          "3.2.3.5"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 19,
+            "para": 7
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_026",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "CRUD Operations",
+        "Reporting & Admin"
+      ],
+      "cru_ids": [
+        "CRU-FR31-01",
+        "CRU-FR31-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR31-01",
+          "actor": "Administrator",
+          "action": "edits an existing user",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage users",
+          "acceptance_criteria": "An administrator should manage user information by editing and deleting."
+        },
+        {
+          "cru_id": "CRU-FR31-02",
+          "actor": "Administrator",
+          "action": "deletes an existing user",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage users",
+          "acceptance_criteria": "An administrator should manage user information by editing and deleting."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR31"
+        ],
+        "sections": [
+          "3.2.3.6"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 20,
+            "para": 2
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_027",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Restaurant Discovery",
+        "CRUD Operations",
+        "Reporting & Admin"
+      ],
+      "cru_ids": [
+        "CRU-FR32-01",
+        "CRU-FR32-02",
+        "CRU-FR32-03"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR32-01",
+          "actor": "Administrator",
+          "action": "creates a new restaurant owner",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant owners",
+          "acceptance_criteria": "An administrator should be able to manage the restaurant owners."
+        },
+        {
+          "cru_id": "CRU-FR32-02",
+          "actor": "Administrator",
+          "action": "edits an existing restaurant owner",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant owners",
+          "acceptance_criteria": "An administrator should be able to manage the restaurant owners."
+        },
+        {
+          "cru_id": "CRU-FR32-03",
+          "actor": "Administrator",
+          "action": "deletes an existing restaurant owner",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Manage restaurant owners",
+          "acceptance_criteria": "An administrator should be able to manage the restaurant owners."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR32"
+        ],
+        "sections": [
+          "3.2.3.7"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 20,
+            "para": 6
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_028",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Reporting & Admin",
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-FR33-01",
+        "CRU-FR33-02",
+        "CRU-FR33-03",
+        "CRU-FR33-04"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR33-01",
+          "actor": "Administrator",
+          "action": "selects English",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Administrator - Selecting preferred language on the web-portal",
+          "acceptance_criteria": "Allow administrator to select a preferred language for the web-portal."
+        },
+        {
+          "cru_id": "CRU-FR33-02",
+          "actor": "Administrator",
+          "action": "selects Swedish",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Administrator - Selecting preferred language on the web-portal",
+          "acceptance_criteria": "Allow administrator to select a preferred language for the web-portal."
+        },
+        {
+          "cru_id": "CRU-FR33-03",
+          "actor": "Administrator",
+          "action": "selects French",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Administrator - Selecting preferred language on the web-portal",
+          "acceptance_criteria": "Allow administrator to select a preferred language for the web-portal."
+        },
+        {
+          "cru_id": "CRU-FR33-04",
+          "actor": "Administrator",
+          "action": "selects Spanish",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "Administrator - Selecting preferred language on the web-portal",
+          "acceptance_criteria": "Allow administrator to select a preferred language for the web-portal."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR33"
+        ],
+        "sections": [
+          "3.2.3.8"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 21,
+            "para": 1
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_029",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Authentication"
+      ],
+      "cru_ids": [
+        "CRU-FR4-01",
+        "CRU-FR4-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR4-01",
+          "actor": "User",
+          "action": "Given that a user has registered, then the user should be able to log in to the mobile application.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "User log-in - Mobile application",
+          "acceptance_criteria": "In order for a user to register on the mobile application."
+        },
+        {
+          "cru_id": "CRU-FR4-02",
+          "actor": "User",
+          "action": "The log-in information will be stored on the phone and in the future the user should be logged in automatically.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "User log-in - Mobile application",
+          "acceptance_criteria": "In order for a user to register on the mobile application."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR4"
+        ],
+        "sections": [
+          "3.2.1.4"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 10,
+            "para": 0
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_030",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Authentication",
+        "Notifications",
+        "Security"
+      ],
+      "cru_ids": [
+        "CRU-FR5-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR5-01",
+          "actor": "User",
+          "action": "Given that a user has registered, then the user should be able to retrieve his/her password by e- mail.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Retrieve password",
+          "acceptance_criteria": "In order for a user to retrieve his/her password."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR5"
+        ],
+        "sections": [
+          "3.2.1.5"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 10,
+            "para": 6
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_031",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "User Interface",
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-FR6-01",
+        "CRU-FR6-02",
+        "CRU-FR6-03",
+        "CRU-FR6-04"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR6-01",
+          "actor": "User",
+          "action": "Given that a user is logged in to the mobile application, then the first page that is shown should be the search page.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search",
+          "acceptance_criteria": "In order for a user to search for a restaurant."
+        },
+        {
+          "cru_id": "CRU-FR6-02",
+          "actor": "User",
+          "action": "The user should be able to search for a restaurant, according to several search options.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search",
+          "acceptance_criteria": "In order for a user to search for a restaurant."
+        },
+        {
+          "cru_id": "CRU-FR6-03",
+          "actor": "User",
+          "action": "There should also be a free- text search option.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search",
+          "acceptance_criteria": "In order for a user to search for a restaurant."
+        },
+        {
+          "cru_id": "CRU-FR6-04",
+          "actor": "User",
+          "action": "A user should be able to select multiple search options in one search.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search",
+          "acceptance_criteria": "In order for a user to search for a restaurant."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR6"
+        ],
+        "sections": [
+          "3.2.1.6"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 10,
+            "para": 12
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_032",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Location & Maps",
+        "User Interface"
+      ],
+      "cru_ids": [
+        "CRU-FR7-01",
+        "CRU-FR7-02",
+        "CRU-FR7-03",
+        "CRU-FR7-04"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR7-01",
+          "actor": "User",
+          "action": " Search results can be viewed on a map.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a map view",
+          "acceptance_criteria": "The way results are displayed in a map."
+        },
+        {
+          "cru_id": "CRU-FR7-02",
+          "actor": "User",
+          "action": " A specific pin will represent a specific restaurant location.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a map view",
+          "acceptance_criteria": "The way results are displayed in a map."
+        },
+        {
+          "cru_id": "CRU-FR7-03",
+          "actor": "User",
+          "action": "On each pin there should be an information link.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a map view",
+          "acceptance_criteria": "The way results are displayed in a map."
+        },
+        {
+          "cru_id": "CRU-FR7-04",
+          "actor": "User",
+          "action": " There should be maximally 100 results displayed.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a map view",
+          "acceptance_criteria": "The way results are displayed in a map."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR7"
+        ],
+        "sections": [
+          "3.2.1.7"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 10,
+            "para": 18
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_033",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Location & Maps",
+        "User Interface"
+      ],
+      "cru_ids": [
+        "CRU-FR7-05",
+        "CRU-FR7-06"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR7-05",
+          "actor": "User",
+          "action": "The map view should have a default zoom.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a map view",
+          "acceptance_criteria": "The way results are displayed in a map."
+        },
+        {
+          "cru_id": "CRU-FR7-06",
+          "actor": "User",
+          "action": " The map view should include a button that, when selected, should display different filtering options in a filtering menu.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a map view",
+          "acceptance_criteria": "The way results are displayed in a map."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR7"
+        ],
+        "sections": [
+          "3.2.1.7"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 10,
+            "para": 18
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_034",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "User Interface",
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-FR8-01",
+        "CRU-FR8-02",
+        "CRU-FR8-03",
+        "CRU-FR8-04"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR8-01",
+          "actor": "User",
+          "action": " Search results can be viewed in a list.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a list view",
+          "acceptance_criteria": "The way results should be displayed in a list."
+        },
+        {
+          "cru_id": "CRU-FR8-02",
+          "actor": "User",
+          "action": "Each element should include the restaurant name, telephone number, type of food, distance according to the user’s position, average price, a short two-line description, a link to the restaurant’s web-page and an information link.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a list view",
+          "acceptance_criteria": "The way results should be displayed in a list."
+        },
+        {
+          "cru_id": "CRU-FR8-03",
+          "actor": "User",
+          "action": " There should be maximally 100 results displayed.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a list view",
+          "acceptance_criteria": "The way results should be displayed in a list."
+        },
+        {
+          "cru_id": "CRU-FR8-04",
+          "actor": "User",
+          "action": "If the result contains more restaurants than what can be displayed on the screen at one time, the user should be able to scroll through them.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a list view",
+          "acceptance_criteria": "The way results should be displayed in a list."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR8"
+        ],
+        "sections": [
+          "3.2.1.8"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 11,
+            "para": 0
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_035",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Search & Filtering",
+        "Restaurant Discovery",
+        "User Interface"
+      ],
+      "cru_ids": [
+        "CRU-FR8-05",
+        "CRU-FR8-06",
+        "CRU-FR8-07",
+        "CRU-FR8-08"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR8-05",
+          "actor": "User",
+          "action": " When searching by price the restaurants should be sorted according to the following order: 1.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a list view",
+          "acceptance_criteria": "The way results should be displayed in a list."
+        },
+        {
+          "cru_id": "CRU-FR8-06",
+          "actor": "User",
+          "action": "specific dish  When searching by a search option, other than price, the restaurants should be sorted according to the following order: 1.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a list view",
+          "acceptance_criteria": "The way results should be displayed in a list."
+        },
+        {
+          "cru_id": "CRU-FR8-07",
+          "actor": "User",
+          "action": "specific dish  The list view should include a header with different selectable sorting options.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a list view",
+          "acceptance_criteria": "The way results should be displayed in a list."
+        },
+        {
+          "cru_id": "CRU-FR8-08",
+          "actor": "User",
+          "action": " The list view should include a button that, when selected, should display different filtering options in a filtering menu.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Search result in a list view",
+          "acceptance_criteria": "The way results should be displayed in a list."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR8"
+        ],
+        "sections": [
+          "3.2.1.8"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 11,
+            "para": 0
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_036",
+      "chunk_type": "functional",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Restaurant Discovery",
+        "Location & Maps",
+        "Search & Filtering"
+      ],
+      "cru_ids": [
+        "CRU-FR9-01",
+        "CRU-FR9-02",
+        "CRU-FR9-03",
+        "CRU-FR9-04"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-FR9-01",
+          "actor": "User",
+          "action": "A user should be able to select a pin on a map or an element on a list.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Navigation to restaurant",
+          "acceptance_criteria": "To navigate a user to a chosen restaurant."
+        },
+        {
+          "cru_id": "CRU-FR9-02",
+          "actor": "User",
+          "action": "When a selection is made, the location of the restaurant should be sent to the mobile phone’s GPS-navigation program.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Navigation to restaurant",
+          "acceptance_criteria": "To navigate a user to a chosen restaurant."
+        },
+        {
+          "cru_id": "CRU-FR9-03",
+          "actor": "User",
+          "action": "The user should then be navigated to the destination.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Navigation to restaurant",
+          "acceptance_criteria": "To navigate a user to a chosen restaurant."
+        },
+        {
+          "cru_id": "CRU-FR9-04",
+          "actor": "User",
+          "action": "When the destination is reached, a user should be able to go back to the search page on the mobile application.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Mobile application - Navigation to restaurant",
+          "acceptance_criteria": "To navigate a user to a chosen restaurant."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "FR9"
+        ],
+        "sections": [
+          "3.2.1.9"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 11,
+            "para": 7
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_037",
+      "chunk_type": "performance",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Performance",
+        "Search & Filtering"
+      ],
+      "cru_ids": [
+        "CRU-QR1-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR1-01",
+          "actor": "User",
+          "action": "The search feature should be prominent and easy to find for the user.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Prominent search feature",
+          "acceptance_criteria": "In order to for a user to find the search feature easily."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR1"
+        ],
+        "sections": [
+          "3.3.1"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 21,
+            "para": 9
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_038",
+      "chunk_type": "constraint",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Generic"
+      ],
+      "cru_ids": [
+        "CRU-QR10-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR10-01",
+          "actor": "System",
+          "action": null,
+          "constraint": "No more than 20 MB",
+          "confidence": "medium",
+          "title": "Hard drive space",
+          "acceptance_criteria": "PLAN: No more than 15 MB. WISH: No more than 10 MB"
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR10"
+        ],
+        "sections": [
+          "3.4.1"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 23,
+            "para": 4
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_039",
+      "chunk_type": "constraint",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Generic"
+      ],
+      "cru_ids": [
+        "CRU-QR11-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR11-01",
+          "actor": "System",
+          "action": null,
+          "constraint": "No more than 20 MB",
+          "confidence": "medium",
+          "title": "Application memory usage",
+          "acceptance_criteria": "PLAN: No more than 16 MB WISH: No more than 10 MB"
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR11"
+        ],
+        "sections": [
+          "3.4.2"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 23,
+            "para": 6
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_040",
+      "chunk_type": "performance",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Performance",
+        "Search & Filtering"
+      ],
+      "cru_ids": [
+        "CRU-QR2-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR2-01",
+          "actor": "System",
+          "action": "The different search options should be evident, simple and easy to understand.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Usage of the search feature",
+          "acceptance_criteria": "In order to for a user to perform a search easily."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR2"
+        ],
+        "sections": [
+          "3.3.2"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 22,
+            "para": 0
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_041",
+      "chunk_type": "portability",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Portability",
+        "Reservation & Booking"
+      ],
+      "cru_ids": [
+        "CRU-QR20-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR20-01",
+          "actor": "System",
+          "action": "The application should be portable with iOS and Android.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Application portability",
+          "acceptance_criteria": "The adaptable platform for the application to run on."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR20"
+        ],
+        "sections": [
+          "3.5.5"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 26,
+            "para": 11
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_042",
+      "chunk_type": "testability",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Generic"
+      ],
+      "cru_ids": [
+        "CRU-QR21-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR21-01",
+          "actor": "System",
+          "action": "Test environments should be built for the application to allow testing of the applications different functions.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Application testability",
+          "acceptance_criteria": "In order to test the application."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR21"
+        ],
+        "sections": [
+          "3.5.4"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 26,
+            "para": 0
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_043",
+      "chunk_type": "quality",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Location & Maps",
+        "Portability"
+      ],
+      "cru_ids": [
+        "CRU-QR23-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR23-01",
+          "actor": "System",
+          "action": "The application should be connected to the GPS device.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "GPS Connection",
+          "acceptance_criteria": "In order for the application to get the users location, the map and to calculate the distance."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR23"
+        ],
+        "sections": [
+          "3.5.2"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 24,
+            "para": 1
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_044",
+      "chunk_type": "performance",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "User Interface",
+        "Performance"
+      ],
+      "cru_ids": [
+        "CRU-QR3-01",
+        "CRU-QR3-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR3-01",
+          "actor": "User",
+          "action": "The results displayed in the list view should be user friendly and easy to understand.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Usage of the result in the list view",
+          "acceptance_criteria": "In order to for a user to use the list view easily."
+        },
+        {
+          "cru_id": "CRU-QR3-02",
+          "actor": "User",
+          "action": "Selecting an element in the result list should only take one click.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Usage of the result in the list view",
+          "acceptance_criteria": "In order to for a user to use the list view easily."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR3"
+        ],
+        "sections": [
+          "3.3.3"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 22,
+            "para": 6
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_045",
+      "chunk_type": "performance",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Location & Maps",
+        "User Interface",
+        "Performance"
+      ],
+      "cru_ids": [
+        "CRU-QR4-01",
+        "CRU-QR4-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR4-01",
+          "actor": "User",
+          "action": "The results displayed in the map view should be user friendly and easy to understand.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Usage of the result in the map view",
+          "acceptance_criteria": "In order to for a user to use the map view easily."
+        },
+        {
+          "cru_id": "CRU-QR4-02",
+          "actor": "User",
+          "action": "Selecting a pin on the map should only take one click.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Usage of the result in the map view",
+          "acceptance_criteria": "In order to for a user to use the map view easily."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR4"
+        ],
+        "sections": [
+          "3.3.4"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 22,
+            "para": 12
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_046",
+      "chunk_type": "performance",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Performance"
+      ],
+      "cru_ids": [
+        "CRU-QR5-01",
+        "CRU-QR5-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR5-01",
+          "actor": "System",
+          "action": "The information link should be prominent and it should be evident that it is a usable link.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Usage of the information link",
+          "acceptance_criteria": "In order to for a user to use the information link easily."
+        },
+        {
+          "cru_id": "CRU-QR5-02",
+          "actor": "System",
+          "action": "Selecting the information link should only take one click.",
+          "constraint": null,
+          "confidence": "high",
+          "title": "Usage of the information link",
+          "acceptance_criteria": "In order to for a user to use the information link easily."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR5"
+        ],
+        "sections": [
+          "3.3.5"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 22,
+            "para": 18
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_047",
+      "chunk_type": "performance",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Performance"
+      ],
+      "cru_ids": [
+        "CRU-QR6-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR6-01",
+          "actor": "System",
+          "action": null,
+          "constraint": "No more than 2 seconds 100% of the time.",
+          "confidence": "medium",
+          "title": "Response Time",
+          "acceptance_criteria": "Measurements obtained from 1000 searches during testing."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR6"
+        ],
+        "sections": [
+          "3.3.6"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 22,
+            "para": 24
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_048",
+      "chunk_type": "performance",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Performance",
+        "Portability"
+      ],
+      "cru_ids": [
+        "CRU-QR8-01",
+        "CRU-QR8-02"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-QR8-01",
+          "actor": "System",
+          "action": "inform user about connection loss",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "System dependability",
+          "acceptance_criteria": "100% of the time, measurements obtained from 1000 hours of usage during testing"
+        },
+        {
+          "cru_id": "CRU-QR8-02",
+          "actor": "System",
+          "action": "inform user about strange input",
+          "constraint": null,
+          "confidence": "medium",
+          "title": "System dependability",
+          "acceptance_criteria": "100% of the time, measurements obtained from 1000 hours of usage during testing"
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "QR8"
+        ],
+        "sections": [
+          "3.3.7"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 23,
+            "para": 0
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_049",
+      "chunk_type": "security",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Security",
+        "Authentication",
+        "Restaurant Discovery"
+      ],
+      "cru_ids": [
+        "CRU-RestaurantOwnerCreateAccountSecurity-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-RestaurantOwnerCreateAccountSecurity-01",
+          "actor": "System",
+          "action": "The security of creating account for restaurant owners of the system.",
+          "constraint": "100% of the time.",
+          "confidence": "high",
+          "title": "RestaurantOwnerCreateAccountSecurity",
+          "acceptance_criteria": "Scale: If a restaurant owner wants to create an account and the desired user name is occupied, the restaurant owner should be asked to choose a different user name.; Meter: Measurements obtained on 1000 hours of usage during testing."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "RestaurantOwnerCreateAccountSecurity"
+        ],
+        "sections": [
+          "3.5.3"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 24,
+            "para": 13
+          }
+        ]
+      }
+    },
+    {
+      "chunk_id": "CHUNK_050",
+      "chunk_type": "reliability",
+      "application_domain": [
+        "Restaurant/Food Service"
+      ],
+      "capability_tags": [
+        "Reliability"
+      ],
+      "cru_ids": [
+        "CRU-SystemReliability-01"
+      ],
+      "crus": [
+        {
+          "cru_id": "CRU-SystemReliability-01",
+          "actor": "System",
+          "action": "The reliability of the system.",
+          "constraint": "More than 98% of the searches.",
+          "confidence": "high",
+          "title": "SystemReliability",
+          "acceptance_criteria": "Scale: The reliability that the system gives the right result on a search.; Meter: Measurements obtained from 1000 searches during testing.; Plan: More than 99% of the searches."
+        }
+      ],
+      "traceability": {
+        "source_requirements": [
+          "SystemReliability"
+        ],
+        "sections": [
+          "3.5.1"
+        ],
+        "doc_ids": [
+          "DOC-SRS_EXAMPLE"
+        ],
+        "source_locators": [
+          {
+            "page": 23,
+            "para": 10
+          }
+        ]
+      }
+    }
+  ]
+}

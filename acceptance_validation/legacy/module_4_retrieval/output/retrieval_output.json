@@ -1,0 +1,3145 @@
+{
+  "metadata": {
+    "total_queries": 83,
+    "top_k": 5,
+    "model_name": "all-mpnet-base-v2",
+    "avg_top1_similarity": 0.3056,
+    "build_duration_seconds": 1.15
+  },
+  "retrieval_results": [
+    {
+      "acceptance_id": "SCN_001",
+      "level": "scenario",
+      "text": "As an end user, I want to register for the application using a valid email address and password so that I can create a personal account and securely access the system’s task management features. Scenario: Successful user registration Given the user is on the application landing page When the user clicks on the \"Sign Up\" option And provides a valid email address and a password meeting minimum security requirements Then the system creates a new user account And POST /api/auth/signup returns HTTP 201 And the user sees a confirmation message stating \"Account created\" And the user is redirected to the login page",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.4643,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.247,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2457,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2365,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.2303,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_001_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the user is on the application landing page",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.2286,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2197,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2089,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2064,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.1721,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_001_step_2",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the user clicks on the \"Sign Up\" option",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3832,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.239,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.1977,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.182,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_05",
+          "similarity": 0.155,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_001_step_3",
+      "level": "step",
+      "step_type": "action",
+      "text": "And provides a valid email address and a password meeting minimum security requirements",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.2929,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2013,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.1987,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.1699,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.1624,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_001_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the system creates a new user account",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.7001,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.3716,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3685,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.3378,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.3033,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_001_step_5",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And POST /api/auth/signup returns HTTP 201",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1637,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1033,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.0975,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_07",
+          "similarity": 0.0498,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.0419,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_001_step_6",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the user sees a confirmation message stating \"Account created\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.5653,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.3513,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3256,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.305,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.2612,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_001_step_7",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the user is redirected to the login page",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3396,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2147,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2074,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1981,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.1864,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_002",
+      "level": "scenario",
+      "text": "As a registered user, I want to log in using my email and password so that I can securely access my personal dashboard and manage my tasks. Scenario: Successful user login Given the user is on the login page When the user enters valid credentials Then POST /api/auth/login returns HTTP 200 with an authentication token And the user is redirected to the User Dashboard",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3316,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.222,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.1827,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.1827,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.1788,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_002_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the user is on the login page",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.3655,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.3399,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3346,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3028,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2641,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_002_step_2",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the user enters valid credentials",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.4544,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.3863,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.3694,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.3694,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3606,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_002_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then POST /api/auth/login returns HTTP 200 with an authentication token",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1572,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1365,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.0924,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.0716,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_07",
+          "similarity": 0.0587,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_002_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the user is redirected to the User Dashboard",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3296,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2485,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2476,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.2243,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2229,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_003",
+      "level": "scenario",
+      "text": "As a user, I want the dashboard to clearly indicate when I have no tasks so that I understand the current state of my account and am encouraged to create my first task. Scenario: Empty task state Given the user has no tasks associated with their account When the user logs in successfully Then the dashboard displays the message \"No tasks found. Create your first!\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.3,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2571,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2226,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2166,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.1827,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_003_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the user has no tasks associated with their account",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3598,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.3544,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.3305,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.3294,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3113,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_003_step_2",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the user logs in successfully",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.4556,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.3767,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.3733,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3672,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_05",
+          "similarity": 0.3072,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_003_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the dashboard displays the message \"No tasks found. Create your first!\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2756,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2417,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.2262,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2163,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2046,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_004",
+      "level": "scenario",
+      "text": "As a user, I want to create a new task by providing a task title so that I can track and manage my activities effectively within the application. Scenario: Create new task Given the user is logged in and on the dashboard When the user submits a valid task title Then POST /api/tasks returns HTTP 201 And the task is saved with the user's identifier And the task appears in the Active Tasks list",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.3067,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.3048,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2993,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2382,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.22,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_004_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the user is logged in and on the dashboard",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3372,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.3355,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.3353,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2869,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_05",
+          "similarity": 0.2671,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_004_step_2",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the user submits a valid task title",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.3099,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.3075,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.296,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2633,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2548,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_004_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then POST /api/tasks returns HTTP 201",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.1806,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.1785,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.1716,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.1458,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.1414,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_004_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the task is saved with the user's identifier",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3141,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.3061,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.3033,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2813,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2626,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_004_step_5",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the task appears in the Active Tasks list",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3857,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.3748,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2723,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.263,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.0887,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_005",
+      "level": "scenario",
+      "text": "As a user, I want to modify the title of an existing task so that I can correct mistakes or reflect updated requirements. Scenario: Edit task title Given the user owns a task titled \"Buy groceries\" When the user edits the task title to \"Buy organic groceries\" Then PUT /api/tasks/{taskId} returns HTTP 200 And the updated title is reflected immediately in the UI",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2375,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.1862,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.1831,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.1471,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.1116,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_005_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the user owns a task titled \"Buy groceries\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.3508,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.3066,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2998,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2982,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2463,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_005_step_2",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the user edits the task title to \"Buy organic groceries\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2119,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.1812,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.1791,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.1725,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.1453,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_005_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then PUT /api/tasks/{taskId} returns HTTP 200",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.1797,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.1552,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.1527,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.1513,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.1006,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_005_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the updated title is reflected immediately in the UI",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.1735,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.0831,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.0643,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.0591,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.058,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_006",
+      "level": "scenario",
+      "text": "As a user, I want to mark a task as completed so that I can distinguish finished work from pending tasks. Scenario: Complete task Given the user has an active task When the user marks the task as completed Then the task status is updated to \"completed\" And the task is moved to the Completed Tasks section",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2555,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2287,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2272,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.1812,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.1251,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_006_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the user has an active task",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.4597,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.4547,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.4025,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.385,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.3807,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_006_step_2",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the user marks the task as completed",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2851,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2785,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2253,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2203,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2178,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_006_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the task status is updated to \"completed\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3126,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2354,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2191,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2187,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1506,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_006_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the task is moved to the Completed Tasks section",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.3513,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3447,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2302,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2211,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.1038,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_007",
+      "level": "scenario",
+      "text": "As a user, I want to permanently delete a task so that I can remove tasks that are no longer relevant. Scenario: Delete task Given the user initiates deletion of a task When the user confirms the deletion Then DELETE /api/tasks/{taskId} returns HTTP 200 And the task is removed from the dashboard And a confirmation message \"Task deleted\" is displayed",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2151,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2151,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.1879,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.1606,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.1572,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_007_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the user initiates deletion of a task",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.316,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.3122,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2731,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2557,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2465,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_007_step_2",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the user confirms the deletion",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2353,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2226,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2183,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2064,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1853,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_007_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then DELETE /api/tasks/{taskId} returns HTTP 200",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2212,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2073,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2031,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.1835,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.101,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_007_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the task is removed from the dashboard",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3353,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2955,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2556,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2482,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.2143,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_007_step_5",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And a confirmation message \"Task deleted\" is displayed",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2638,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2244,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2237,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2197,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1839,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_008",
+      "level": "scenario",
+      "text": "As a user, I want the system to restrict access strictly to my own tasks so that my personal data remains private and secure. Scenario: Unauthorized task access attempt Given the user manually alters the task URL to reference another user's task Then the API returns HTTP 403 Forbidden And the UI displays an error message indicating insufficient permissions",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.3605,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.3343,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.3263,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.3262,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2861,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_008_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the user manually alters the task URL to reference another user's task",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2992,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2944,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2921,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2383,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2259,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_008_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the API returns HTTP 403 Forbidden",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1355,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1013,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.067,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.0526,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_07",
+          "similarity": 0.0369,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_008_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the UI displays an error message indicating insufficient permissions",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.2548,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.1121,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.0907,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.0768,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.0748,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_009",
+      "level": "scenario",
+      "text": "As an administrator, I want to log in to the system so that I can access administrative features within the scope of my assigned privileges. Scenario: Admin login When the admin logs in with valid credentials Then the Admin Dashboard loads successfully",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3378,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.228,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2219,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2073,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.1799,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_009_step_1",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the admin logs in with valid credentials",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.4424,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3615,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.3598,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.333,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.3066,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_009_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the Admin Dashboard loads successfully",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.2115,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1077,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.0926,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.0878,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_05",
+          "similarity": 0.0667,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_010",
+      "level": "scenario",
+      "text": "As an admin, I want full create, read, update, and delete access to my own tasks so that I can manage my responsibilities independently. Scenario: Admin manages own tasks Given the admin is logged in Then the admin can create, edit, complete, and delete tasks owned by the admin account",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2587,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.204,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2022,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.1937,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.1827,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_010_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the admin is logged in",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3507,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.3226,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.283,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2705,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2656,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_010_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the admin can create, edit, complete, and delete tasks owned by the admin account",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3093,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2938,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2937,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2808,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2805,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_011",
+      "level": "scenario",
+      "text": "As an admin, I want to view a list of users in a read-only format so that I can see system users without being able to modify their details. Scenario: Read-only users list Given the admin opens the Users tab And edit and delete actions are disabled And a tooltip indicates \"View only – Contact Super Admin for changes\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2318,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.1938,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.1641,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.1565,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.147,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_011_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given the admin opens the Users tab",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3357,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2884,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2755,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2734,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2123,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_011_step_2",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "And edit and delete actions are disabled",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.1233,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1137,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.0973,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.0702,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.029,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_011_step_3",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "And a tooltip indicates \"View only – Contact Super Admin for changes\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.1222,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.1,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.0709,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.0636,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.0546,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_012",
+      "level": "scenario",
+      "text": "As an admin, I should be prevented from changing user roles so that role-based security and hierarchy are maintained. Scenario: Block role modification When the admin attempts to update a user's role Then PUT /api/users/{userId}/role returns HTTP 403",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.3305,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2161,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2146,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2034,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.183,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_012_step_1",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the admin attempts to update a user's role",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2947,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2862,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.2623,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2557,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2512,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_012_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then PUT /api/users/{userId}/role returns HTTP 403",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1308,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.0958,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.0684,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.0663,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.0512,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_013",
+      "level": "scenario",
+      "text": "As an admin, I should not be allowed to access or manipulate tasks belonging to other users so that ownership boundaries are enforced. Scenario: Admin accesses another user's tasks When the admin queries tasks for a different user Then the API returns HTTP 403 Forbidden And the admin’s task list remains unchanged",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2951,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2946,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2889,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2744,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2237,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_013_step_1",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the admin queries tasks for a different user",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.3705,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.3607,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.3532,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3402,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2876,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_013_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the API returns HTTP 403 Forbidden",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1355,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1013,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.067,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.0526,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_07",
+          "similarity": 0.0369,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_013_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the admin’s task list remains unchanged",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3327,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2915,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.1795,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.1634,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1008,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_014",
+      "level": "scenario",
+      "text": "As a super admin, I want to log in to the system so that I can perform unrestricted administrative Scenario: Super admin login Given a super admin account exists When the super admin logs in Then the Global Dashboard is displayed",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.4046,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2278,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2193,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.218,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2029,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_014_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "text": "Given a super admin account exists",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.4243,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2766,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2628,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2449,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2234,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_014_step_2",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the super admin logs in",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3838,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3334,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.3169,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2937,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.2448,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_014_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the Global Dashboard is displayed",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.1795,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.1645,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1496,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.0471,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.0466,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_015",
+      "level": "scenario",
+      "text": "As a super admin, I want to view global statistics across all users and tasks so that I have complete visibility into system usage. Scenario: View global stats",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2648,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2079,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.1999,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.1877,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.13,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_016",
+      "level": "scenario",
+      "text": "As a super admin, I want to view tasks belonging to any user so that I can monitor and manage activity across the entire system. Scenario: View all tasks When the super admin calls GET /api/tasks Then tasks from all users are returned",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.3298,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2949,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2928,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2867,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.1522,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_016_step_1",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the super admin calls GET /api/tasks",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3471,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2818,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2284,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2218,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.1464,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_016_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then tasks from all users are returned",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.4329,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.425,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.4077,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.4021,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2507,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_017",
+      "level": "scenario",
+      "text": "As a super admin, I want to filter tasks by individual users so that I can focus on specific accounts when required. Scenario: Filter tasks by user When the super admin selects a specific user Then GET /api/tasks?user_id={id} returns only that user’s tasks",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.5019,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.4104,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.4047,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3934,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2327,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_017_step_1",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the super admin selects a specific user",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.3553,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3326,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3318,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2968,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.259,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_017_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then GET /api/tasks?user_id={id} returns only that user’s tasks",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.3373,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2742,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2724,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2235,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.1349,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_018",
+      "level": "scenario",
+      "text": "As a super admin, I want to update any user’s task so that I can correct issues or enforce system-level changes. Scenario: Edit another user's task When the super admin updates a task Then the task is updated successfully And task history records \"Updated by Super Admin\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2593,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.252,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2405,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2276,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.2073,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_018_step_1",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the super admin updates a task",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3319,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2655,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2556,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.247,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.1329,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_018_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the task is updated successfully",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.2785,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2512,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2503,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2224,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR2_01",
+          "similarity": 0.1981,
+          "cru_type": "security",
+          "parent_requirement": "FR2"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_018_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And task history records \"Updated by Super Admin\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3658,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2918,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2139,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2057,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1743,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_019",
+      "level": "scenario",
+      "text": "As a super admin, I want to promote or demote users so that administrative responsibilities are correctly assigned. Scenario: Update user role When the super admin updates a user role Then PUT /api/users/{userId}/role returns HTTP 200 And the new role is applied immediately",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2472,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.2234,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2155,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_07",
+          "similarity": 0.2066,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_05",
+          "similarity": 0.2043,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_019_step_1",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the super admin updates a user role",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2177,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2136,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1962,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.1839,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.1825,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_019_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then PUT /api/users/{userId}/role returns HTTP 200",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.1367,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_06",
+          "similarity": 0.1206,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.0982,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_05",
+          "similarity": 0.0883,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.0862,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_019_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And the new role is applied immediately",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.235,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.2005,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.1907,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.1765,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_05",
+          "similarity": 0.1636,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_020",
+      "level": "scenario",
+      "text": "As a super admin, I want to archive users so that inactive or removed accounts are properly deactivated along with their tasks. Scenario: Archive user When the super admin archives a user Then the user status is set to \"deleted\" And all associated tasks are archived",
+      "candidates": [
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2469,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.2299,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.2268,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2185,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2094,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_020_step_1",
+      "level": "step",
+      "step_type": "action",
+      "text": "When the super admin archives a user",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.3429,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.3098,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2855,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2836,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.2308,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_020_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "Then the user status is set to \"deleted\"",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR1_01",
+          "similarity": 0.313,
+          "cru_type": "functional",
+          "parent_requirement": "FR1"
+        },
+        {
+          "cru_id": "CRU_QR1_09",
+          "similarity": 0.2939,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_03",
+          "similarity": 0.2701,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_08",
+          "similarity": 0.2595,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_02",
+          "similarity": 0.2363,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        }
+      ]
+    },
+    {
+      "acceptance_id": "SCN_020_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "text": "And all associated tasks are archived",
+      "candidates": [
+        {
+          "cru_id": "CRU_FR4_01",
+          "similarity": 0.3612,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_FR4_02",
+          "similarity": 0.2534,
+          "cru_type": "functional",
+          "parent_requirement": "FR4"
+        },
+        {
+          "cru_id": "CRU_QR1_01",
+          "similarity": 0.1943,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_QR1_04",
+          "similarity": 0.1885,
+          "cru_type": "performance",
+          "parent_requirement": "QR1"
+        },
+        {
+          "cru_id": "CRU_FR5_01",
+          "similarity": 0.1227,
+          "cru_type": "functional",
+          "parent_requirement": "FR5"
+        }
+      ]
+    }
+  ]
+}

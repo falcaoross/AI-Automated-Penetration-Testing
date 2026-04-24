@@ -1,0 +1,416 @@
+{
+  "metadata": {
+    "doc_id": "doc_a7518e16b02c3792",
+    "source_file": "srs_example.pdf",
+    "stage": "Stage 2B – Structured Requirement Assembly",
+    "assembly_timestamp": "2026-03-05T08:03:32.951821+00:00",
+    "total_requirements": 16,
+    "confidence_distribution": {
+      "HIGH": 15,
+      "MEDIUM": 1
+    }
+  },
+  "requirements": [
+    {
+      "requirement_id": "REQ-5ae33ffbb2",
+      "seq": 1,
+      "title": "The “Amazing Lunch Indicator” is a GPS-based mobile application which helps people…",
+      "description": "The “Amazing Lunch Indicator” is a GPS-based mobile application which helps people to find the closest\nrestaurants based on the user’s current position and other specification like price, restaurant type, dish and\nmore. The application should be free to download from either a mobile phone application store or similar\nservices.\nRestaurant owners can provide their restaurant information using the web-portal. This information will act\nas the bases for the search results displayed to the user. An administrator also uses the web-portal in order\nto administer the system and keep the information accurate. The administrator can, for instance, verify\nrestaurant owners and manage user information.\nFurthermore, the software needs both Internet and GPS connection to fetch and display results. All system\ninformation is maintained in a database, which is located on a web-server. The software also interacts\nwith the GPS-Navigator software which is required to be an already installed application on the user’s\nmobile phone. By using the GPS-Navigator, users can view desired restaurants on a map and be navigated\nto them. The application also has the capability of representing both summary and detailed information\nabout the restaurants.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "1. Introduction > 1.2 Scope",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0003_s0020"
+        ],
+        "page_range": [
+          3,
+          3
+        ]
+      },
+      "confidence": {
+        "score": 0.825,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-176cd511dd",
+      "seq": 2,
+      "title": "application within the mobile phone, which in turn",
+      "description": "application within the mobile phone, which in turn\ncommunicates with a physical GPS device to find the\nlocation of the user, see Figure 1. The GPS will provide the\nmobile application with locations of both the user and the\nrestaurants and the distance between them, but it will also\nprovide maps and the functionality to display the\napplication’s data on the map. The functionality provided\nby the GPS will be embedded into the application in order\nfor the user to be able to use the functions in the application\nin a seamlessly manner.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "2. Overall description > The mobile application will need to communicate to a GPS",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0006_s0053"
+        ],
+        "page_range": [
+          6,
+          6
+        ]
+      },
+      "confidence": {
+        "score": 0.99,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-998f03b714",
+      "seq": 3,
+      "title": "to store the data.",
+      "description": "to store the data. For that, a database will be used. Both the\nmobile application and web portal will communicate with\nthe database, however in slightly different ways. The mobile\napplication will only use the database to get data while the\nweb portal will also add and modify data. All of the\ndatabase communication will go over the Internet.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "2. Overall description > Since this is a data-centric product it will need somewhere",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0006_s0055"
+        ],
+        "page_range": [
+          6,
+          6
+        ]
+      },
+      "confidence": {
+        "score": 0.95,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-f94fd8b8dc",
+      "seq": 4,
+      "title": "map view will show each restaurant location as a pin on the…",
+      "description": "map view will show each restaurant location as a pin on the map as well as the user’s own location. In\nboth views the users will be able to either select a restaurant as target destination or get information how\nto get there, or view the information of a specific restaurant.\nThe web portal will provide functionality to manage the system and the restaurant information. It will also\nprovide information about the system, for example show when there is a new update.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "5",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0007_s0062"
+        ],
+        "page_range": [
+          7,
+          7
+        ]
+      },
+      "confidence": {
+        "score": 0.99,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-52d9b1db77",
+      "seq": 5,
+      "title": "The mobile application is constrained by the system interface to the GPS…",
+      "description": "The mobile application is constrained by the system interface to the GPS navigation system within the\nmobile phone. Since there are multiple system and multiple GPS manufacturers, the interface will most\nlikely not be the same for every one of them. Also, there may be a difference between what navigation\nfeatures each of them provide.\nThe Internet connection is also a constraint for the application. Since the application fetches data from the\ndatabase over the Internet, it is crucial that there is an Internet connection for the application to function.\nBoth the web portal and the mobile application will be constrained by the capacity of the database. Since\nthe database is shared between both application it may be forced to queue incoming requests and therefor\nincrease the time it takes to fetch data.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "5 > 2.4 Constraints",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0007_s0066"
+        ],
+        "page_range": [
+          7,
+          7
+        ]
+      },
+      "confidence": {
+        "score": 0.99,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-1c3e7be646",
+      "seq": 6,
+      "title": "DESC: Given that a user has downloaded the mobile application, then the…",
+      "description": "DESC: Given that a user has downloaded the mobile application, then the user should be able to register\nthrough the mobile application. The user must provide user-name, password and e-mail address. The user\ncan choose to provide a regularly used phone number.\nRAT: In order for a user to register on the mobile application.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "9 > TITLE: User registration - Mobile application",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0011_s0108"
+        ],
+        "page_range": [
+          11,
+          11
+        ]
+      },
+      "confidence": {
+        "score": 0.975,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-6fb4876aa5",
+      "seq": 7,
+      "title": "DESC: Given that a user has registered, then the user should be…",
+      "description": "DESC: Given that a user has registered, then the user should be able to log in to the mobile application.\nThe log-in information will be stored on the phone and in the future the user should be logged in\nautomatically.\nRAT: In order for a user to register on the mobile application.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "10 > TITLE: User log-in - Mobile application",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0012_s0114"
+        ],
+        "page_range": [
+          12,
+          12
+        ]
+      },
+      "confidence": {
+        "score": 0.95,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-0bd9d1c635",
+      "seq": 8,
+      "title": "",
+      "description": "\nSearch results can be viewed on a map. On the map, the relevant and closest restaurants according\nto the user’s position are shown.\n\nA specific pin will represent a specific restaurant location. On each pin there should be an\ninformation link.\n\nThere should be maximally 100 results displayed. The map view should have a default zoom.\n\nThe map view should include a button that, when selected, should display different filtering\noptions in a filtering menu.\nRAT: The way results are displayed in a map.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": "\nSearch results can be viewed in a list. Each element in the list represents a specific restaurant.\nEach element should include the restaurant name, telephone number, type of food, distance\naccording to the user’s position, average price, a short two-line description, a link to the\nrestaurant’s web-page and an information link.\n\nThere should be maximally 100 results displayed. If the result contains more restaurants than\nwhat can be displayed on the screen at one time, the user should be able to scroll through them.\n\nWhen searching by price the restaurants should be sorted according to the following order:",
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "DESC:",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0012_s0130",
+          "doc_a7518e16b02c3792_p0013_s0137"
+        ],
+        "page_range": [
+          12,
+          13
+        ]
+      },
+      "confidence": {
+        "score": 0.735,
+        "grade": "MEDIUM"
+      }
+    },
+    {
+      "requirement_id": "REQ-2116983954",
+      "seq": 9,
+      "title": "GIST: The amount of Operate System memory occupied by the application.",
+      "description": "GIST: The amount of Operate System memory occupied by the application.\nSCALE: MB.\nMETER: Observations done from the performance log during testing\nMUST: No more than 20 MB.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "23 > TAG: ApplicationMemoryUsage",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0025_s0532"
+        ],
+        "page_range": [
+          25,
+          25
+        ]
+      },
+      "confidence": {
+        "score": 0.975,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-33aa790198",
+      "seq": 10,
+      "title": "GIST: Security of the communication between the system and server.",
+      "description": "GIST: Security of the communication between the system and server.\nSCALE: The messages should be encrypted for log-in communications, so others cannot get user-name\nand password from those messages.\nMETER: Attempts to get user-name and password through obtained messages on 1000 log-in session\nduring testing.\nMUST: 100% of the Communication Messages in the communication of a log-in session should be\nencrypted.\nCommunication Messages: Defined: Every exchanged of information between client and server.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "24 > TAG: CommunicationSecurity",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0026_s0558"
+        ],
+        "page_range": [
+          26,
+          26
+        ]
+      },
+      "confidence": {
+        "score": 0.95,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-5056421036",
+      "seq": 11,
+      "title": "SCALE: If a restaurant owner tries to log in to the web…",
+      "description": "SCALE:  If a restaurant owner tries to log in to the web portal with a non-existing account then the\nrestaurant owner should not be logged in. The restaurant owner should be notified about log-in failure.\nMETER: 1000 attempts to log-in with a non-existing user account during testing.\nMUST: 100% of the time.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "25",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0027_s0563"
+        ],
+        "page_range": [
+          27,
+          27
+        ]
+      },
+      "confidence": {
+        "score": 0.95,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-b6f7e74c0e",
+      "seq": 12,
+      "title": "GIST: Security of accounts.",
+      "description": "GIST: Security of accounts.\nSCALE:  If an admin tries to log in to the web portal with a non-existing account then the admin should\nnot be logged in. The admin should be notified about log-in failure.\nMETER: 1000 attempts to log-in with a non-existing user account during testing.\nMUST: 100% of the time.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "25 > TAG: AdminLoginAccountSecurity",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0027_s0566"
+        ],
+        "page_range": [
+          27,
+          27
+        ]
+      },
+      "confidence": {
+        "score": 0.95,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-4c79cc259b",
+      "seq": 13,
+      "title": "GIST: Security of restaurant owners accounts.",
+      "description": "GIST: Security of restaurant owners accounts.\nSCALE: A restaurant owner and IP address should not be able to log-in for a certain time period after\nthree times of failed log-in attempts.\nMETER: 1000 attempts to log-in during the lock period after user account has been locked because of\nfailed log-in attempts of three times.\nMUST: The locking period should be half an hour, and during that period the log-in function is disabled.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "25 > TAG: RestaurantOwnerAccountSecurity",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0027_s0569"
+        ],
+        "page_range": [
+          27,
+          27
+        ]
+      },
+      "confidence": {
+        "score": 0.95,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-3208c9474e",
+      "seq": 14,
+      "title": "GIST: Security of admin accounts.",
+      "description": "GIST: Security of admin accounts.\nSCALE: An admin and IP address should not be able to log-in to the web portal for a certain time period\nafter three times of failed log-in attempts.\nMETER: 1000 attempts to log-in during the lock period after user account has been locked because of\nfailed log-in attempts of three times.\nMUST: The locking period should be half an hour, and during that period the log-in function is disabled.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "25 > TAG: AdminAccountSecurity",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0027_s0572"
+        ],
+        "page_range": [
+          27,
+          27
+        ]
+      },
+      "confidence": {
+        "score": 0.95,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-f4d4c393e6",
+      "seq": 15,
+      "title": "GIST: The security of creating account for users of the system.",
+      "description": "GIST: The security of creating account for users of the system.\nSCALE:  If a user wants to create an account and the desired user name is occupied, the user should be\nasked to choose a different user name.\nMETER: Measurements obtained on 1000 hours of usage during testing.\nMUST: 100% of the time.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "25 > TAG: UserCreateAccountSecurity",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0027_s0575"
+        ],
+        "page_range": [
+          27,
+          27
+        ]
+      },
+      "confidence": {
+        "score": 0.95,
+        "grade": "HIGH"
+      }
+    },
+    {
+      "requirement_id": "REQ-6ae45e6c46",
+      "seq": 16,
+      "title": "GIST: The security of creating account for restaurant owners of the system.",
+      "description": "GIST: The security of creating account for restaurant owners of the system.\nSCALE:  If a restaurant owner wants to create an account and the desired user name is occupied, the\nrestaurant owner should be asked to choose a different user name.\nMETER: Measurements obtained on 1000 hours of usage during testing.\nMUST: 100% of the time.",
+      "inputs": null,
+      "system_behavior": null,
+      "outputs": null,
+      "constraints": null,
+      "source_ref": {
+        "doc_id": "doc_a7518e16b02c3792",
+        "section_path": "25 > TAG: RestaurantOwnerCreateAccountSecurity",
+        "para_ids": [
+          "doc_a7518e16b02c3792_p0027_s0578"
+        ],
+        "page_range": [
+          27,
+          27
+        ]
+      },
+      "confidence": {
+        "score": 0.95,
+        "grade": "HIGH"
+      }
+    }
+  ]
+}

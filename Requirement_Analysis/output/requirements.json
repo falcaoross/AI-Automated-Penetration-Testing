@@ -1,0 +1,1725 @@
+{
+  "metadata": {
+    "pipeline_stage": "02_requirement_understanding",
+    "generated_at": "2026-04-24T14:16:34Z",
+    "blocks_file": "../01_Multi_Source_Document_Ingestion/01_output/DOC-IEEE-830-SRS_blocks.json",
+    "skeleton_file": "../01_Multi_Source_Document_Ingestion/01_output/DOC-IEEE-830-SRS_skeleton.json",
+    "model": "qwen2.5:14b-instruct",
+    "total_groups": 47,
+    "extracted_count": 44,
+    "failed_count": 3
+  },
+  "grouping_stats": {
+    "total_groups": 59,
+    "by_semantic_type": {
+      "functional_requirements": 37,
+      "performance_requirements": 8,
+      "interface_requirements": 5,
+      "design_constraints": 3,
+      "quality_attributes": 6
+    },
+    "warn_no_req_id_count": 12,
+    "warn_missing_boundaries_count": 4,
+    "warn_sst_recovered_count": 0,
+    "warnings": [
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.1",
+        "section_semantic_type": "interface_requirements",
+        "message": "No req_id_label block found in section 3.1. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.1.1",
+        "section_semantic_type": "interface_requirements",
+        "message": "No req_id_label block found in section 3.1.1. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.1.2",
+        "section_semantic_type": "interface_requirements",
+        "message": "No req_id_label block found in section 3.1.2. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.1.3",
+        "section_semantic_type": "interface_requirements",
+        "message": "No req_id_label block found in section 3.1.3. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.1.4",
+        "section_semantic_type": "interface_requirements",
+        "message": "No req_id_label block found in section 3.1.4. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.2",
+        "section_semantic_type": "functional_requirements",
+        "message": "No req_id_label block found in section 3.2. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.2.1",
+        "section_semantic_type": "functional_requirements",
+        "message": "No req_id_label block found in section 3.2.1. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.2.2",
+        "section_semantic_type": "functional_requirements",
+        "message": "No req_id_label block found in section 3.2.2. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.2.3",
+        "section_semantic_type": "functional_requirements",
+        "message": "No req_id_label block found in section 3.2.3. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.3",
+        "section_semantic_type": "performance_requirements",
+        "message": "No req_id_label block found in section 3.3. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.4",
+        "section_semantic_type": "design_constraints",
+        "message": "No req_id_label block found in section 3.4. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-NO-REQ-ID",
+        "section_path": "3.5",
+        "section_semantic_type": "quality_attributes",
+        "message": "No req_id_label block found in section 3.5. Group included with candidate_req_id=None."
+      },
+      {
+        "code": "WARN-MISSING-REQUIREMENT-BOUNDARIES",
+        "section_path": "3",
+        "sub_group_count": 59,
+        "candidate_id_count": 56,
+        "message": "Sub-group count (59) differs from distinct candidate_req_id count (56) by more than 1 in parent section 3. Possible boundary bleed."
+      },
+      {
+        "code": "WARN-MISSING-REQUIREMENT-BOUNDARIES",
+        "section_path": "3.1",
+        "sub_group_count": 4,
+        "candidate_id_count": 0,
+        "message": "Sub-group count (4) differs from distinct candidate_req_id count (0) by more than 1 in parent section 3.1. Possible boundary bleed."
+      },
+      {
+        "code": "WARN-MISSING-REQUIREMENT-BOUNDARIES",
+        "section_path": "3.2",
+        "sub_group_count": 36,
+        "candidate_id_count": 33,
+        "message": "Sub-group count (36) differs from distinct candidate_req_id count (33) by more than 1 in parent section 3.2. Possible boundary bleed."
+      },
+      {
+        "code": "WARN-MISSING-REQUIREMENT-BOUNDARIES",
+        "section_path": "3.5",
+        "sub_group_count": 5,
+        "candidate_id_count": 14,
+        "message": "Sub-group count (5) differs from distinct candidate_req_id count (14) by more than 1 in parent section 3.5. Possible boundary bleed."
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "req_id": "FR1",
+      "section_path": "3.2.1.1",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Download mobile application",
+      "actor": "User",
+      "actions": [
+        "A user should be able to download the mobile application through either an application store or similar service on the mobile phone.",
+        "The application should be free to download."
+      ],
+      "description": "A user should be able to download the mobile application through either an application store or similar service on the mobile phone. The application should be free to download.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "In order for a user to download the mobile application.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.1",
+        "source_locator": {
+          "page": 9,
+          "para": 6
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR2",
+      "section_path": "3.2.1.2",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Download and notify users of new releases",
+      "actor": "User",
+      "actions": [
+        "When a new/updated version or release of the software is released, the user should check for these manually.",
+        "The download of the new release should be done through the mobile phone in the same way as downloading the mobile application."
+      ],
+      "description": "When a new/updated version or release of the software is released, the user should check for these manually. The download of the new release should be done through the mobile phone in the same way as downloading the mobile application.",
+      "constraints": null,
+      "dependencies": [
+        "FR1"
+      ],
+      "acceptance_criteria": "In order for a user to download a new/updated release.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.2",
+        "source_locator": {
+          "page": 9,
+          "para": 12
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR3",
+      "section_path": "3.2.1.3",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "User registration - Mobile application",
+      "actor": "User",
+      "actions": [
+        "Given that a user has downloaded the mobile application, then the user should be able to register through the mobile application.",
+        "The user must provide user-name, password and e-mail address.",
+        "The user can choose to provide a regularly used phone number."
+      ],
+      "description": "Given that a user has downloaded the mobile application, then the user should be able to register through the mobile application. The user must provide user-name, password and e-mail address. The user can choose to provide a regularly used phone number.",
+      "constraints": null,
+      "dependencies": [
+        "FR1"
+      ],
+      "acceptance_criteria": "In order for a user to register on the mobile application.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.3",
+        "source_locator": {
+          "page": 9,
+          "para": 18
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR4",
+      "section_path": "3.2.1.4",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "User log-in - Mobile application",
+      "actor": "User",
+      "actions": [
+        "Given that a user has registered, then the user should be able to log in to the mobile application.",
+        "The log-in information will be stored on the phone and in the future the user should be logged in automatically."
+      ],
+      "description": "Given that a user has registered, then the user should be able to log in to the mobile application. The log-in information will be stored on the phone and in the future the user should be logged in automatically.",
+      "constraints": null,
+      "dependencies": [
+        "FR1",
+        "FR3"
+      ],
+      "acceptance_criteria": "In order for a user to register on the mobile application.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.4",
+        "source_locator": {
+          "page": 10,
+          "para": 0
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR5",
+      "section_path": "3.2.1.5",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Retrieve password",
+      "actor": "User",
+      "actions": [
+        "Given that a user has registered, then the user should be able to retrieve his/her password by e- mail."
+      ],
+      "description": "Given that a user has registered, then the user should be able to retrieve his/her password by e- mail.",
+      "constraints": null,
+      "dependencies": [
+        "FR1"
+      ],
+      "acceptance_criteria": "In order for a user to retrieve his/her password.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.5",
+        "source_locator": {
+          "page": 10,
+          "para": 6
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR6",
+      "section_path": "3.2.1.6",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Search",
+      "actor": "User",
+      "actions": [
+        "Given that a user is logged in to the mobile application, then the first page that is shown should be the search page.",
+        "The user should be able to search for a restaurant, according to several search options.",
+        "There should also be a free- text search option.",
+        "A user should be able to select multiple search options in one search."
+      ],
+      "description": "Given that a user is logged in to the mobile application, then the first page that is shown should be the search page. The user should be able to search for a restaurant, according to several search options. The search options are Price, Destination, Restaurant type and Specific dish. There should also be a free- text search option. A user should be able to select multiple search options in one search.",
+      "constraints": null,
+      "dependencies": [
+        "FR4"
+      ],
+      "acceptance_criteria": "In order for a user to search for a restaurant.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.6",
+        "source_locator": {
+          "page": 10,
+          "para": 12
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR7",
+      "section_path": "3.2.1.7",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Search result in a map view",
+      "actor": "User",
+      "actions": [
+        " Search results can be viewed on a map.",
+        " A specific pin will represent a specific restaurant location.",
+        "On each pin there should be an information link.",
+        " There should be maximally 100 results displayed.",
+        "The map view should have a default zoom.",
+        " The map view should include a button that, when selected, should display different filtering options in a filtering menu."
+      ],
+      "description": " Search results can be viewed on a map. On the map, the relevant and closest restaurants according to the user’s position are shown.  A specific pin will represent a specific restaurant location. On each pin there should be an information link.  There should be maximally 100 results displayed. The map view should have a default zoom.  The map view should include a button that, when selected, should display different filtering options in a filtering menu.",
+      "constraints": null,
+      "dependencies": [
+        "FR6"
+      ],
+      "acceptance_criteria": "The way results are displayed in a map.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.7",
+        "source_locator": {
+          "page": 10,
+          "para": 18
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR8",
+      "section_path": "3.2.1.8",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Search result in a list view",
+      "actor": "User",
+      "actions": [
+        " Search results can be viewed in a list.",
+        "Each element should include the restaurant name, telephone number, type of food, distance according to the user’s position, average price, a short two-line description, a link to the restaurant’s web-page and an information link.",
+        " There should be maximally 100 results displayed.",
+        "If the result contains more restaurants than what can be displayed on the screen at one time, the user should be able to scroll through them.",
+        " When searching by price the restaurants should be sorted according to the following order: 1.",
+        "specific dish  When searching by a search option, other than price, the restaurants should be sorted according to the following order: 1.",
+        "specific dish  The list view should include a header with different selectable sorting options.",
+        " The list view should include a button that, when selected, should display different filtering options in a filtering menu."
+      ],
+      "description": " Search results can be viewed in a list. Each element in the list represents a specific restaurant. Each element should include the restaurant name, telephone number, type of food, distance according to the user’s position, average price, a short two-line description, a link to the restaurant’s web-page and an information link.  There should be maximally 100 results displayed. If the result contains more restaurants than what can be displayed on the screen at one time, the user should be able to scroll through them.  When searching by price the restaurants should be sorted according to the following order: 1. average price 2. distance 3. restaurant type 4. specific dish  When searching by a search option, other than price, the restaurants should be sorted according to the following order: 1. distance 2. average price 3. restaurant type 4. specific dish  The list view should include a header with different selectable sorting options.  The list view should include a button that, when selected, should display different filtering options in a filtering menu.",
+      "constraints": null,
+      "dependencies": [
+        "FR6"
+      ],
+      "acceptance_criteria": "The way results should be displayed in a list.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.8",
+        "source_locator": {
+          "page": 11,
+          "para": 0
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR9",
+      "section_path": "3.2.1.9",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Navigation to restaurant",
+      "actor": "User",
+      "actions": [
+        "A user should be able to select a pin on a map or an element on a list.",
+        "When a selection is made, the location of the restaurant should be sent to the mobile phone’s GPS-navigation program.",
+        "The user should then be navigated to the destination.",
+        "When the destination is reached, a user should be able to go back to the search page on the mobile application."
+      ],
+      "description": "A user should be able to select a pin on a map or an element on a list. When a selection is made, the location of the restaurant should be sent to the mobile phone’s GPS-navigation program. The user should then be navigated to the destination. When the destination is reached, a user should be able to go back to the search page on the mobile application.",
+      "constraints": null,
+      "dependencies": [
+        "FR7",
+        "FR8"
+      ],
+      "acceptance_criteria": "To navigate a user to a chosen restaurant.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.9",
+        "source_locator": {
+          "page": 11,
+          "para": 7
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR10",
+      "section_path": "3.2.1.10",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Switch result view",
+      "actor": "User",
+      "actions": [
+        "A user should be able to switch between a map view and a list view for all search options."
+      ],
+      "description": "A user should be able to switch between a map view and a list view for all search options.",
+      "constraints": null,
+      "dependencies": [
+        "FR7",
+        "FR8"
+      ],
+      "acceptance_criteria": "In order for a user to switch between result views.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.10",
+        "source_locator": {
+          "page": 11,
+          "para": 13
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR11",
+      "section_path": "3.2.1.11",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Selecting the information link",
+      "actor": "User",
+      "actions": [
+        "A user should be able to select the information link, which is included on all result items.",
+        "The link will direct the user to an information page, which includes a picture of the restaurant, the restaurant name, address, phone number, e-mail address, type of food, average price, restaurant description and a menu with name, description and price of the different dishes."
+      ],
+      "description": "A user should be able to select the information link, which is included on all result items. The link will direct the user to an information page, which includes a picture of the restaurant, the restaurant name, address, phone number, e-mail address, type of food, average price, restaurant description and a menu with name, description and price of the different dishes.",
+      "constraints": null,
+      "dependencies": [
+        "FR7",
+        "FR8"
+      ],
+      "acceptance_criteria": "In order to show information about the restaurants.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.11",
+        "source_locator": {
+          "page": 12,
+          "para": 2
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR12",
+      "section_path": "3.2.1.12",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Search by price",
+      "actor": "User",
+      "actions": [
+        "A user should be able to input a maximum and a minimum price range."
+      ],
+      "description": "A user should be able to input a maximum and a minimum price range. The result is displayed in a list view by default.",
+      "constraints": null,
+      "dependencies": [
+        "FR8"
+      ],
+      "acceptance_criteria": "In order for a user to search by price.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.12",
+        "source_locator": {
+          "page": 12,
+          "para": 8
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR13",
+      "section_path": "3.2.1.13",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Search by destination",
+      "actor": "User",
+      "actions": [
+        "A user should be able to input a maximum and a minimum distance, according to his/her position.",
+        "The user should be able to input a higher or lower maximum distance and a higher minimum distance than set by default."
+      ],
+      "description": "A user should be able to input a maximum and a minimum distance, according to his/her position. By default the minimum distance is set to 0 km and the maximum to 10 km. The user should be able to input a higher or lower maximum distance and a higher minimum distance than set by default. The result is displayed in a map view by default.",
+      "constraints": null,
+      "dependencies": [
+        "FR7"
+      ],
+      "acceptance_criteria": "In order for a user to search by destination.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.13",
+        "source_locator": {
+          "page": 12,
+          "para": 14
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR14",
+      "section_path": "3.2.1.14",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Accepted input for price and destination search",
+      "actor": "User",
+      "actions": [
+        "Integers should be accepted as input when a user searches by price or destination.",
+        "If the system receives an invalid input the user should be informed and prompted to insert an accepted input."
+      ],
+      "description": "Integers should be accepted as input when a user searches by price or destination. If the system receives an invalid input the user should be informed and prompted to insert an accepted input.",
+      "constraints": null,
+      "dependencies": [
+        "FR12",
+        "FR13"
+      ],
+      "acceptance_criteria": "In order for a user to search with valid input.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.14",
+        "source_locator": {
+          "page": 12,
+          "para": 20
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR15",
+      "section_path": "3.2.1.15",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Search by restaurant type",
+      "actor": "User",
+      "actions": [
+        "A user should be able to select a restaurant type in a given list as input."
+      ],
+      "description": "A user should be able to select a restaurant type in a given list as input. The result is displayed in a map view by default.",
+      "constraints": null,
+      "dependencies": [
+        "FR7"
+      ],
+      "acceptance_criteria": "In order for a user to search by restaurant type.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.15",
+        "source_locator": {
+          "page": 12,
+          "para": 26
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR16",
+      "section_path": "3.2.1.16",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Search by specific dish",
+      "actor": "User",
+      "actions": [
+        "A user should be able to select a specific dish in a given list as input."
+      ],
+      "description": "A user should be able to select a specific dish in a given list as input. The result is displayed in a map view by default.",
+      "constraints": null,
+      "dependencies": [
+        "FR7"
+      ],
+      "acceptance_criteria": "In order for a user to search by specific dish.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.16",
+        "source_locator": {
+          "page": 13,
+          "para": 3
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR17",
+      "section_path": "3.2.1.17",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Free-text search",
+      "actor": "User",
+      "actions": [
+        "A user should be able to conduct a search by providing either restaurant name, restaurant description, restaurant address, restaurant type or restaurant menu in the free-text search field."
+      ],
+      "description": "A user should be able to conduct a search by providing either restaurant name, restaurant description, restaurant address, restaurant type or restaurant menu in the free-text search field. The result is displayed in a map view by default.",
+      "constraints": null,
+      "dependencies": [
+        "FR7"
+      ],
+      "acceptance_criteria": "In order for a user to search through the free-text search.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.17",
+        "source_locator": {
+          "page": 13,
+          "para": 9
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR18",
+      "section_path": "3.2.1.18",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - No match found",
+      "actor": "User",
+      "actions": [
+        "If no match is found the user should be informed but kept on the search page in order to get the possibility to conduct a new search right away."
+      ],
+      "description": "If no match is found the user should be informed but kept on the search page in order to get the possibility to conduct a new search right away.",
+      "constraints": null,
+      "dependencies": [
+        "FR5"
+      ],
+      "acceptance_criteria": "In order for user to conduct a new search if no match is found.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.18",
+        "source_locator": {
+          "page": 13,
+          "para": 15
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR19",
+      "section_path": "3.2.1.19",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Sorting results",
+      "actor": "User",
+      "actions": [
+        "When viewing the results in a list, a user should be able to sort the results according to price, distance, restaurant type, specific dish or restaurant name.",
+        " When sorting by restaurant name, specific dish or restaurant type the results should be ordered alphabetically.",
+        " When sorting by price the results should be ordered from cheapest to most expensive.",
+        " When sorting by distance the results should be ordered from closets to furthest distance according to the user’s position."
+      ],
+      "description": "When viewing the results in a list, a user should be able to sort the results according to price, distance, restaurant type, specific dish or restaurant name.  When sorting by restaurant name, specific dish or restaurant type the results should be ordered alphabetically.  When sorting by price the results should be ordered from cheapest to most expensive.  When sorting by distance the results should be ordered from closets to furthest distance according to the user’s position.",
+      "constraints": null,
+      "dependencies": [
+        "FR8"
+      ],
+      "acceptance_criteria": "In order for a user to sort results in a list.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.19",
+        "source_locator": {
+          "page": 13,
+          "para": 21
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR20",
+      "section_path": "3.2.1.20",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Filtering results",
+      "actor": "User",
+      "actions": [
+        "When viewing the results in a list or a map, a user should be able to filter the results in a filtering menu."
+      ],
+      "description": "When viewing the results in a list or a map, a user should be able to filter the results in a filtering menu. The filtering options include:  increasing or decreasing the maximum distance  increasing or decreasing the maximum price  choosing a restaurant type  choosing a specific dish",
+      "constraints": null,
+      "dependencies": [
+        "FR7",
+        "FR8"
+      ],
+      "acceptance_criteria": "In order for a user to filter results in a list or a map.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.20",
+        "source_locator": {
+          "page": 14,
+          "para": 3
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR21",
+      "section_path": "3.2.1.21",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Mobile application - Profile page",
+      "actor": "User",
+      "actions": [
+        "On the mobile application, a user should have a profile page.",
+        "On the profile page a user can edit his/her information, which includes the password, e-mail address and phone number.",
+        "A user should also be able to choose what language the mobile application should be set to."
+      ],
+      "description": "On the mobile application, a user should have a profile page. On the profile page a user can edit his/her information, which includes the password, e-mail address and phone number. A user should also be able to choose what language the mobile application should be set to. The different language choices are Swedish, English, Spanish and French.",
+      "constraints": null,
+      "dependencies": [
+        "FR1"
+      ],
+      "acceptance_criteria": "In order for a user to have a profile page on the mobile application.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.1.21",
+        "source_locator": {
+          "page": 14,
+          "para": 11
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR25",
+      "section_path": "3.2.2.4",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "gherkin",
+      "extraction_method": "llm",
+      "title": "Restaurant owner - Selecting preferred language on the web-portal",
+      "actor": "Restaurant Owner",
+      "actions": [
+        "selects English as a new language",
+        "selects Swedish as a new language",
+        "selects French as a new language",
+        "selects Spanish as a new language"
+      ],
+      "description": "A restaurant owner should be able to select a preferred language for the web-portal.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "A restaurant owner should be able to select a preferred language for the web-portal.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": [
+        {
+          "name": "Select English as preferred language",
+          "given": "the restaurant owner wants to select a preferred language",
+          "when": "the restaurant owner selects English as a new language",
+          "then": "the web-portal will show all text in English"
+        },
+        {
+          "name": "Select Swedish as preferred language",
+          "given": "the restaurant owner wants to select a preferred language",
+          "when": "the restaurant owner selects Swedish as a new language",
+          "then": "the web-portal will show all text in Swedish"
+        },
+        {
+          "name": "Select French as preferred language",
+          "given": "the restaurant owner wants to select a preferred language",
+          "when": "the restaurant owner selects French as a new language",
+          "then": "the web-portal will show all text in French"
+        },
+        {
+          "name": "Select Spanish as preferred language",
+          "given": "the restaurant owner wants to select a preferred language",
+          "when": "the restaurant owner selects Spanish as a new language",
+          "then": "the web-portal will show all text in Spanish"
+        }
+      ],
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.2.4",
+        "source_locator": {
+          "page": 17,
+          "para": 3
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR26",
+      "section_path": "3.2.3.1",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "gherkin",
+      "extraction_method": "llm",
+      "title": "Administrator log in",
+      "actor": "Administrator",
+      "actions": [
+        "logs in"
+      ],
+      "description": "The requirement allows administrators to log into the web-portal.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "The requirement allows administrators to log into the web-portal.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": [
+        {
+          "name": "Successful log-in",
+          "given": "the administrator wants to log in",
+          "when": "the administrator logs in with an administrator account",
+          "then": "the administrator should be logged in as an administrator"
+        }
+      ],
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.3.1",
+        "source_locator": {
+          "page": 18,
+          "para": 1
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR27",
+      "section_path": "3.2.3.2",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "gherkin",
+      "extraction_method": "llm",
+      "title": "Verify restaurant owner",
+      "actor": "Administrator",
+      "actions": [
+        "verifies",
+        "rejects"
+      ],
+      "description": "Allow an administrator to verify or reject a restaurant owner's access.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "Allow an administrator to verify or reject a restaurant owner's access.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": [
+        {
+          "name": "Verify a restaurant owner",
+          "given": "the administrator is logged in",
+          "when": "the administrator verifies a restaurant owner",
+          "then": "the restaurant owner should be able to log in And the restaurant owner should be notified by a confirmation email"
+        },
+        {
+          "name": "Reject a restaurant owner",
+          "given": "the administrator is logged in",
+          "when": "the administrator rejects a restaurant owner",
+          "then": "the restaurant owner should not be able to log in And the restaurant owner should be notified by a rejection email"
+        }
+      ],
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.3.2",
+        "source_locator": {
+          "page": 18,
+          "para": 4
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR28",
+      "section_path": "3.2.3.3",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "gherkin",
+      "extraction_method": "llm",
+      "title": "Manage restaurant types",
+      "actor": "Administrator",
+      "actions": [
+        "create",
+        "edit",
+        "delete"
+      ],
+      "description": "An administrator must be able to manage the list of restaurant types.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "An administrator must be able to manage the list of restaurant types.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": [
+        {
+          "name": "Add a new restaurant type",
+          "given": "the administrator is logged in",
+          "when": "the administrator creates a new restaurant type",
+          "then": "the new restaurant type should be added to the list of restaurant types"
+        },
+        {
+          "name": "Editing an existing restaurant type",
+          "given": "the administrator is logged in",
+          "when": "the administrator edits an existing restaurant type",
+          "then": "the restaurant type should be updated in the list of restaurant types"
+        },
+        {
+          "name": "Delete a restaurant type",
+          "given": "the administrator is logged in",
+          "when": "the administrator deletes a restaurant type",
+          "then": "the deleted restaurant type should be removed from the list of restaurant types"
+        }
+      ],
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.3.3",
+        "source_locator": {
+          "page": 18,
+          "para": 8
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR29",
+      "section_path": "3.2.3.4",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "gherkin",
+      "extraction_method": "llm",
+      "title": "Manage restaurant dishes",
+      "actor": "Administrator",
+      "actions": [
+        "creates",
+        "edits",
+        "deletes"
+      ],
+      "description": "The administrator can manage the dishes in the system.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "The administrator can manage the dishes in the system.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": [
+        {
+          "name": "Add a new dish",
+          "given": "the administrator is logged in",
+          "when": "the administrator creates a new dish",
+          "then": "the new dish should be added to the list of dishes"
+        },
+        {
+          "name": "Editing an existing dish",
+          "given": "the administrator is logged in",
+          "when": "the administrator edits an existing dish",
+          "then": "the dish should be updated in the list of dishes"
+        },
+        {
+          "name": "Delete a dish",
+          "given": "the administrator is logged in",
+          "when": "the administrator deletes a dish",
+          "then": "the deleted dish should be removed from the list of dishes"
+        }
+      ],
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.3.4",
+        "source_locator": {
+          "page": 19,
+          "para": 2
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR30",
+      "section_path": "3.2.3.5",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "gherkin",
+      "extraction_method": "llm",
+      "title": "Manage restaurant information",
+      "actor": "Administrator",
+      "actions": [
+        "adds",
+        "deletes",
+        "edits"
+      ],
+      "description": "An administrator can manage restaurant information via the web-portal.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "An administrator can manage restaurant information via the web-portal.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": [
+        {
+          "name": "Add restaurant information",
+          "given": "the administrator is logged in",
+          "when": "the administrator adds restaurant information",
+          "then": "the information should be added to the restaurant"
+        },
+        {
+          "name": "Delete restaurant information",
+          "given": "the administrator is logged in information about a restaurant exists",
+          "when": "the administrator deletes the information",
+          "then": "the information about the restaurant should be deleted"
+        },
+        {
+          "name": "Edit restaurant information",
+          "given": "the administrator is logged in information about a restaurant exists",
+          "when": "the administrator edits the information",
+          "then": "the information about the restaurant should be edited"
+        }
+      ],
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.3.5",
+        "source_locator": {
+          "page": 19,
+          "para": 7
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR31",
+      "section_path": "3.2.3.6",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "gherkin",
+      "extraction_method": "llm",
+      "title": "Manage users",
+      "actor": "Administrator",
+      "actions": [
+        "edits an existing user",
+        "deletes an existing user"
+      ],
+      "description": "Allows administrators to manage user information.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "Allows administrators to manage user information.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": [
+        {
+          "name": "Edit an existing user’s information",
+          "given": "the administrator is logged in",
+          "when": "the administrator edits an existing user",
+          "then": "the user information should be updated"
+        },
+        {
+          "name": "Delete/Inactivate an existing user",
+          "given": "the administrator is logged in",
+          "when": "the administrator deletes an existing user",
+          "then": "the user should be deleted"
+        }
+      ],
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.3.6",
+        "source_locator": {
+          "page": 20,
+          "para": 2
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR32",
+      "section_path": "3.2.3.7",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "gherkin",
+      "extraction_method": "llm",
+      "title": "Manage restaurant owners",
+      "actor": "Administrator",
+      "actions": [
+        "manage",
+        "add",
+        "edit",
+        "delete"
+      ],
+      "description": "Allow an administrator to manage the restaurant owners.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "Allow an administrator to manage the restaurant owners.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": [
+        {
+          "name": "Add a new restaurant owner",
+          "given": "the administrator is logged in",
+          "when": "the administrator creates a new restaurant owner",
+          "then": "the new restaurant owner should be added"
+        },
+        {
+          "name": "Edit an existing restaurant owner",
+          "given": "the administrator is logged in",
+          "when": "the administrator edits an existing restaurant owner",
+          "then": "the restaurant owner information should be updated"
+        },
+        {
+          "name": "Delete an existing restaurant owner",
+          "given": "the administrator is logged in",
+          "when": "the administrator deletes an existing restaurant owner",
+          "then": "the restaurant owner should be deleted And the restaurant information should be deleted"
+        }
+      ],
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.3.7",
+        "source_locator": {
+          "page": 20,
+          "para": 6
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "FR33",
+      "section_path": "3.2.3.8",
+      "section_semantic_type": "functional_requirements",
+      "input_format": "gherkin",
+      "extraction_method": "llm",
+      "title": "Administrator - Selecting preferred language on the web-portal",
+      "actor": "Administrator",
+      "actions": [
+        "selects English",
+        "selects Swedish",
+        "selects French",
+        "selects Spanish"
+      ],
+      "description": "An administrator should be able to select a preferred language for the web-portal.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "An administrator should be able to select a preferred language for the web-portal.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": [
+        {
+          "name": "Select English as preferred language",
+          "given": "the administrator wants to select a preferred language",
+          "when": "the administrator selects English as a new language",
+          "then": "the web-portal will show all text in English"
+        },
+        {
+          "name": "Select Swedish as preferred language",
+          "given": "the administrator wants to select a preferred language",
+          "when": "the administrator selects Swedish as a new language",
+          "then": "the web-portal will show all text in Swedish"
+        },
+        {
+          "name": "Select French as preferred language",
+          "given": "the administrator wants to select a preferred language",
+          "when": "the administrator selects French as a new language",
+          "then": "the web-portal will show all text in French"
+        },
+        {
+          "name": "Select Spanish as preferred language",
+          "given": "the administrator wants to select a preferred language",
+          "when": "the administrator selects Spanish as a new language",
+          "then": "the web-portal will show all text in Spanish"
+        }
+      ],
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.2.3.8",
+        "source_locator": {
+          "page": 21,
+          "para": 1
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR1",
+      "section_path": "3.3.1",
+      "section_semantic_type": "performance_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Prominent search feature",
+      "actor": "User",
+      "actions": [
+        "The search feature should be prominent and easy to find for the user."
+      ],
+      "description": "The search feature should be prominent and easy to find for the user.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "In order to for a user to find the search feature easily.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.3.1",
+        "source_locator": {
+          "page": 21,
+          "para": 9
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR2",
+      "section_path": "3.3.2",
+      "section_semantic_type": "performance_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Usage of the search feature",
+      "actor": "System",
+      "actions": [
+        "The different search options should be evident, simple and easy to understand."
+      ],
+      "description": "The different search options should be evident, simple and easy to understand.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "In order to for a user to perform a search easily.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.3.2",
+        "source_locator": {
+          "page": 22,
+          "para": 0
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR3",
+      "section_path": "3.3.3",
+      "section_semantic_type": "performance_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Usage of the result in the list view",
+      "actor": "User",
+      "actions": [
+        "The results displayed in the list view should be user friendly and easy to understand.",
+        "Selecting an element in the result list should only take one click."
+      ],
+      "description": "The results displayed in the list view should be user friendly and easy to understand. Selecting an element in the result list should only take one click.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "In order to for a user to use the list view easily.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.3.3",
+        "source_locator": {
+          "page": 22,
+          "para": 6
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR4",
+      "section_path": "3.3.4",
+      "section_semantic_type": "performance_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Usage of the result in the map view",
+      "actor": "User",
+      "actions": [
+        "The results displayed in the map view should be user friendly and easy to understand.",
+        "Selecting a pin on the map should only take one click."
+      ],
+      "description": "The results displayed in the map view should be user friendly and easy to understand. Selecting a pin on the map should only take one click.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "In order to for a user to use the map view easily.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.3.4",
+        "source_locator": {
+          "page": 22,
+          "para": 12
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR5",
+      "section_path": "3.3.5",
+      "section_semantic_type": "performance_requirements",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Usage of the information link",
+      "actor": "System",
+      "actions": [
+        "The information link should be prominent and it should be evident that it is a usable link.",
+        "Selecting the information link should only take one click."
+      ],
+      "description": "The information link should be prominent and it should be evident that it is a usable link. Selecting the information link should only take one click.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "In order to for a user to use the information link easily.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.3.5",
+        "source_locator": {
+          "page": 22,
+          "para": 18
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR6",
+      "section_path": "3.3.6",
+      "section_semantic_type": "performance_requirements",
+      "input_format": "prose",
+      "extraction_method": "llm",
+      "title": "Response Time",
+      "actor": "System",
+      "actions": [],
+      "description": "The fastness of the search.",
+      "constraints": "No more than 2 seconds 100% of the time.",
+      "dependencies": [],
+      "acceptance_criteria": "Measurements obtained from 1000 searches during testing.",
+      "outputs": "No more than 1 second 100% of the time.",
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "medium",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.3.6",
+        "source_locator": {
+          "page": 22,
+          "para": 24
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR8",
+      "section_path": "3.3.7",
+      "section_semantic_type": "performance_requirements",
+      "input_format": "prose",
+      "extraction_method": "llm",
+      "title": "System dependability",
+      "actor": "System",
+      "actions": [
+        "informs user"
+      ],
+      "description": "The fault tolerance of the system.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "100% of the time during 1000 hours of usage testing when the system loses connection to the Internet or GPS device or receives strange input, user should be informed",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.3.7",
+        "source_locator": {
+          "page": 23,
+          "para": 0
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR10",
+      "section_path": "3.4.1",
+      "section_semantic_type": "design_constraints",
+      "input_format": "prose",
+      "extraction_method": "llm",
+      "title": "Hard drive space",
+      "actor": "System",
+      "actions": [],
+      "description": "The application's need of hard drive space.",
+      "constraints": "No more than 20 MB",
+      "dependencies": [],
+      "acceptance_criteria": "PLAN: No more than 15 MB. WISH: No more than 10 MB",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "medium",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.4.1",
+        "source_locator": {
+          "page": 23,
+          "para": 4
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR11",
+      "section_path": "3.4.2",
+      "section_semantic_type": "design_constraints",
+      "input_format": "prose",
+      "extraction_method": "llm",
+      "title": "Application memory usage",
+      "actor": "System",
+      "actions": [],
+      "description": "The amount of Operating System memory occupied by the application.",
+      "constraints": "No more than 20 MB",
+      "dependencies": [],
+      "acceptance_criteria": "PLAN: No more than 16 MB WISH: No more than 10 MB",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "medium",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.4.2",
+        "source_locator": {
+          "page": 23,
+          "para": 6
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "SystemReliability",
+      "section_path": "3.5.1",
+      "section_semantic_type": "quality_attributes",
+      "input_format": "planguage",
+      "extraction_method": "deterministic",
+      "title": "SystemReliability",
+      "actor": "System",
+      "actions": [
+        "The reliability of the system."
+      ],
+      "description": "The reliability of the system.",
+      "constraints": "More than 98% of the searches.",
+      "dependencies": [],
+      "acceptance_criteria": "Scale: The reliability that the system gives the right result on a search.; Meter: Measurements obtained from 1000 searches during testing.; Plan: More than 99% of the searches.",
+      "outputs": "100% of the searches.",
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.5.1",
+        "source_locator": {
+          "page": 23,
+          "para": 10
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR23",
+      "section_path": "3.5.2",
+      "section_semantic_type": "quality_attributes",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "GPS Connection",
+      "actor": "System",
+      "actions": [
+        "The application should be connected to the GPS device."
+      ],
+      "description": "The application should be connected to the GPS device.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "In order for the application to get the users location, the map and to calculate the distance.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.5.2",
+        "source_locator": {
+          "page": 24,
+          "para": 1
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "RestaurantOwnerCreateAccountSecurity",
+      "section_path": "3.5.3",
+      "section_semantic_type": "quality_attributes",
+      "input_format": "planguage",
+      "extraction_method": "deterministic",
+      "title": "RestaurantOwnerCreateAccountSecurity",
+      "actor": "System",
+      "actions": [
+        "The security of creating account for restaurant owners of the system."
+      ],
+      "description": "The security of creating account for restaurant owners of the system.",
+      "constraints": "100% of the time.",
+      "dependencies": [],
+      "acceptance_criteria": "Scale: If a restaurant owner wants to create an account and the desired user name is occupied, the restaurant owner should be asked to choose a different user name.; Meter: Measurements obtained on 1000 hours of usage during testing.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.5.3",
+        "source_locator": {
+          "page": 24,
+          "para": 13
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR21",
+      "section_path": "3.5.4",
+      "section_semantic_type": "quality_attributes",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Application testability",
+      "actor": "System",
+      "actions": [
+        "Test environments should be built for the application to allow testing of the applications different functions."
+      ],
+      "description": "Test environments should be built for the application to allow testing of the applications different functions.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "In order to test the application.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.5.4",
+        "source_locator": {
+          "page": 26,
+          "para": 0
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    },
+    {
+      "req_id": "QR20",
+      "section_path": "3.5.5",
+      "section_semantic_type": "quality_attributes",
+      "input_format": "labeled",
+      "extraction_method": "deterministic",
+      "title": "Application portability",
+      "actor": "System",
+      "actions": [
+        "The application should be portable with iOS and Android."
+      ],
+      "description": "The application should be portable with iOS and Android.",
+      "constraints": null,
+      "dependencies": [],
+      "acceptance_criteria": "The adaptable platform for the application to run on.",
+      "outputs": null,
+      "planguage_table": null,
+      "scenarios": null,
+      "confidence": "high",
+      "source_reference": {
+        "doc_id": "DOC-IEEE-830-SRS",
+        "section_path": "3.5.5",
+        "source_locator": {
+          "page": 26,
+          "para": 11
+        },
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    }
+  ],
+  "failed_groups": [
+    {
+      "section_path": "3.2.2.1",
+      "section_semantic_type": "functional_requirements",
+      "candidate_req_id": "FR22",
+      "format": "gherkin",
+      "error": "timed out",
+      "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 250, in handle_request\n    resp = self._pool.handle_request(req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/connection_pool.py\", line 256, in handle_request\n    raise exc from None\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/connection_pool.py\", line 236, in handle_request\n    response = connection.handle_request(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/connection.py\", line 103, in handle_request\n    return self._connection.handle_request(request)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 136, in handle_request\n    raise exc\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 106, in handle_request\n    ) = self._receive_response_headers(**kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 177, in _receive_response_headers\n    event = self._receive_event(timeout=timeout)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 217, in _receive_event\n    data = self._network_stream.read(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_backends/sync.py\", line 126, in read\n    with map_exceptions(exc_map):\n         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/contextlib.py\", line 158, in __exit__\n    self.gen.throw(value)\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout: timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/content/Autopilot-QA/Autopilot-QA/02_Requirement_Understanding/runner.py\", line 111, in main\n    result = extract_llm(\n             ^^^^^^^^^^^^\n  File \"/content/Autopilot-QA/Autopilot-QA/02_Requirement_Understanding/llm_extractor.py\", line 221, in extract_llm\n    response = httpx.post(\n               ^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_api.py\", line 304, in post\n    return request(\n           ^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_api.py\", line 109, in request\n    return client.request(\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 825, in request\n    return self.send(request, auth=auth, follow_redirects=follow_redirects)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 914, in send\n    response = self._send_handling_auth(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 942, in _send_handling_auth\n    response = self._send_handling_redirects(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 979, in _send_handling_redirects\n    response = self._send_single_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 1014, in _send_single_request\n    response = transport.handle_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 249, in handle_request\n    with map_httpcore_exceptions():\n         ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/contextlib.py\", line 158, in __exit__\n    self.gen.throw(value)\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout: timed out\n"
+    },
+    {
+      "section_path": "3.2.2.2",
+      "section_semantic_type": "functional_requirements",
+      "candidate_req_id": "FR23",
+      "format": "gherkin",
+      "error": "timed out",
+      "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 250, in handle_request\n    resp = self._pool.handle_request(req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/connection_pool.py\", line 256, in handle_request\n    raise exc from None\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/connection_pool.py\", line 236, in handle_request\n    response = connection.handle_request(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/connection.py\", line 103, in handle_request\n    return self._connection.handle_request(request)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 136, in handle_request\n    raise exc\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 106, in handle_request\n    ) = self._receive_response_headers(**kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 177, in _receive_response_headers\n    event = self._receive_event(timeout=timeout)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 217, in _receive_event\n    data = self._network_stream.read(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_backends/sync.py\", line 126, in read\n    with map_exceptions(exc_map):\n         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/contextlib.py\", line 158, in __exit__\n    self.gen.throw(value)\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout: timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/content/Autopilot-QA/Autopilot-QA/02_Requirement_Understanding/runner.py\", line 111, in main\n    result = extract_llm(\n             ^^^^^^^^^^^^\n  File \"/content/Autopilot-QA/Autopilot-QA/02_Requirement_Understanding/llm_extractor.py\", line 221, in extract_llm\n    response = httpx.post(\n               ^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_api.py\", line 304, in post\n    return request(\n           ^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_api.py\", line 109, in request\n    return client.request(\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 825, in request\n    return self.send(request, auth=auth, follow_redirects=follow_redirects)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 914, in send\n    response = self._send_handling_auth(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 942, in _send_handling_auth\n    response = self._send_handling_redirects(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 979, in _send_handling_redirects\n    response = self._send_single_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 1014, in _send_single_request\n    response = transport.handle_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 249, in handle_request\n    with map_httpcore_exceptions():\n         ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/contextlib.py\", line 158, in __exit__\n    self.gen.throw(value)\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout: timed out\n"
+    },
+    {
+      "section_path": "3.2.2.3",
+      "section_semantic_type": "functional_requirements",
+      "candidate_req_id": "FR24",
+      "format": "gherkin",
+      "error": "timed out",
+      "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 250, in handle_request\n    resp = self._pool.handle_request(req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/connection_pool.py\", line 256, in handle_request\n    raise exc from None\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/connection_pool.py\", line 236, in handle_request\n    response = connection.handle_request(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/connection.py\", line 103, in handle_request\n    return self._connection.handle_request(request)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 136, in handle_request\n    raise exc\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 106, in handle_request\n    ) = self._receive_response_headers(**kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 177, in _receive_response_headers\n    event = self._receive_event(timeout=timeout)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_sync/http11.py\", line 217, in _receive_event\n    data = self._network_stream.read(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_backends/sync.py\", line 126, in read\n    with map_exceptions(exc_map):\n         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/contextlib.py\", line 158, in __exit__\n    self.gen.throw(value)\n  File \"/usr/local/lib/python3.12/dist-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout: timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/content/Autopilot-QA/Autopilot-QA/02_Requirement_Understanding/runner.py\", line 111, in main\n    result = extract_llm(\n             ^^^^^^^^^^^^\n  File \"/content/Autopilot-QA/Autopilot-QA/02_Requirement_Understanding/llm_extractor.py\", line 221, in extract_llm\n    response = httpx.post(\n               ^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_api.py\", line 304, in post\n    return request(\n           ^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_api.py\", line 109, in request\n    return client.request(\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 825, in request\n    return self.send(request, auth=auth, follow_redirects=follow_redirects)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 914, in send\n    response = self._send_handling_auth(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 942, in _send_handling_auth\n    response = self._send_handling_redirects(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 979, in _send_handling_redirects\n    response = self._send_single_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_client.py\", line 1014, in _send_single_request\n    response = transport.handle_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 249, in handle_request\n    with map_httpcore_exceptions():\n         ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/contextlib.py\", line 158, in __exit__\n    self.gen.throw(value)\n  File \"/usr/local/lib/python3.12/dist-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout: timed out\n"
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "meta": {
+    "doc_id": "DOC-IEEE-830-SRS",
+    "doc_type": "SRS",
+    "module": "UNKNOWN",
+    "version": "1.0",
+    "source_file": "../input/IEEE-830-SRS.pdf",
+    "generated_at": "2026-04-24T14:08:59",
+    "page_offset": 2,
+    "toc_entries": 31,
+    "body_confirmed_sections": 50,
+    "toc_warnings": []
+  },
+  "document_skeleton": {
+    "1": {
+      "title": "Introduction",
+      "page": 1,
+      "level": 1,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "introduction"
+    },
+    "1.1": {
+      "title": "Purpose",
+      "page": 1,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "introduction"
+    },
+    "1.2": {
+      "title": "Scope",
+      "page": 1,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "introduction"
+    },
+    "1.3": {
+      "title": "Definitions, acronyms, and abbreviation",
+      "page": 1,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "introduction"
+    },
+    "1.4": {
+      "title": "Reference",
+      "page": 2,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "introduction"
+    },
+    "2": {
+      "title": "Overall description",
+      "page": 4,
+      "level": 1,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "system_overview"
+    },
+    "2.1": {
+      "title": "Product perspective",
+      "page": 4,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "system_overview"
+    },
+    "2.2": {
+      "title": "Product function",
+      "page": 4,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "system_overview"
+    },
+    "2.3": {
+      "title": "User characteristic",
+      "page": 5,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "system_overview"
+    },
+    "2.4": {
+      "title": "Constraint",
+      "page": 5,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "system_overview"
+    },
+    "2.5": {
+      "title": "Assumptions and dependencie",
+      "page": 5,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "system_overview"
+    },
+    "2.6": {
+      "title": "Apportioning of requirement",
+      "page": 6,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "system_overview"
+    },
+    "3": {
+      "title": "Specific requirement",
+      "page": 7,
+      "level": 1,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "other"
+    },
+    "3.1.1": {
+      "title": "User interface",
+      "page": 7,
+      "level": 3,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "interface_requirements"
+    },
+    "3.1.2": {
+      "title": "Hardware interface",
+      "page": 8,
+      "level": 3,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "interface_requirements"
+    },
+    "3.1.3": {
+      "title": "Software interface",
+      "page": 8,
+      "level": 3,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "interface_requirements"
+    },
+    "3.1.4": {
+      "title": "Communications interface",
+      "page": 9,
+      "level": 3,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "interface_requirements"
+    },
+    "3.2": {
+      "title": "Functional requirement",
+      "page": 9,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1": {
+      "title": "User Class 1 - The User",
+      "page": 9,
+      "level": 3,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.2": {
+      "title": "User Class 2 - Restaurant Owner",
+      "page": 14,
+      "level": 3,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.3": {
+      "title": "User Class 3 - Administrator",
+      "page": 18,
+      "level": 3,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.3": {
+      "title": "Performance requirement",
+      "page": 21,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "performance_requirements"
+    },
+    "3.4": {
+      "title": "Design constraint",
+      "page": 23,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "design_constraints"
+    },
+    "3.5": {
+      "title": "Software system attribute",
+      "page": 23,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "quality_attributes"
+    },
+    "4": {
+      "title": "Prioritization and Release Plan",
+      "page": 27,
+      "level": 1,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "prioritization"
+    },
+    "4.1": {
+      "title": "Choice of prioritization method",
+      "page": 27,
+      "level": 2,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "prioritization"
+    },
+    "A.1": {
+      "title": "Selection for Cost-Value Approach",
+      "page": 29,
+      "level": 1,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "prioritization"
+    },
+    "A.2": {
+      "title": "Prioritization Result of 10 selected Requirements Using Cost-Value Approach",
+      "page": 32,
+      "level": 1,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "prioritization"
+    },
+    "A.3": {
+      "title": "Five-Way Priority Scheme",
+      "page": 36,
+      "level": 1,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "prioritization"
+    },
+    "A.4": {
+      "title": "Release Plan",
+      "page": 47,
+      "level": 1,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "prioritization"
+    },
+    "A.5": {
+      "title": "I-star",
+      "page": 55,
+      "level": 1,
+      "toc_confirmed": true,
+      "body_confirmed": false,
+      "section_semantic_type": "prioritization"
+    },
+    "1.5": {
+      "title": "Overview",
+      "page": 3,
+      "level": 2,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "introduction"
+    },
+    "3.1": {
+      "title": "External interface Requirements",
+      "page": 7,
+      "level": 2,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "interface_requirements"
+    },
+    "3.2.1.1": {
+      "title": "Functional requirement 1.1",
+      "page": 9,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.2": {
+      "title": "Functional requirement 1.2",
+      "page": 9,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.3": {
+      "title": "Functional requirement 1.3",
+      "page": 9,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.4": {
+      "title": "Functional requirement 1.4",
+      "page": 10,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.5": {
+      "title": "Functional requirement 1.5",
+      "page": 10,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.6": {
+      "title": "Functional requirement 1.6",
+      "page": 10,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.7": {
+      "title": "Functional requirement 1.7",
+      "page": 10,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.8": {
+      "title": "Functional requirement 1.8",
+      "page": 11,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.9": {
+      "title": "Functional requirement 1.9",
+      "page": 11,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.10": {
+      "title": "Functional requirement 1.10",
+      "page": 11,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.11": {
+      "title": "Functional requirement 1.11",
+      "page": 12,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.12": {
+      "title": "Functional requirement 1.12",
+      "page": 12,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.13": {
+      "title": "Functional requirement 1.13",
+      "page": 12,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.14": {
+      "title": "Functional requirement 1.14",
+      "page": 12,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.15": {
+      "title": "Functional requirement 1.15",
+      "page": 12,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.16": {
+      "title": "Functional requirement 1.16",
+      "page": 13,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.17": {
+      "title": "Functional requirement 1.17",
+      "page": 13,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.18": {
+      "title": "Functional requirement 1.18",
+      "page": 13,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.19": {
+      "title": "Functional requirement 1.19",
+      "page": 13,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.20": {
+      "title": "Functional requirement 1.20",
+      "page": 14,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.1.21": {
+      "title": "Functional requirement 1.21",
+      "page": 14,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.2.1": {
+      "title": "Functional requirement 2.1",
+      "page": 14,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.2.2": {
+      "title": "Functional requirement 2.2",
+      "page": 15,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.2.3": {
+      "title": "Functional requirement 2.3",
+      "page": 16,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.2.4": {
+      "title": "Functional requirement 2.4",
+      "page": 17,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.3.1": {
+      "title": "Functional requirement 3.1",
+      "page": 18,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.3.2": {
+      "title": "Functional requirement 3.2",
+      "page": 18,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.3.3": {
+      "title": "Functional requirement 3.3",
+      "page": 18,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.3.4": {
+      "title": "Functional requirement 3.4",
+      "page": 19,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.3.5": {
+      "title": "Functional requirement 3.5",
+      "page": 19,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.3.6": {
+      "title": "Functional requirement 3.6",
+      "page": 20,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.3.7": {
+      "title": "Functional requirement 3.7",
+      "page": 20,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.2.3.8": {
+      "title": "Functional requirement 3.8",
+      "page": 21,
+      "level": 4,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "functional_requirements"
+    },
+    "3.3.1": {
+      "title": "Prominent search feature",
+      "page": 21,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "performance_requirements"
+    },
+    "3.3.2": {
+      "title": "Usage of the search feature",
+      "page": 22,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "performance_requirements"
+    },
+    "3.3.3": {
+      "title": "Usage of the result in the list view",
+      "page": 22,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "performance_requirements"
+    },
+    "3.3.4": {
+      "title": "Usage of the result in the map view",
+      "page": 22,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "performance_requirements"
+    },
+    "3.3.5": {
+      "title": "Usage of the information link",
+      "page": 22,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "performance_requirements"
+    },
+    "3.3.6": {
+      "title": "Response time",
+      "page": 22,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "performance_requirements"
+    },
+    "3.3.7": {
+      "title": "System dependability",
+      "page": 23,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "performance_requirements"
+    },
+    "3.4.1": {
+      "title": "Hard drive space",
+      "page": 23,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "design_constraints"
+    },
+    "3.4.2": {
+      "title": "Application memory usage",
+      "page": 23,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "design_constraints"
+    },
+    "3.5.1": {
+      "title": "Reliability",
+      "page": 23,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "quality_attributes"
+    },
+    "3.5.2": {
+      "title": "Availability",
+      "page": 24,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "quality_attributes"
+    },
+    "3.5.3": {
+      "title": "Security",
+      "page": 24,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "quality_attributes"
+    },
+    "3.5.4": {
+      "title": "Maintainability",
+      "page": 26,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "quality_attributes"
+    },
+    "3.5.5": {
+      "title": "Portability",
+      "page": 26,
+      "level": 3,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "quality_attributes"
+    },
+    "4.2": {
+      "title": "Release Plan",
+      "page": 27,
+      "level": 2,
+      "toc_confirmed": false,
+      "body_confirmed": true,
+      "section_semantic_type": "prioritization"
+    }
+  }
+}

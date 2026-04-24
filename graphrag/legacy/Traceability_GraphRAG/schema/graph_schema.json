@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "node_types": {
+    "REQ": {
+      "required_fields": [
+        "node_id",
+        "node_type",
+        "text",
+        "module",
+        "version",
+        "doc_id",
+        "doc_type",
+        "section_path",
+        "source_locator_json",
+        "extra_json",
+        "created_at"
+      ],
+      "description": "Canonical Requirement Unit derived from normalized requirements"
+    },
+    "CHUNK": {
+      "required_fields": [
+        "node_id",
+        "node_type",
+        "text",
+        "module",
+        "version",
+        "doc_id",
+        "doc_type",
+        "section_path",
+        "source_locator_json",
+        "extra_json",
+        "created_at"
+      ],
+      "description": "Atomic or contextual evidence chunk extracted from source documents"
+    }
+  },
+  "edge_types": {
+    "SUPPORTED_BY": {
+      "source": "REQ",
+      "target": "CHUNK",
+      "required_fields": [
+        "src_id",
+        "dst_id",
+        "rel_type",
+        "confidence",
+        "extra_json",
+        "created_at"
+      ],
+      "description": "Links a requirement to evidence that supports it"
+    },
+    "PARENT_OF": {
+      "source": "CHUNK",
+      "target": "CHUNK",
+      "required_fields": [
+        "src_id",
+        "dst_id",
+        "rel_type",
+        "confidence",
+        "extra_json",
+        "created_at"
+      ],
+      "description": "Defines hierarchical context between chunks when explicit parent context exists"
+    }
+  },
+  "constraints": {
+    "no_inferred_edges_persisted": true,
+    "parent_of_confidence_must_be_1": true,
+    "supported_by_confidence_min": 0.4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "timestamp_utc": "2026-02-27T12:49:47.298701+00:00",
+  "total_nodes": 39,
+  "nodes_by_type": {
+    "CHUNK": 23,
+    "REQ": 16
+  },
+  "total_edges": 66,
+  "edges_by_rel_type": {
+    "PARENT_OF": 16,
+    "SUPPORTED_BY": 50
+  },
+  "edges_created": 66,
+  "warnings": [],
+  "skipped_edges": []
+}

@@ -1,0 +1,37 @@
+{
+  "anchors": [
+    "Anchor(node_id='CH_be18e1279b96c3dc916b42ca1ae7685c1f5eb3555bc5e5f4812c1c2623e39752', node_type='CHUNK', score=0.3747491240501404, provenance='vector')",
+    "Anchor(node_id='CH_b31af5e61fa916d3259077e25f4d7484475ce9a57dc9080b25fc5caf7f3659b3', node_type='CHUNK', score=0.33172476291656494, provenance='vector')",
+    "Anchor(node_id='CH_fb9f5d97110e8dc3d5638eb76eb4c26d60adccb67b53f56f6ecba83e902b96c4', node_type='CHUNK', score=0.32773566246032715, provenance='vector')",
+    "Anchor(node_id='CH_be303baefba1606006f525c1a6c49d4d667841b1d75e74d76663799c0df3aa4f', node_type='CHUNK', score=0.32773566246032715, provenance='vector')",
+    "Anchor(node_id='CH_b9175ef61846a87eac23e51a426b1bc14c803598f85b7fda54b84acc645784ef', node_type='CHUNK', score=0.32773566246032715, provenance='vector')"
+  ],
+  "evidence_chunks": [
+    "EvidenceChunk(chunk_id='CH_e0621cec2f6b84da2dc4e8a4fe4ff8a234c32b06c60543d4002b9b802d7af8dc', chunk_type='child', text='Restaurant Owner log in', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.2.3', source_locator={'section': '3.2.2.3', 'page': 16, 'para': 0}, score=1.0, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='CH_9ad7a9e123100cfa263aed60a30c2496ec996553a7c2e5ae8ce5a7a86b385e22', chunk_type='child', text='System The security of creating account for restaurant owners of the system. 100% of the time.', doc_id='DOC-SRS_EXAMPLE', section_path='3.5.3', source_locator={'section': '3.5.3', 'page': 24, 'para': 13}, score=1.0, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='CH_d97b89c1208475c934342cde560dcccc051f93a044880a27cc14cebf03f3fc11', chunk_type='child', text='User Given that a user has registered, then the user should be able to log in to the mobile application.', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.1.4', source_locator={'section': '3.2.1.4', 'page': 10, 'para': 0}, score=1.0, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='CH_14fd298aa1255005dfdb80e5e850b32562c10ef3a76686fbfa5087136b78f82b', chunk_type='child', text='Restaurant Owner enters his/her email address in the \u201cRetrieve password\u201d form', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.2.2', source_locator={'section': '3.2.2.2', 'page': 15, 'para': 3}, score=1.0, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='CH_adcec84af76b68a7c857b102b3e72abc6b2b33949e58327770311ef13c5ee597', chunk_type='child', text='User Given that a user has registered, then the user should be able to retrieve his/her password by e- mail.', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.1.5', source_locator={'section': '3.2.1.5', 'page': 10, 'para': 6}, score=1.0, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='CH_40f42380455ea6638913cb810fcc981b4540958f9bd3c7d26af7101951dab500', chunk_type='child', text='User The user must provide user-name, password and e-mail address.', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.1.3', source_locator={'section': '3.2.1.3', 'page': 9, 'para': 18}, score=1.0, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='CH_554bf2ec5acd4a5753d95e6b4b20f74f9d83e15394d10ccd01946e9dfe5d9379', chunk_type='child', text='Administrator deletes an existing user', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.3.6', source_locator={'section': '3.2.3.6', 'page': 20, 'para': 2}, score=1.0, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='CH_bc1eaaa43c84be3bbf7d32a5f6ed5533e48c51346dfd002dac51931db7111c18', chunk_type='child', text='User The log-in information will be stored on the phone and in the future the user should be logged in automatically.', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.1.4', source_locator={'section': '3.2.1.4', 'page': 10, 'para': 0}, score=1.0, confidence=1.0, provenance='graph')"
+  ],
+  "parent_context": [
+    "EvidenceChunk(chunk_id='P_21a006ffd6313eee68b243b7d21fb8ffe0bd3fe4e55c65b605ded0005fa7f183', chunk_type='parent', text='Section 3.2.2.3', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.2.3', source_locator={'section': '3.2.2.3', 'page': 16, 'para': 0}, score=0.8, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='P_fdb451615ec3e6a9b9aad133ff9e767684f9a7d929a6209b351a257e458ef0a3', chunk_type='parent', text='Section 3.5.3', doc_id='DOC-SRS_EXAMPLE', section_path='3.5.3', source_locator={'section': '3.5.3', 'page': 24, 'para': 13}, score=0.8, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='P_226c150596fa1eda93326c56c363be61dd72ed6ee38e79894092380878b6a1dc', chunk_type='parent', text='Section 3.2.1.4', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.1.4', source_locator={'section': '3.2.1.4', 'page': 10, 'para': 0}, score=0.8, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='P_5d7b4f74cb6a559aa7abb7b86a2f40256c3f348a1a8d6d7e4df7468f3ea9eda6', chunk_type='parent', text='Section 3.2.2.2', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.2.2', source_locator={'section': '3.2.2.2', 'page': 15, 'para': 3}, score=0.8, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='P_6f55c687e54e08b4e202d6d9d8ed186c31ba66317669d1188c9815c820073199', chunk_type='parent', text='Section 3.2.1.5', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.1.5', source_locator={'section': '3.2.1.5', 'page': 10, 'para': 6}, score=0.8, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='P_d173ccfb18df05544cc535a0840bc40f02ec5bca88cf00dbc0ef6cb3970f8862', chunk_type='parent', text='Section 3.2.1.3', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.1.3', source_locator={'section': '3.2.1.3', 'page': 9, 'para': 18}, score=0.8, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='P_5492fa9508eb9f703f9c7be832133a23b17ccd8d89507ccbd03f6b27632820f1', chunk_type='parent', text='Section 3.2.3.6', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.3.6', source_locator={'section': '3.2.3.6', 'page': 20, 'para': 2}, score=0.8, confidence=1.0, provenance='graph')"
+  ],
+  "trace_paths": [
+    "TracePath(why='Graph traversal', path=[])",
+    "TracePath(why='Graph traversal', path=[])",
+    "TracePath(why='Graph traversal', path=[])",
+    "TracePath(why='Graph traversal', path=[])",
+    "TracePath(why='Graph traversal', path=[])"
+  ],
+  "related_nodes": [],
+  "warnings": []
+}

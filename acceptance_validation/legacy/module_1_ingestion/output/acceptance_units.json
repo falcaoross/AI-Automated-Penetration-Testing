@@ -1,0 +1,1452 @@
+{
+  "metadata": {
+    "total_units": 103,
+    "pages_processed": 8,
+    "source_file": "User Acceptance Story.pdf",
+    "extraction_timestamp": "2026-01-30T10:59:09.189501Z"
+  },
+  "acceptance_units": [
+    {
+      "uas_id": "UAS_001",
+      "text": "As an end user, I want to register for the application using a valid email address and password so that I can create a personal account and securely access the system’s task management features.",
+      "source_section": "USER",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 1,
+        "paragraph": 8,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_002",
+      "text": "Scenario: Successful user registration",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_001",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 1,
+        "paragraph": 12,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_003",
+      "text": "Given the user is on the application landing page",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_001",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 1,
+        "paragraph": 13,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_004",
+      "text": "When the user clicks on the \"Sign Up\" option",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_001",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 1,
+        "paragraph": 14,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_005",
+      "text": "And provides a valid email address and a password meeting minimum security requirements",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_001",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 1,
+        "paragraph": 15,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_006",
+      "text": "Then the system creates a new user account",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_001",
+      "is_header": false,
+      "actor_role": "system",
+      "traceability": {
+        "page": 1,
+        "paragraph": 16,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_007",
+      "text": "And POST /api/auth/signup returns HTTP 201",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_001",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 1,
+        "paragraph": 17,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_008",
+      "text": "And the user sees a confirmation message stating \"Account created\"",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_001",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 1,
+        "paragraph": 18,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_009",
+      "text": "And the user is redirected to the login page",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_001",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 1,
+        "paragraph": 19,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_010",
+      "text": "As a registered user, I want to log in using my email and password so that I can securely access my personal dashboard and manage my tasks.",
+      "source_section": "USER",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 1,
+        "paragraph": 22,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_011",
+      "text": "Scenario: Successful user login",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_002",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 1,
+        "paragraph": 25,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_012",
+      "text": "Given the user is on the login page",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_002",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 1,
+        "paragraph": 26,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_013",
+      "text": "When the user enters valid credentials",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_002",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 1,
+        "paragraph": 27,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_014",
+      "text": "Then POST /api/auth/login returns HTTP 200 with an authentication token",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_002",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 1,
+        "paragraph": 28,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_015",
+      "text": "And the user is redirected to the User Dashboard",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_002",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 2,
+        "paragraph": 1,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_016",
+      "text": "As a user, I want the dashboard to clearly indicate when I have no tasks so that I understand the current state of my account and am encouraged to create my first task.",
+      "source_section": "USER",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 2,
+        "paragraph": 4,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_017",
+      "text": "Scenario: Empty task state",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_003",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 2,
+        "paragraph": 7,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_018",
+      "text": "Given the user has no tasks associated with their account",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_003",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 2,
+        "paragraph": 8,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_019",
+      "text": "When the user logs in successfully",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_003",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 2,
+        "paragraph": 9,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_020",
+      "text": "Then the dashboard displays the message \"No tasks found. Create your first!\"",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_003",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 2,
+        "paragraph": 10,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_021",
+      "text": "As a user, I want to create a new task by providing a task title so that I can track and manage my activities effectively within the application.",
+      "source_section": "USER",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 2,
+        "paragraph": 13,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_022",
+      "text": "Scenario: Create new task",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_004",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 2,
+        "paragraph": 16,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_023",
+      "text": "Given the user is logged in and on the dashboard",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_004",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 2,
+        "paragraph": 17,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_024",
+      "text": "When the user submits a valid task title",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_004",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 2,
+        "paragraph": 18,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_025",
+      "text": "Then POST /api/tasks returns HTTP 201",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_004",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 2,
+        "paragraph": 19,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_026",
+      "text": "And the task is saved with the user's identifier",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_004",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 2,
+        "paragraph": 20,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_027",
+      "text": "And the task appears in the Active Tasks list",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_004",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 2,
+        "paragraph": 21,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_028",
+      "text": "As a user, I want to modify the title of an existing task so that I can correct mistakes or reflect updated requirements.",
+      "source_section": "USER",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 2,
+        "paragraph": 24,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_029",
+      "text": "Scenario: Edit task title",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_005",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 2,
+        "paragraph": 27,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_030",
+      "text": "Given the user owns a task titled \"Buy groceries\"",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_005",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 3,
+        "paragraph": 1,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_031",
+      "text": "When the user edits the task title to \"Buy organic groceries\"",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_005",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 3,
+        "paragraph": 2,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_032",
+      "text": "Then PUT /api/tasks/{taskId} returns HTTP 200",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_005",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 3,
+        "paragraph": 3,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_033",
+      "text": "And the updated title is reflected immediately in the UI",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_005",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 3,
+        "paragraph": 4,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_034",
+      "text": "As a user, I want to mark a task as completed so that I can distinguish finished work from pending tasks.",
+      "source_section": "USER",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 3,
+        "paragraph": 7,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_035",
+      "text": "Scenario: Complete task",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_006",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 3,
+        "paragraph": 10,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_036",
+      "text": "Given the user has an active task",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_006",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 3,
+        "paragraph": 11,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_037",
+      "text": "When the user marks the task as completed",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_006",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 3,
+        "paragraph": 12,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_038",
+      "text": "Then the task status is updated to \"completed\"",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_006",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 3,
+        "paragraph": 13,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_039",
+      "text": "And the task is moved to the Completed Tasks section",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_006",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 3,
+        "paragraph": 14,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_040",
+      "text": "As a user, I want to permanently delete a task so that I can remove tasks that are no longer relevant.",
+      "source_section": "USER",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 3,
+        "paragraph": 17,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_041",
+      "text": "Scenario: Delete task",
+      "source_section": "USER",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_007",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 3,
+        "paragraph": 20,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_042",
+      "text": "Given the user initiates deletion of a task",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_007",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 3,
+        "paragraph": 21,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_043",
+      "text": "When the user confirms the deletion",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_007",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 3,
+        "paragraph": 22,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_044",
+      "text": "Then DELETE /api/tasks/{taskId} returns HTTP 200",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_007",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 3,
+        "paragraph": 23,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_045",
+      "text": "And the task is removed from the dashboard",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_007",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 3,
+        "paragraph": 24,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_046",
+      "text": "And a confirmation message \"Task deleted\" is displayed",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_007",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 3,
+        "paragraph": 25,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_047",
+      "text": "As a user, I want the system to restrict access strictly to my own tasks so that my personal data remains private and secure.",
+      "source_section": "USER",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 3,
+        "paragraph": 28,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_048",
+      "text": "Scenario: Unauthorized task access attempt",
+      "source_section": "ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_008",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 4,
+        "paragraph": 2,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_049",
+      "text": "Given the user manually alters the task URL to reference another user's task",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_008",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 4,
+        "paragraph": 3,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_050",
+      "text": "Then the API returns HTTP 403 Forbidden",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_008",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 4,
+        "paragraph": 4,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_051",
+      "text": "And the UI displays an error message indicating insufficient permissions",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_008",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 4,
+        "paragraph": 5,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_052",
+      "text": "As an administrator, I want to log in to the system so that I can access administrative features within the scope of my assigned privileges.",
+      "source_section": "ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 4,
+        "paragraph": 10,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_053",
+      "text": "Scenario: Admin login",
+      "source_section": "ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_009",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 4,
+        "paragraph": 13,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_054",
+      "text": "When the admin logs in with valid credentials",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_009",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 4,
+        "paragraph": 15,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_055",
+      "text": "Then the Admin Dashboard loads successfully",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_009",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 4,
+        "paragraph": 16,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_056",
+      "text": "As an admin, I want full create, read, update, and delete access to my own tasks so that I can manage my responsibilities independently.",
+      "source_section": "ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 4,
+        "paragraph": 19,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_057",
+      "text": "Scenario: Admin manages own tasks",
+      "source_section": "ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_010",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 4,
+        "paragraph": 22,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_058",
+      "text": "Given the admin is logged in",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_010",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 4,
+        "paragraph": 23,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_059",
+      "text": "Then the admin can create, edit, complete, and delete tasks owned by the admin account",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_010",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 4,
+        "paragraph": 24,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_060",
+      "text": "As an admin, I want to view a list of users in a read-only format so that I can see system users without being able to modify their details.",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 5,
+        "paragraph": 2,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_061",
+      "text": "Scenario: Read-only users list",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_011",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 5,
+        "paragraph": 5,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_062",
+      "text": "Given the admin opens the Users tab",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_011",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 5,
+        "paragraph": 6,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_063",
+      "text": "And edit and delete actions are disabled",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_011",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 5,
+        "paragraph": 8,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_064",
+      "text": "And a tooltip indicates \"View only – Contact Super Admin for changes\"",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_011",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 5,
+        "paragraph": 9,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_065",
+      "text": "As an admin, I should be prevented from changing user roles so that role-based security and hierarchy are maintained.",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 5,
+        "paragraph": 12,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_066",
+      "text": "Scenario: Block role modification",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_012",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 5,
+        "paragraph": 15,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_067",
+      "text": "When the admin attempts to update a user's role",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_012",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 5,
+        "paragraph": 16,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_068",
+      "text": "Then PUT /api/users/{userId}/role returns HTTP 403",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_012",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 5,
+        "paragraph": 17,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_069",
+      "text": "As an admin, I should not be allowed to access or manipulate tasks belonging to other users so that ownership boundaries are enforced.",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 5,
+        "paragraph": 21,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_070",
+      "text": "Scenario: Admin accesses another user's tasks",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_013",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 5,
+        "paragraph": 24,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_071",
+      "text": "When the admin queries tasks for a different user",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_013",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 5,
+        "paragraph": 25,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_072",
+      "text": "Then the API returns HTTP 403 Forbidden",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_013",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 5,
+        "paragraph": 26,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_073",
+      "text": "And the admin’s task list remains unchanged",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_013",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 5,
+        "paragraph": 27,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_074",
+      "text": "As a super admin, I want to log in to the system so that I can perform unrestricted administrative",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 6,
+        "paragraph": 3,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_075",
+      "text": "Scenario: Super admin login",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_014",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 6,
+        "paragraph": 6,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_076",
+      "text": "Given a super admin account exists",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_014",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 6,
+        "paragraph": 7,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_077",
+      "text": "When the super admin logs in",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_014",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 6,
+        "paragraph": 8,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_078",
+      "text": "Then the Global Dashboard is displayed",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_014",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 6,
+        "paragraph": 9,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_079",
+      "text": "As a super admin, I want to view global statistics across all users and tasks so that I have complete visibility into system usage.",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 6,
+        "paragraph": 12,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_080",
+      "text": "Scenario: View global stats",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_015",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 6,
+        "paragraph": 15,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_081",
+      "text": "As a super admin, I want to view tasks belonging to any user so that I can monitor and manage activity across the entire system.",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 6,
+        "paragraph": 23,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_082",
+      "text": "Scenario: View all tasks",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_016",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 6,
+        "paragraph": 26,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_083",
+      "text": "When the super admin calls GET /api/tasks",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_016",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 6,
+        "paragraph": 27,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_084",
+      "text": "Then tasks from all users are returned",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_016",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 6,
+        "paragraph": 28,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_085",
+      "text": "As a super admin, I want to filter tasks by individual users so that I can focus on specific accounts when required.",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 7,
+        "paragraph": 3,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_086",
+      "text": "Scenario: Filter tasks by user",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_017",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 7,
+        "paragraph": 6,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_087",
+      "text": "When the super admin selects a specific user",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_017",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 7,
+        "paragraph": 7,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_088",
+      "text": "Then GET /api/tasks?user_id={id} returns only that user’s tasks",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_017",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 7,
+        "paragraph": 8,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_089",
+      "text": "As a super admin, I want to update any user’s task so that I can correct issues or enforce system-level changes.",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 7,
+        "paragraph": 11,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_090",
+      "text": "Scenario: Edit another user's task",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_018",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 7,
+        "paragraph": 14,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_091",
+      "text": "When the super admin updates a task",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_018",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 7,
+        "paragraph": 15,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_092",
+      "text": "Then the task is updated successfully",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_018",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 7,
+        "paragraph": 16,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_093",
+      "text": "And task history records \"Updated by Super Admin\"",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_018",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 7,
+        "paragraph": 17,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_094",
+      "text": "As a super admin, I want to promote or demote users so that administrative responsibilities are correctly assigned.",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 7,
+        "paragraph": 20,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_095",
+      "text": "Scenario: Update user role",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_019",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 7,
+        "paragraph": 23,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_096",
+      "text": "When the super admin updates a user role",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_019",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 7,
+        "paragraph": 24,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_097",
+      "text": "Then PUT /api/users/{userId}/role returns HTTP 200",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_019",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 7,
+        "paragraph": 25,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_098",
+      "text": "And the new role is applied immediately",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_019",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 7,
+        "paragraph": 26,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_099",
+      "text": "As a super admin, I want to archive users so that inactive or removed accounts are properly deactivated along with their tasks.",
+      "source_section": "SUPER ADMIN",
+      "source_type": "user_story",
+      "scenario_id": null,
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 8,
+        "paragraph": 3,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_100",
+      "text": "Scenario: Archive user",
+      "source_section": "SUPER ADMIN",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_020",
+      "is_header": true,
+      "actor_role": null,
+      "traceability": {
+        "page": 8,
+        "paragraph": 6,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_101",
+      "text": "When the super admin archives a user",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_020",
+      "is_header": false,
+      "actor_role": "admin",
+      "traceability": {
+        "page": 8,
+        "paragraph": 7,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_102",
+      "text": "Then the user status is set to \"deleted\"",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_020",
+      "is_header": false,
+      "actor_role": "user",
+      "traceability": {
+        "page": 8,
+        "paragraph": 8,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    },
+    {
+      "uas_id": "UAS_103",
+      "text": "And all associated tasks are archived",
+      "source_section": "Acceptance Story",
+      "source_type": "acceptance_story",
+      "scenario_id": "SCN_020",
+      "is_header": false,
+      "actor_role": null,
+      "traceability": {
+        "page": 8,
+        "paragraph": 9,
+        "source_file": "User Acceptance Story.pdf"
+      }
+    }
+  ]
+}

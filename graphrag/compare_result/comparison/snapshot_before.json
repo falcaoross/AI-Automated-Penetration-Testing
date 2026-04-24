@@ -1,0 +1,385 @@
+{
+  "label": "before",
+  "timestamp_utc": "2026-04-20T03:26:13.305867+00:00",
+  "db_path": "graphrag/output/graphrag.duckdb",
+  "req_id": "CRU-FR10-01",
+  "graph_stats": {
+    "nodes": {
+      "CHUNK": 155,
+      "CRU": 108,
+      "TEST": 876
+    },
+    "edges": {
+      "SUPPORTED_BY": 108,
+      "PARENT_OF": 108,
+      "EVIDENCE_FOR": 876,
+      "TESTS": 876
+    },
+    "embeddings": 263
+  },
+  "node_samples": {
+    "CHUNK": [
+      {
+        "node_id": "P_410970fd693c0ebf415ce0df1e923956193da625c628314d8fe3254df560fb53",
+        "node_type": "CHUNK",
+        "title": "Section 3.2.1.1",
+        "text": "Section 3.2.1.1",
+        "module": "UNKNOWN",
+        "version": "2.1"
+      },
+      {
+        "node_id": "CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577",
+        "node_type": "CHUNK",
+        "title": "Download mobile application",
+        "text": "User A user should be able to download the mobile application through either an application store or similar service on the mobile phone.",
+        "module": "UNKNOWN",
+        "version": "2.1"
+      },
+      {
+        "node_id": "CH_85a40bd3e4dcb9b7db3cd6f72bf8eb1af3196270c36c00055fe3c0c69f44e771",
+        "node_type": "CHUNK",
+        "title": "Download mobile application",
+        "text": "User The application should be free to download.",
+        "module": "UNKNOWN",
+        "version": "2.1"
+      }
+    ],
+    "CRU": [
+      {
+        "node_id": "CRU-FR1-01",
+        "node_type": "CRU",
+        "title": "Download mobile application",
+        "text": "User A user should be able to download the mobile application through either an application store or similar service on the mobile phone.",
+        "module": "UNKNOWN",
+        "version": "1.0"
+      },
+      {
+        "node_id": "CRU-FR1-02",
+        "node_type": "CRU",
+        "title": "Download mobile application",
+        "text": "User The application should be free to download.",
+        "module": "UNKNOWN",
+        "version": "1.0"
+      },
+      {
+        "node_id": "CRU-FR2-01",
+        "node_type": "CRU",
+        "title": "Download and notify users of new releases",
+        "text": "User When a new/updated version or release of the software is released, the user should check for these manually.",
+        "module": "UNKNOWN",
+        "version": "1.0"
+      }
+    ],
+    "TEST": [
+      {
+        "node_id": "TC_CRU-FR10-01_001",
+        "node_type": "TEST",
+        "title": "Switch to map view for search results",
+        "text": "Validate that a user can switch between map and list views for all search options",
+        "module": "SRS",
+        "version": "20260403"
+      },
+      {
+        "node_id": "TC_CRU-FR10-01_002",
+        "node_type": "TEST",
+        "title": "Invalid search filter for map view",
+        "text": "Validate that an invalid search filter does not affect the map view",
+        "module": "SRS",
+        "version": "20260403"
+      },
+      {
+        "node_id": "TC_CRU-FR10-01_003",
+        "node_type": "TEST",
+        "title": "Maximum number of search results for map view",
+        "text": "Validate that the maximum number of search results is displayed correctly in the map view",
+        "module": "SRS",
+        "version": "20260403"
+      }
+    ]
+  },
+  "edge_samples": {
+    "SUPPORTED_BY": [
+      {
+        "src_id": "CRU-FR1-01",
+        "rel_type": "SUPPORTED_BY",
+        "dst_id": "CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577",
+        "confidence": 0.95,
+        "extra_json": "{\"kind\": \"child_support\", \"confidence_reason\": \"explicit_cru_id_in_chunk\"}"
+      },
+      {
+        "src_id": "CRU-FR1-02",
+        "rel_type": "SUPPORTED_BY",
+        "dst_id": "CH_85a40bd3e4dcb9b7db3cd6f72bf8eb1af3196270c36c00055fe3c0c69f44e771",
+        "confidence": 0.95,
+        "extra_json": "{\"kind\": \"child_support\", \"confidence_reason\": \"explicit_cru_id_in_chunk\"}"
+      },
+      {
+        "src_id": "CRU-FR10-01",
+        "rel_type": "SUPPORTED_BY",
+        "dst_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+        "confidence": 0.95,
+        "extra_json": "{\"kind\": \"child_support\", \"confidence_reason\": \"explicit_cru_id_in_chunk\"}"
+      }
+    ],
+    "PARENT_OF": [
+      {
+        "src_id": "P_410970fd693c0ebf415ce0df1e923956193da625c628314d8fe3254df560fb53",
+        "rel_type": "PARENT_OF",
+        "dst_id": "CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577",
+        "confidence": 1.0,
+        "extra_json": "{\"kind\": \"hierarchy\", \"confidence_reason\": \"document_structure\"}"
+      },
+      {
+        "src_id": "P_410970fd693c0ebf415ce0df1e923956193da625c628314d8fe3254df560fb53",
+        "rel_type": "PARENT_OF",
+        "dst_id": "CH_85a40bd3e4dcb9b7db3cd6f72bf8eb1af3196270c36c00055fe3c0c69f44e771",
+        "confidence": 1.0,
+        "extra_json": "{\"kind\": \"hierarchy\", \"confidence_reason\": \"document_structure\"}"
+      },
+      {
+        "src_id": "P_34580fa75540973b0d0439fba6bf1f8b001945454d115ff5ec824ad9b14b9f9b",
+        "rel_type": "PARENT_OF",
+        "dst_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+        "confidence": 1.0,
+        "extra_json": "{\"kind\": \"hierarchy\", \"confidence_reason\": \"document_structure\"}"
+      }
+    ],
+    "EVIDENCE_FOR": [
+      {
+        "src_id": "TC_CRU-FR10-01_001",
+        "rel_type": "EVIDENCE_FOR",
+        "dst_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+        "confidence": 0.8,
+        "extra_json": "{\"kind\": \"derived_evidence\", \"confidence_reason\": \"derived_from_requirement_supported_by\"}"
+      },
+      {
+        "src_id": "TC_CRU-FR10-01_002",
+        "rel_type": "EVIDENCE_FOR",
+        "dst_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+        "confidence": 0.8,
+        "extra_json": "{\"kind\": \"derived_evidence\", \"confidence_reason\": \"derived_from_requirement_supported_by\"}"
+      },
+      {
+        "src_id": "TC_CRU-FR10-01_003",
+        "rel_type": "EVIDENCE_FOR",
+        "dst_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+        "confidence": 0.8,
+        "extra_json": "{\"kind\": \"derived_evidence\", \"confidence_reason\": \"derived_from_requirement_supported_by\"}"
+      }
+    ],
+    "TESTS": [
+      {
+        "src_id": "TC_CRU-FR10-01_001",
+        "rel_type": "TESTS",
+        "dst_id": "CRU-FR10-01",
+        "confidence": 1.0,
+        "extra_json": "{\"priority\": \"High\", \"test_type\": \"positive\", \"generation_phase\": \"fast_batch\", \"confidence_reason\": \"explicit_test_to_req_id_mapping\"}"
+      },
+      {
+        "src_id": "TC_CRU-FR10-01_002",
+        "rel_type": "TESTS",
+        "dst_id": "CRU-FR10-01",
+        "confidence": 1.0,
+        "extra_json": "{\"priority\": \"High\", \"test_type\": \"negative\", \"generation_phase\": \"fast_batch\", \"confidence_reason\": \"explicit_test_to_req_id_mapping\"}"
+      },
+      {
+        "src_id": "TC_CRU-FR10-01_003",
+        "rel_type": "TESTS",
+        "dst_id": "CRU-FR10-01",
+        "confidence": 1.0,
+        "extra_json": "{\"priority\": \"High\", \"test_type\": \"edge\", \"generation_phase\": \"fast_batch\", \"confidence_reason\": \"explicit_test_to_req_id_mapping\"}"
+      }
+    ]
+  },
+  "integrity": {
+    "total_issues": 0,
+    "errors": 0,
+    "warnings": 0,
+    "passed": true
+  },
+  "query_result": {
+    "req_id": "CRU-FR10-01",
+    "anchor_count": 1,
+    "evidence_count": 1,
+    "parent_count": 1,
+    "trace_path_count": 1,
+    "related_node_count": 20,
+    "warning_count": 0,
+    "open_question_count": 0,
+    "avg_confidence": 0.95,
+    "avg_score": 0.855,
+    "warnings_text": []
+  },
+  "context_pack": {
+    "anchors": [
+      {
+        "node_id": "CRU-FR10-01",
+        "node_type": "CRU",
+        "score": 1.0,
+        "provenance": "graph"
+      }
+    ],
+    "evidence_chunks": [
+      {
+        "chunk_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+        "chunk_type": "child",
+        "text": "User A user should be able to switch between a map view and a list view for all search options.",
+        "doc_id": "DOC-SRS_EXAMPLE",
+        "section_path": "3.2.1.10",
+        "source_locator": {
+          "section": "3.2.1.10",
+          "page": 11,
+          "para": 13
+        },
+        "doc_type": "SRS",
+        "module": "UNKNOWN",
+        "version": "2.1",
+        "score": 0.855,
+        "confidence": 0.95,
+        "provenance": "graph",
+        "similarity_score": null,
+        "needs_confirmation": false
+      }
+    ],
+    "parent_context": [
+      {
+        "chunk_id": "P_34580fa75540973b0d0439fba6bf1f8b001945454d115ff5ec824ad9b14b9f9b",
+        "chunk_type": "parent",
+        "text": "Section 3.2.1.10",
+        "doc_id": "DOC-SRS_EXAMPLE",
+        "section_path": "3.2.1.10",
+        "source_locator": {
+          "section": "3.2.1.10",
+          "page": 11,
+          "para": 13
+        },
+        "doc_type": "SRS",
+        "module": "UNKNOWN",
+        "version": "2.1",
+        "score": 1.0,
+        "confidence": 1.0,
+        "provenance": "graph",
+        "similarity_score": null,
+        "needs_confirmation": false
+      }
+    ],
+    "trace_paths": [
+      {
+        "why": "evidence via task=TaskType.TEST_GENERATION",
+        "path": [
+          {
+            "src": "CRU-FR10-01",
+            "rel": "SUPPORTED_BY",
+            "dst": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+            "conf": 0.95
+          }
+        ],
+        "path_confidence": 0.95
+      }
+    ],
+    "related_nodes": [
+      {
+        "node_type": "CHUNK",
+        "node_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+        "relation": "SUPPORTED_BY"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_001",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_002",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_003",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_004",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_405",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_406",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_407",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_408",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_409",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_410",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_411",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_412",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_413",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_414",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_415",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_416",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_417",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_418",
+        "relation": "TESTS"
+      },
+      {
+        "node_type": "TEST",
+        "node_id": "TC_CRU-FR10-01_419",
+        "relation": "TESTS"
+      }
+    ],
+    "warnings": [],
+    "open_questions": []
+  }
+}

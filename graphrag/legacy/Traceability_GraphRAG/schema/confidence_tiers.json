@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "confidence_tiers": {
+    "deterministic_pipeline_lineage": {
+      "confidence": 0.95,
+      "description": "Edge created directly from normalized CRU to chunk lineage during offline graph construction"
+    },
+    "explicit_document_structure": {
+      "confidence": 1.0,
+      "description": "Edge derived from explicit hierarchical structure in the source document"
+    },
+    "weak_heuristic_alignment": {
+      "confidence": 0.4,
+      "description": "Minimum allowed confidence for persisted edges; below this threshold edges must not be stored"
+    }
+  },
+  "rules": {
+    "persisted_edge_min_confidence": 0.4,
+    "parent_of_requires_exact_confidence": 1.0,
+    "confidence_reason_required": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "anchors": [
+    "Anchor(node_id='CRU-FR1-01', node_type='CRU', score=1.0, provenance='graph')"
+  ],
+  "evidence_chunks": [
+    "EvidenceChunk(chunk_id='CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577', chunk_type='child', text='User A user should be able to download the mobile application through either an application store or similar service on the mobile phone.', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.1.1', source_locator={'section': '3.2.1.1', 'page': 9, 'para': 6}, score=1.0, confidence=1.0, provenance='graph')",
+    "EvidenceChunk(chunk_id='P_410970fd693c0ebf415ce0df1e923956193da625c628314d8fe3254df560fb53', chunk_type='parent', text='Section 3.2.1.1', doc_id='DOC-SRS_EXAMPLE', section_path='3.2.1.1', source_locator={'section': '3.2.1.1', 'page': 9, 'para': 6}, score=1.0, confidence=1.0, provenance='graph')"
+  ],
+  "parent_context": [],
+  "trace_paths": [
+    "TracePath(why='Graph traversal', path={'target': 'CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577', 'path': [{'src': 'CRU-FR1-01', 'rel': 'SUPPORTED_BY', 'dst': 'CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577', 'conf': 1.0}]})",
+    "TracePath(why='Graph traversal', path={'target': 'P_410970fd693c0ebf415ce0df1e923956193da625c628314d8fe3254df560fb53', 'path': [{'src': 'CRU-FR1-01', 'rel': 'SUPPORTED_BY', 'dst': 'P_410970fd693c0ebf415ce0df1e923956193da625c628314d8fe3254df560fb53', 'conf': 1.0}]})"
+  ],
+  "related_nodes": [
+    "RelatedNode(node_type='CHUNK', node_id='CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577', relation='SUPPORTED_BY')",
+    "RelatedNode(node_type='CHUNK', node_id='P_410970fd693c0ebf415ce0df1e923956193da625c628314d8fe3254df560fb53', relation='SUPPORTED_BY')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_005', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_006', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_007', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_008', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_366', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_367', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_368', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_369', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_370', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_371', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_372', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_373', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_374', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_375', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_376', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_377', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_378', relation='TESTS')",
+    "RelatedNode(node_type='TEST', node_id='TC_CRU-FR1-01_379', relation='TESTS')"
+  ],
+  "warnings": [
+    {
+      "type": "LOW_EVIDENCE_COUNT",
+      "message": "Only 2 chunks found. Expected more."
+    }
+  ]
+}

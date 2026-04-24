@@ -1,0 +1,431 @@
+{
+  "metadata": {
+    "total_scenarios": 20,
+    "overall_coverage_score": 0.5162,
+    "risk_distribution": {
+      "LOW_RISK": 0,
+      "MEDIUM_RISK": 20,
+      "HIGH_RISK": 0
+    },
+    "total_requirements": 16,
+    "validated_requirements": 2,
+    "weakly_validated_requirements": 2,
+    "unused_requirements": 12,
+    "unused_percentage": 75.0
+  },
+  "scenario_analysis": [
+    {
+      "scenario_id": "SCN_001",
+      "coverage_score": 0.625,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 8,
+      "matches": 2,
+      "partial_matches": 6,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_002",
+      "coverage_score": 0.7,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 5,
+      "matches": 2,
+      "partial_matches": 3,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_003",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 4,
+      "matches": 0,
+      "partial_matches": 4,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_004",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 6,
+      "matches": 0,
+      "partial_matches": 6,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_005",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 5,
+      "matches": 0,
+      "partial_matches": 5,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_006",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 5,
+      "matches": 0,
+      "partial_matches": 5,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_007",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 6,
+      "matches": 0,
+      "partial_matches": 6,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_008",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 4,
+      "matches": 0,
+      "partial_matches": 4,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_009",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 3,
+      "matches": 0,
+      "partial_matches": 3,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_010",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 3,
+      "matches": 0,
+      "partial_matches": 3,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_011",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 4,
+      "matches": 0,
+      "partial_matches": 4,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_012",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 3,
+      "matches": 0,
+      "partial_matches": 3,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_013",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 4,
+      "matches": 0,
+      "partial_matches": 4,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_014",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 4,
+      "matches": 0,
+      "partial_matches": 4,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_015",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 1,
+      "matches": 0,
+      "partial_matches": 1,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_016",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 3,
+      "matches": 0,
+      "partial_matches": 3,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_017",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 3,
+      "matches": 0,
+      "partial_matches": 3,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_018",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 4,
+      "matches": 0,
+      "partial_matches": 4,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_019",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 4,
+      "matches": 0,
+      "partial_matches": 4,
+      "missing": 0,
+      "conflicts": 0
+    },
+    {
+      "scenario_id": "SCN_020",
+      "coverage_score": 0.5,
+      "risk_level": "MEDIUM_RISK",
+      "total_steps": 4,
+      "matches": 0,
+      "partial_matches": 4,
+      "missing": 0,
+      "conflicts": 0
+    }
+  ],
+  "requirement_analysis": [
+    {
+      "cru_id": "CRU_FR1_01",
+      "usage_count": 2,
+      "match_count": 2,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "VALIDATED"
+    },
+    {
+      "cru_id": "CRU_FR2_01",
+      "usage_count": 2,
+      "match_count": 2,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "VALIDATED"
+    },
+    {
+      "cru_id": "CRU_FR4_01",
+      "usage_count": 42,
+      "match_count": 0,
+      "partial_count": 42,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "WEAKLY_VALIDATED"
+    },
+    {
+      "cru_id": "CRU_FR4_02",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_FR5_01",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR1_01",
+      "usage_count": 37,
+      "match_count": 0,
+      "partial_count": 37,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "WEAKLY_VALIDATED"
+    },
+    {
+      "cru_id": "CRU_QR1_02",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR1_03",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR1_04",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR1_05",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR1_06",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR1_07",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR1_08",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR1_09",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR4_01",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    },
+    {
+      "cru_id": "CRU_QR5_01",
+      "usage_count": 0,
+      "match_count": 0,
+      "partial_count": 0,
+      "missing_count": 0,
+      "conflict_count": 0,
+      "status": "UNUSED_REQUIREMENT"
+    }
+  ],
+  "gaps": {
+    "high_risk_scenarios": [],
+    "unused_requirements": [
+      {
+        "cru_id": "CRU_FR4_02",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_FR5_01",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR4_01",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR5_01",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR1_02",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR1_03",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR1_04",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR1_05",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR1_06",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR1_07",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR1_08",
+        "status": "UNUSED_REQUIREMENT"
+      },
+      {
+        "cru_id": "CRU_QR1_09",
+        "status": "UNUSED_REQUIREMENT"
+      }
+    ],
+    "weakly_validated_requirements": [
+      {
+        "cru_id": "CRU_FR4_01",
+        "usage_count": 42,
+        "partial_count": 42,
+        "status": "WEAKLY_VALIDATED"
+      },
+      {
+        "cru_id": "CRU_QR1_01",
+        "usage_count": 37,
+        "partial_count": 37,
+        "status": "WEAKLY_VALIDATED"
+      }
+    ]
+  }
+}

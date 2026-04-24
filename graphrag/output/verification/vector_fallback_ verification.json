@@ -1,0 +1,328 @@
+{
+  "anchors": [
+    {
+      "node_id": "CRU-FR1-01",
+      "node_type": "CRU",
+      "score": 1.0,
+      "provenance": "graph"
+    }
+  ],
+  "evidence_chunks": [
+    {
+      "chunk_id": "CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577",
+      "chunk_type": "child",
+      "text": "User A user should be able to download the mobile application through either an application store or similar service on the mobile phone.",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.1",
+      "source_locator": {
+        "section": "3.2.1.1",
+        "page": 9,
+        "para": 6
+      },
+      "module": "UNKNOWN",
+      "version": "2.1",
+      "score": 0.855,
+      "confidence": 0.95,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    },
+    {
+      "chunk_id": "CH_e31bd39f866f43e3671937a2a5c39a84f97a2bd780202a9c04d2f12227c96e9d",
+      "chunk_type": "child",
+      "text": "User The user can choose to provide a regularly used phone number.",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.3",
+      "source_locator": {
+        "section": "3.2.1.3",
+        "page": 9,
+        "para": 18
+      },
+      "module": "UNKNOWN",
+      "version": "2.1",
+      "score": 0.22461244463920593,
+      "confidence": 0.22461244463920593,
+      "provenance": "vector",
+      "similarity_score": null,
+      "needs_confirmation": true
+    },
+    {
+      "chunk_id": "CH_a1b3b69e4a4ba0175b329dad03b720d871605d666f9e40f0a7f5e39a3637368d",
+      "chunk_type": "child",
+      "text": "Restaurant Owner registers on the web-portal by providing user-name And password And address And e-mail address And phone number And mobile number",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.2.1",
+      "source_locator": {
+        "section": "3.2.2.1",
+        "page": 14,
+        "para": 18
+      },
+      "module": "UNKNOWN",
+      "version": "2.1",
+      "score": 0.18876251578330994,
+      "confidence": 0.18876251578330994,
+      "provenance": "vector",
+      "similarity_score": null,
+      "needs_confirmation": true
+    },
+    {
+      "chunk_id": "CH_40f42380455ea6638913cb810fcc981b4540958f9bd3c7d26af7101951dab500",
+      "chunk_type": "child",
+      "text": "User The user must provide user-name, password and e-mail address.",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.3",
+      "source_locator": {
+        "section": "3.2.1.3",
+        "page": 9,
+        "para": 18
+      },
+      "module": "UNKNOWN",
+      "version": "2.1",
+      "score": 0.18764258921146393,
+      "confidence": 0.18764258921146393,
+      "provenance": "vector",
+      "similarity_score": null,
+      "needs_confirmation": true
+    },
+    {
+      "chunk_id": "CH_4fadff21b0139aa5c44b5f6c76d5696e505d6d2969cd6761d0aa6605e365c841",
+      "chunk_type": "child",
+      "text": "System inform user about strange input",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.3.7",
+      "source_locator": {
+        "section": "3.3.7",
+        "page": 23,
+        "para": 0
+      },
+      "module": "UNKNOWN",
+      "version": "2.1",
+      "score": 0.18710587918758392,
+      "confidence": 0.18710587918758392,
+      "provenance": "vector",
+      "similarity_score": null,
+      "needs_confirmation": true
+    },
+    {
+      "chunk_id": "CH_e6d86063d294ad016743e413e7e562fb2acaf0318eeeb2927937d24c85927673",
+      "chunk_type": "child",
+      "text": "User On each pin there should be an information link.",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.7",
+      "source_locator": {
+        "section": "3.2.1.7",
+        "page": 10,
+        "para": 18
+      },
+      "module": "UNKNOWN",
+      "version": "2.1",
+      "score": 0.1821879744529724,
+      "confidence": 0.1821879744529724,
+      "provenance": "vector",
+      "similarity_score": null,
+      "needs_confirmation": true
+    },
+    {
+      "chunk_id": "CH_732ee9ba565bc7375c2980b917cdb9cd88b34a13d51e381a10bc928ded36f559",
+      "chunk_type": "child",
+      "text": "User On the profile page a user can edit his/her information, which includes the password, e-mail address and phone number.",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.21",
+      "source_locator": {
+        "section": "3.2.1.21",
+        "page": 14,
+        "para": 11
+      },
+      "module": "UNKNOWN",
+      "version": "2.1",
+      "score": 0.17876367270946503,
+      "confidence": 0.17876367270946503,
+      "provenance": "vector",
+      "similarity_score": null,
+      "needs_confirmation": true
+    },
+    {
+      "chunk_id": "CH_a081e971fc84015c4b3ba4cbf40f0382276743d1ce5587332c64a6769b546fe3",
+      "chunk_type": "child",
+      "text": "Administrator selects French",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.3.8",
+      "source_locator": {
+        "section": "3.2.3.8",
+        "page": 21,
+        "para": 1
+      },
+      "module": "UNKNOWN",
+      "version": "2.1",
+      "score": 0.17805731296539307,
+      "confidence": 0.17805731296539307,
+      "provenance": "vector",
+      "similarity_score": null,
+      "needs_confirmation": true
+    }
+  ],
+  "parent_context": [
+    {
+      "chunk_id": "P_410970fd693c0ebf415ce0df1e923956193da625c628314d8fe3254df560fb53",
+      "chunk_type": "parent",
+      "text": "Section 3.2.1.1",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.1",
+      "source_locator": {
+        "section": "3.2.1.1",
+        "page": 9,
+        "para": 6
+      },
+      "module": null,
+      "version": null,
+      "score": 0.8,
+      "confidence": 1.0,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    },
+    {
+      "chunk_id": "P_d173ccfb18df05544cc535a0840bc40f02ec5bca88cf00dbc0ef6cb3970f8862",
+      "chunk_type": "parent",
+      "text": "Section 3.2.1.3",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.3",
+      "source_locator": {
+        "section": "3.2.1.3",
+        "page": 9,
+        "para": 18
+      },
+      "module": null,
+      "version": null,
+      "score": 0.8,
+      "confidence": 1.0,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    },
+    {
+      "chunk_id": "P_e4080afafc09cf261c29e85840059aabcdbb9224f39f017f7cbb8c480fe78c84",
+      "chunk_type": "parent",
+      "text": "Section 3.2.2.1",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.2.1",
+      "source_locator": {
+        "section": "3.2.2.1",
+        "page": 14,
+        "para": 18
+      },
+      "module": null,
+      "version": null,
+      "score": 0.8,
+      "confidence": 1.0,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    },
+    {
+      "chunk_id": "P_f1b6dcbdd72a615fafe51ac696da54208efbf1027ecb2780b876f5422544e2bb",
+      "chunk_type": "parent",
+      "text": "Section 3.3.7",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.3.7",
+      "source_locator": {
+        "section": "3.3.7",
+        "page": 23,
+        "para": 0
+      },
+      "module": null,
+      "version": null,
+      "score": 0.8,
+      "confidence": 1.0,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    },
+    {
+      "chunk_id": "P_baf1b7f7014220e009a31ca2805c573815b8450477a8230461470f1193be30ef",
+      "chunk_type": "parent",
+      "text": "Section 3.2.1.7",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.7",
+      "source_locator": {
+        "section": "3.2.1.7",
+        "page": 10,
+        "para": 18
+      },
+      "module": null,
+      "version": null,
+      "score": 0.8,
+      "confidence": 1.0,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    },
+    {
+      "chunk_id": "P_68e06ffc48e66b5fe7b3040f369925f8db8714bc658a472897204cc96d0e8014",
+      "chunk_type": "parent",
+      "text": "Section 3.2.1.21",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.21",
+      "source_locator": {
+        "section": "3.2.1.21",
+        "page": 14,
+        "para": 11
+      },
+      "module": null,
+      "version": null,
+      "score": 0.8,
+      "confidence": 1.0,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    },
+    {
+      "chunk_id": "P_f27c1c564e9cb6722dc6a04002f4b221a515461b4eb40607184c45154512d887",
+      "chunk_type": "parent",
+      "text": "Section 3.2.3.8",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.3.8",
+      "source_locator": {
+        "section": "3.2.3.8",
+        "page": 21,
+        "para": 1
+      },
+      "module": null,
+      "version": null,
+      "score": 0.8,
+      "confidence": 1.0,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    }
+  ],
+  "trace_paths": [
+    {
+      "why": "evidence via task=TaskType.TEST_GENERATION",
+      "path": [
+        {
+          "src": "CRU-FR1-01",
+          "rel": "SUPPORTED_BY",
+          "dst": "CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577",
+          "conf": 0.95
+        }
+      ],
+      "path_confidence": 0.95
+    }
+  ],
+  "related_nodes": [
+    {
+      "node_type": "CHUNK",
+      "node_id": "CH_b792140a4b2c3ef2fe7265c4935b6254bb5a918b40b18713a2af3bc206a29577",
+      "relation": "SUPPORTED_BY"
+    }
+  ],
+  "warnings": [
+    {
+      "type": "MISSING_EVIDENCE",
+      "message": "No evidence chunks found; downstream generation must produce open questions rather than guessed expected results.",
+      "chunk_id": null
+    }
+  ],
+  "open_questions": []
+}

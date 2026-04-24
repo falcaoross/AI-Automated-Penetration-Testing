@@ -1,0 +1,32 @@
+================================================================================
+OPTIMIZED SRS-AWARE HYBRID TEST GENERATION SUMMARY
+================================================================================
+
+Generated: 2026-04-24 14:28:32.394114
+Total Tests: 0
+
+IMPROVEMENTS APPLIED:
+ Deduplication (fixed 22% overlap)
+ SRS-specific prompts for FR6, FR8, FR24, etc.
+  Enhanced validation blocking placeholders
+  Priority targeting for critical SRS gaps
+
+PHASE 1 - FAST BATCH:
+  Tests: 0
+  Types: injection, broken_auth, sensitive_data_exposure, broken_access_control
+
+PHASE 2 - COMPREHENSIVE:
+  Tests: 0
+  Types: security_misconfiguration, xss, insecure_deserialization, vulnerable_components, logging_monitoring_failures, ssrf
+
+BY TYPE:
+  injection: 0
+  broken_auth: 0
+  sensitive_data_exposure: 0
+  broken_access_control: 0
+  security_misconfiguration: 0
+  xss: 0
+  insecure_deserialization: 0
+  vulnerable_components: 0
+  logging_monitoring_failures: 0
+  ssrf: 0

@@ -1,0 +1,81 @@
+{
+  "anchors": [
+    {
+      "node_id": "CRU-FR10-01",
+      "node_type": "CRU",
+      "score": 1.0,
+      "provenance": "graph"
+    }
+  ],
+  "evidence_chunks": [
+    {
+      "chunk_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+      "chunk_type": "child",
+      "text": "User A user should be able to switch between a map view and a list view for all search options.",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.10",
+      "source_locator": {
+        "section": "3.2.1.10",
+        "page": 11,
+        "para": 13
+      },
+      "module": "UNKNOWN",
+      "version": "2.1",
+      "score": 0.855,
+      "confidence": 0.95,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    }
+  ],
+  "parent_context": [
+    {
+      "chunk_id": "P_34580fa75540973b0d0439fba6bf1f8b001945454d115ff5ec824ad9b14b9f9b",
+      "chunk_type": "parent",
+      "text": "Section 3.2.1.10",
+      "doc_id": "DOC-SRS_EXAMPLE",
+      "section_path": "3.2.1.10",
+      "source_locator": {
+        "section": "3.2.1.10",
+        "page": 11,
+        "para": 13
+      },
+      "module": null,
+      "version": null,
+      "score": 0.8,
+      "confidence": 1.0,
+      "provenance": "graph",
+      "similarity_score": null,
+      "needs_confirmation": false
+    }
+  ],
+  "trace_paths": [
+    {
+      "why": "evidence via task=TaskType.TEST_GENERATION",
+      "path": [
+        {
+          "src": "CRU-FR10-01",
+          "rel": "SUPPORTED_BY",
+          "dst": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+          "conf": 0.95
+        }
+      ],
+      "path_confidence": 0.95
+    }
+  ],
+  "related_nodes": [
+    {
+      "node_type": "CHUNK",
+      "node_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+      "relation": "SUPPORTED_BY"
+    }
+  ],
+  "warnings": [
+    {
+      "type": "MISSING_EVIDENCE",
+      "message": "No evidence chunks found; downstream generation must produce open questions rather than guessed expected results.",
+      "chunk_id": null
+    }
+  ],
+  "open_questions": []
+}

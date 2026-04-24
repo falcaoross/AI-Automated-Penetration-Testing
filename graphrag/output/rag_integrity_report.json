@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-04-08T11:06:09.565288+00:00",
+  "db_path": "output/graphrag.duckdb",
+  "summary": {
+    "total_issues": 0,
+    "errors": 0,
+    "warnings": 0,
+    "passed": true
+  },
+  "issues": []
+}

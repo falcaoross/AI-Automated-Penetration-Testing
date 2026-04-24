@@ -1,0 +1,765 @@
+{
+  "metadata": {
+    "total_comparisons": 83,
+    "model_name": "qwen-14b-instruct",
+    "temperature": 0.0,
+    "classification_counts": {
+      "MATCH": 4,
+      "PARTIAL_MATCH": 79,
+      "MISSING_REQUIREMENT": 0,
+      "CONFLICT": 0
+    },
+    "avg_confidence": 0.4568,
+    "avg_inference_time_seconds": 0.0,
+    "total_duration_seconds": 0.0
+  },
+  "comparisons": [
+    {
+      "acceptance_id": "SCN_001",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "MATCH",
+      "best_matching_cru": "CRU_FR1_01",
+      "confidence": 0.625,
+      "reasoning": "Acceptance describes user registration which directly maps to system establishing account functionality"
+    },
+    {
+      "acceptance_id": "SCN_001_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_001_step_2",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.5082,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_001_step_3",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.445,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_001_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.7301,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_001_step_5",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.3546,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_001_step_6",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.6357,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_001_step_7",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "MATCH",
+      "best_matching_cru": "CRU_FR2_01",
+      "confidence": 0.5377,
+      "reasoning": "Acceptance describes authentication which maps to hash validation requirement"
+    },
+    {
+      "acceptance_id": "SCN_002",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "MATCH",
+      "best_matching_cru": "CRU_FR1_01",
+      "confidence": 0.5321,
+      "reasoning": "Acceptance describes user registration which directly maps to system establishing account functionality"
+    },
+    {
+      "acceptance_id": "SCN_002_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4958,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_002_step_2",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.5581,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_002_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "MATCH",
+      "best_matching_cru": "CRU_FR2_01",
+      "confidence": 0.41,
+      "reasoning": "Acceptance describes authentication which maps to hash validation requirement"
+    },
+    {
+      "acceptance_id": "SCN_002_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4707,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_003",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.45,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_003_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4919,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_003_step_2",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.5589,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_003_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4329,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_004",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4547,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_004_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.476,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_004_step_2",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4569,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_004_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.3664,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_004_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4599,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_004_step_5",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.51,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_005",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4062,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_005_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4856,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_005_step_2",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.3883,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_005_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.3658,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_005_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.3614,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_006",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4188,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_006_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.5618,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_006_step_2",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4396,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_006_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4588,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_006_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4859,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_007",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.3906,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_007_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4612,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_007_step_2",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4047,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_007_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.3948,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_007_step_4",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4747,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_007_step_5",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4247,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_008",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4923,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_008_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4494,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_008_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.3348,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_008_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4184,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_009",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4765,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_009_step_1",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.5497,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_009_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.388,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_010",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4211,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_010_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4855,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_010_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4565,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_011",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4023,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_011_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.475,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_011_step_2",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.3263,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_011_step_3",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.3255,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_012",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4713,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_012_step_1",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4463,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_012_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.3316,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_013",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4466,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_013_step_1",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4993,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_013_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.3348,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_013_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4729,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_014",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.5232,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_014_step_1",
+      "level": "step",
+      "step_type": "precondition",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.537,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_014_step_2",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.5087,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_014_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.3656,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_015",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4254,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_016",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4709,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_016_step_1",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.483,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_016_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.543,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_017",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.5913,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_017_step_1",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4887,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_017_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4761,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_018",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4215,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_018_step_1",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4723,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_018_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4349,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_018_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4961,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    },
+    {
+      "acceptance_id": "SCN_019",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.413,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_019_step_1",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.3924,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_019_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.3357,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_019_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4045,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_020",
+      "level": "scenario",
+      "step_type": null,
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4128,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_020_step_1",
+      "level": "step",
+      "step_type": "action",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.48,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_020_step_2",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_QR1_01",
+      "confidence": 0.4591,
+      "reasoning": "Performance requirement exists but may not fully address functional acceptance needs"
+    },
+    {
+      "acceptance_id": "SCN_020_step_3",
+      "level": "step",
+      "step_type": "outcome",
+      "classification": "PARTIAL_MATCH",
+      "best_matching_cru": "CRU_FR4_01",
+      "confidence": 0.4928,
+      "reasoning": "Task management acceptance partially covered by task filtering capability"
+    }
+  ]
+}

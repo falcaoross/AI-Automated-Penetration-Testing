@@ -1,0 +1,3446 @@
+{
+  "audit_metadata": {
+    "doc_id": "doc_a7518e16b02c3792",
+    "source_file": "srs_example.pdf",
+    "stage": "Stage 2A – Requirement Paragraph Detection",
+    "audit_timestamp": "2026-03-05T08:01:45.345326+00:00"
+  },
+  "paragraph_summary": {
+    "total_paragraphs": 3127,
+    "heading_paragraphs": 2090,
+    "toc_paragraphs": 2415,
+    "ocr_pages": [
+      6,
+      9,
+      10,
+      36,
+      56,
+      57,
+      58
+    ],
+    "skipped_paragraphs": 139
+  },
+  "section_classification_summary": {
+    "NON_REQUIREMENT": 374,
+    "SUPPORTING_CONTEXT": 62,
+    "REQUIREMENT_SOURCE": 15
+  },
+  "section_classifications": {
+    "__SKIP__COVER__": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section is skipped or unmapped by Stage 1",
+      "paragraph_count": 10,
+      "qualifying_paragraph_count": 0
+    },
+    "__SKIP__TOC__": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section is skipped or unmapped by Stage 1",
+      "paragraph_count": 2415,
+      "qualifying_paragraph_count": 0
+    },
+    "1": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 10,
+      "qualifying_paragraph_count": 0
+    },
+    "1. Introduction": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['introduction']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "1. Introduction > 1.1 Purpose": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['introduction', 'purpose']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "1. Introduction > 1.2 Scope": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['introduction', 'scope']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "1. Introduction > 1.3 Definitions, acronyms, and abbreviations": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['introduction', 'definitions', 'acronyms', 'abbreviations']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "1. Introduction > Someone who interacts with the mobile phone application": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['introduction']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "1. Introduction > Restaurant Owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['introduction']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "1. Introduction > Table 1 - Definitions": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['introduction', 'definitions']",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "2": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 6,
+      "qualifying_paragraph_count": 0
+    },
+    "2 > Global Positioning System": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "2 > Application Store": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "SCALE": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "METER": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "DEFINED": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "DEFINED > 1.4 References": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['references']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "3": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 10,
+      "qualifying_paragraph_count": 0
+    },
+    "3 > 1.5 Overview": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['overview']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "4": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 4,
+      "qualifying_paragraph_count": 0
+    },
+    "2. Overall description": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['description']; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "2. Overall description > 2.1 Product perspective": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['description', 'perspective']; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "2. Overall description > The mobile application will need to communicate to a GPS": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "2. Overall description > Since this is a data-centric product it will need somewhere": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "2. Overall description > The mobile application has some restrictions about the": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['description']; modal-adjacent paragraphs: 0.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "2. Overall description > 2.2 Product functions": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['description', 'functions']; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "2. Overall description > Figure 1 - Block diagram": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['description', 'diagram']; modal-adjacent paragraphs: 0.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "5": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 12,
+      "qualifying_paragraph_count": 1
+    },
+    "5 > 2.3 User characteristics": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['characteristics']; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "5 > 2.4 Constraints": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "5 > 2.5 Assumptions and dependencies": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['assumptions', 'dependencies']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "6": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 4,
+      "qualifying_paragraph_count": 0
+    },
+    "6 > 2.6 Apportioning of requirements": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "7": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 5,
+      "qualifying_paragraph_count": 0
+    },
+    "3. Specific requirements": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "3. Specific requirements > 3.1 External interface Requirements": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "3. Specific requirements > 3.1 External interface Requirements > 3.1.1 User interfaces": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "3. Specific requirements > Figure 2 - Login page": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "8": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 4,
+      "qualifying_paragraph_count": 0
+    },
+    "8 > 3.1.2 Hardware interfaces": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "8 > 3.1.3 Software interfaces": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "9": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 3,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > 3.1.4 Communications interfaces": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > 3.2 Functional requirements": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > 3.2 Functional requirements > 3.2.1 User Class 1 - The User": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > 3.2 Functional requirements > 3.2.1 User Class 1 - The User > 3.2.1.1 Functional requirement 1.1": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > ID: FR1": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > TITLE: Download mobile application": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > DEP: None": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > DEP: None > 3.2.1.2 Functional requirement 1.2": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > ID: FR2": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > TITLE: Download and notify users of new releases": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > DEP: FR1": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > DEP: FR1 > 3.2.1.3 Functional requirement 1.3": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > ID: FR3": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "9 > TITLE: User registration - Mobile application": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "10": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > 3.2.1.4 Functional requirement 1.4": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > ID: FR4": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > TITLE: User log-in - Mobile application": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "10 > DEP: FR1, FR3": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > DEP: FR1, FR3 > 3.2.1.5 Functional requirement 1.5": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > ID: FR5": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > TITLE: Retrieve password": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > DEP: FR1": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > DEP: FR1 > 3.2.1.6 Functional requirement 1.6": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > ID: FR6": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > TITLE: Mobile application - Search": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > DEP: FR4": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > DEP: FR4 > 3.2.1.7 Functional requirement 1.7": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > ID: FR7": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "10 > TITLE: Mobile application - Search result in a map view": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "DESC:": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/2 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 4,
+      "qualifying_paragraph_count": 1
+    },
+    "DESC: > DEP: FR6": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "11": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "11 > 3.2.1.8 Functional requirement 1.8": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "11 > ID: FR8": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "11 > TITLE: Mobile application - Search result in a list view": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "1. average price": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "2. distance": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "3. restaurant type": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "4. specific dish": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 2.",
+      "paragraph_count": 4,
+      "qualifying_paragraph_count": 0
+    },
+    "1. distance": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "2. average price": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "4. specific dish > DEP: FR6": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "4. specific dish > DEP: FR6 > 3.2.1.9 Functional requirement 1.9": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "4. specific dish > ID: FR9": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "4. specific dish > TITLE: Mobile application - Navigation to restaurant": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "4. specific dish > DEP: FR7, FR8": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "4. specific dish > DEP: FR7, FR8 > 3.2.1.10 Functional requirement 1.10": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "4. specific dish > ID: FR10": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "4. specific dish > TITLE: Mobile application - Switch result view": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "12": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > DEP: FR7, FR8": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > DEP: FR7, FR8 > 3.2.1.11 Functional requirement 1.11": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > ID: FR11": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > TITLE: Mobile application - Selecting the information link": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > DEP: FR7, FR8 > 3.2.1.12 Functional requirement 1.12": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > ID: FR12": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > TITLE: Mobile application - Search by price": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > DEP: FR8": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > DEP: FR8 > 3.2.1.13 Functional requirement 1.13": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > ID: FR13": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > TITLE: Mobile application - Search by destination": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > DEP: FR7": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > DEP: FR7 > 3.2.1.14 Functional requirement 1.14": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > ID: FR14": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > TITLE: Accepted input for price and destination search": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > DEP: FR12, FR13": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > DEP: FR12, FR13 > 3.2.1.15 Functional requirement 1.15": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > ID: FR15": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "12 > TITLE: Mobile application - Search by restaurant type": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > DEP: FR7": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 3,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > DEP: FR7 > 3.2.1.16 Functional requirement 1.16": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > ID: FR16": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > TITLE: Mobile application - Search by specific dish": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > DEP: FR7 > 3.2.1.17 Functional requirement 1.17": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > ID: FR17": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > TITLE: Mobile application - Free-text search": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > DEP: FR7 > 3.2.1.18 Functional requirement 1.18": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > ID: FR18": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > TITLE: Mobile application - No match found": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > DEP: FR5": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > DEP: FR5 > 3.2.1.19 Functional requirement 1.19": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > ID: FR19": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "13 > TITLE: Mobile application - Sorting results": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "14": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > DEP: FR8": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > DEP: FR8 > 3.2.1.20 Functional requirement 1.20": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > ID: FR20": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > TITLE: Mobile application - Filtering results": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > DEP: FR7, FR8": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > DEP: FR7, FR8 > 3.2.1.21 Functional requirement 1.21": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > ID: FR21": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > TITLE: Mobile application - Profile page": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > DEP: FR1": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > DEP: FR1 > 3.2.2 User Class 2 - Restaurant Owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > DEP: FR1 > 3.2.2 User Class 2 - Restaurant Owner > 3.2.2.1 Functional requirement 2.1": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > ID: FR22": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > Feature: Create an account": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > In order to create an account": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > A restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > Should register on the web-portal": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > Scenario: Required information for registration": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > Given the restaurant owner wants to create an account": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "14 > And the restaurant owner does not have an account": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > And password": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > And address": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > And e-mail address": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > And phone number": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 3,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Scenario: Full information for registration": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Given the restaurant owner wants to create an account": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > And the restaurant owner does not have an account": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > And mobile number": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Scenario: Confirmed registration": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Given the restaurant owner has applied for verification": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > When the restaurant owner receives a confirmation e-mail": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Then the restaurant owner should be able to log in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Then the restaurant owner should be able to log in > 3.2.2.2 Functional requirement 2.2": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > ID: FR23": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Feature: Restaurant owner log-in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > In order to use the system": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > A restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Should be logged in to the web-portal": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Scenario: Successful log-in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Given the restaurant owner wants to log in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > When the restaurant owner logs in with his/her account": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > Scenario: Retrieve password": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > And has lost the password": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "15 > And submits the form": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "16": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > 3.2.2.3 Functional requirement 2.3": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > ID: FR24": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > Feature: Manage information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > In order to manage information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > A restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > Should be logged in to the web-portal": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > Scenario: Show fields for managing information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > Given the restaurant owner is logged in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > When the restaurant owner wants to manage information": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > Scenario: Filling in mandatory fields": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > When the restaurant owner provides average price": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And address": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And e-mail address": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And phone number": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And restaurant name": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > Scenario: Filling in optional fields": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > When the restaurant owner provides restaurant description": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['description']; modal-adjacent paragraphs: 0.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And menu": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And type of restaurant": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And picture of restaurant": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And mobile phone": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > Scenario: Filling in menu field": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > When the restaurant owner provides dish name": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And dish description": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['description']; modal-adjacent paragraphs: 0.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > And dish price": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > Scenario: Adding information with mandatory fields": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > When the restaurant owner submits the form": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "16 > Then the information about the restaurant should be added": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "17": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > And filled in one or more optional fields of the form": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > When the restaurant owner submits the form": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Then the information about the restaurant should be added": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Scenario: Deleting information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Given the restaurant owner is logged in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > And information exists": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > When the restaurant owner deletes information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Then the information should be deleted": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Scenario: Editing information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > When the restaurant owner edits information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Then the information should be edited": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Then the information should be edited > 3.2.2.4 Functional requirement 2.4": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > ID: FR25": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > In order to understand the web-portal": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > A restaurant owner": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Scenario: Select English as preferred language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > When the restaurant owner selects English as a new language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Then the web-portal will show all text in English": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Scenario: Select Swedish as preferred language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > When the restaurant owner selects Swedish as a new language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Then the web-portal will show all text in Swedish": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Scenario: Select French as preferred language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > When the restaurant owner selects French as a new language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Then the web-portal will show all text in French": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Scenario: Select Spanish as preferred language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > When the restaurant owner selects Spanish as a new language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "17 > Then the web-portal will show all text in Spanish": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > 3.2.3 User Class 3 - Administrator": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > 3.2.3 User Class 3 - Administrator > 3.2.3.1 Functional requirement 3.1": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > ID: FR26": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Feature: Administrator log in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > In order to administer the system": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > An administrator": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 3,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Should be logged in to the web-portal": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Scenario: Successful log-in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Given the administrator wants to log in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > When the administrator logs in with an administrator account": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > When the administrator logs in with an administrator account > 3.2.3.2 Functional requirement 3.2": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > ID: FR27": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Feature: Verify restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > In order to allow a restaurant owner to use the system": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Should be able to verify the restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Scenario: Verify a restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Given the administrator is logged in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 3,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > When the administrator verifies a restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Then the restaurant owner should be able to log in": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Scenario: Reject a restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > When the administrator rejects a restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Then the restaurant owner should not be able to log in": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Then the restaurant owner should not be able to log in > 3.2.3.3 Functional requirement 3.3": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > ID: FR28": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Feature: Manage restaurant types": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > In order to have a list of restaurant types": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Should be able to manage the restaurant types": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > Scenario: Add a new restaurant type": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "18 > When the administrator creates a new restaurant type": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "19": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Scenario: Editing an existing restaurant type": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Given the administrator is logged in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 7,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > When the administrator edits an existing restaurant type": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Scenario: Delete a restaurant type": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > When the administrator deletes a restaurant type": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > When the administrator deletes a restaurant type > 3.2.3.4 Functional requirement 3.4": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > ID: FR29": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Feature: Manage restaurant dishes": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > In order to have a list of dishes": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > An administrator": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Should be able to manage the dishes": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Scenario: Add a new dish": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > When the administrator creates a new dish": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Then the new dish should be added to the list of dishes": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Scenario: Editing an existing dish": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > When the administrator edits an existing dish": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Then the dish should be updated in the list of dishes": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Scenario: Delete a dish": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > When the administrator deletes a dish": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > When the administrator deletes a dish > 3.2.3.5 Functional requirement 3.5": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > ID: FR30": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Feature: Manage restaurant information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > In order to manage restaurant information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Should be logged in to the web-portal": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Scenario: Add restaurant information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > When the administrator adds restaurant information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Then the information should be added to the restaurant": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "19 > Scenario: Delete restaurant information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > And information about a restaurant exists": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > When the administrator deletes the information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Then the information about the restaurant should be deleted": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Scenario: Edit restaurant information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Given the administrator is logged in": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 6,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > When the administrator edits the information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Then the information about the restaurant should be edited": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Then the information about the restaurant should be edited > 3.2.3.6 Functional requirement 3.6": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > ID: FR31": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Feature: Manage users": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > In order to keep track of the users": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > An administrator": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Should be able to manage the users": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > When the administrator edits an existing user": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Then the user information should be updated": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Scenario: Delete/Inactivate an existing user": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > When the administrator deletes an existing user": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Then the user should be deleted": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Then the user should be deleted > 3.2.3.7 Functional requirement 3.7": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > ID: FR32": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Feature: Manage restaurant owners": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > In order to keep track of the restaurant owners": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Should be able to manage the restaurant owners": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Scenario: Add a new restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > When the administrator creates a new restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Then the new restaurant owner should be added": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Scenario: Edit an existing restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > When the administrator edits an existing restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Then the restaurant owner information should be updated": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "20 > Scenario: Delete an existing restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > When the administrator deletes an existing restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Then the restaurant owner should be deleted": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > And the restaurant information should be deleted": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > And the restaurant information should be deleted > 3.2.3.8 Functional requirement 3.8": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > ID: FR33": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > In order to understand the web-portal": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > An administrator": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Scenario: Select English as preferred language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Given the administrator wants to select a preferred language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 4,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > When the administrator selects English as a new language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Then the web-portal will show all text in English": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Scenario: Select Swedish as preferred language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > When the administrator selects Swedish as a new language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Then the web-portal will show all text in Swedish": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Scenario: Select French as preferred language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > When the administrator selects French as a new language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Then the web-portal will show all text in French": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Scenario: Select Spanish as preferred language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > When the administrator selects Spanish as a new language": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > Then the web-portal will show all text in Spanish": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > 3.3 Performance requirements": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > 3.3 Performance requirements > 3.3.1 Prominent search feature": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > ID: QR1": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > TITLE: Prominent search feature": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "21 > DEP: none": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > 3.3.2 Usage of the search feature": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > ID: QR2": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > TITLE: Usage of the search feature": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > DEP: none": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 4,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > DEP: none > 3.3.3 Usage of the result in the list view": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > ID: QR3": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > TITLE: Usage of the result in the list view": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > DEP: none > 3.3.4 Usage of the result in the map view": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > ID: QR4": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > TITLE: Usage of the result in the map view": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > DEP: none > 3.3.5 Usage of the information link": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > ID: QR5": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > TITLE: Usage of the information link": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > DEP: none > 3.3.6 Response time": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > ID: QR6": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > TAG: ResponseTime": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > GIST: The fastness of the search": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "22 > SCALE: The response time of a search": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "23": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > 3.3.7 System dependability": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > ID: QR8": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > TAG: SystemDependability": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > 3.4 Design constraints": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['constraints', 'design']; modal-adjacent paragraphs: 0.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > 3.4 Design constraints > 3.4.1 Hard drive space": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: ['constraints', 'design']; modal-adjacent paragraphs: 0.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > ID: QR10": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > TAG: HardDriveSpace": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > MB: DEFINED: Megabyte": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > MB: DEFINED: Megabyte > 3.4.2 Application memory usage": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > ID: QR11": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > TAG: ApplicationMemoryUsage": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "23 > PLAN: No more than 16 MB": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > WISH: No more than 10 MB": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > 3.5 Software system attributes": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > 3.5 Software system attributes > 3.5.1 Reliability": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > ID: QR9": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "23 > TAG: SystemReliability": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "24": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > 3.5.2 Availability": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > ID: QR7": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > TAG: SystemAvailability": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > ID: QR22": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > TITLE: Internet Connection": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > DEP: none": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > ID: QR23": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > TITLE: GPS Connection": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > DEP: none > 3.5.3 Security": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > ID: QR12": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > TAG: CommunicationSecurity": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "24 > ID: QR13": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "24 > TAG: RestaurantOwnerLoginAccountSecurity": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "25": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "25 > ID: QR14": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "25 > TAG: AdminLoginAccountSecurity": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "25 > ID: QR15": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "25 > TAG: RestaurantOwnerAccountSecurity": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "25 > ID: QR16": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "25 > TAG: AdminAccountSecurity": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "25 > ID: QR17": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "25 > TAG: UserCreateAccountSecurity": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "25 > ID: QR18": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "25 > TAG: RestaurantOwnerCreateAccountSecurity": {
+      "classification": "REQUIREMENT_SOURCE",
+      "rationale": "1/1 content paragraph(s) contain a true normative modal (shall/must/will) AND system behavior signal.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 1
+    },
+    "26": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "26 > 3.5.4 Maintainability": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "26 > ID: QR19": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "26 > TITLE: Application extendibility": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "26 > DEP: none": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 3,
+      "qualifying_paragraph_count": 0
+    },
+    "26 > ID: QR21": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "26 > TITLE: Application testability": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "26 > DEP: none > 3.5.5 Portability": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "26 > ID: QR20": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "26 > TITLE: Application portability": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "27": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "4. Prioritization and Release Plan": {
+      "classification": "SUPPORTING_CONTEXT",
+      "rationale": "Section has ZERO paragraphs meeting strict qualification rule. Context signals in name: []; modal-adjacent paragraphs: 1.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "4. Prioritization and Release Plan > 4.1 Choice of prioritization method": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "4. Prioritization and Release Plan > 4.2 Release Plan": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "28": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Cost-Value Approach": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Requirement ID Title": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Requirement Type": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Mobile application - Search": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Mobile application - Search result in a map view Function": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Mobile application - Search result in a list view": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Restaurant owner manages information": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Administrator verifies restaurant owner": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > System response time": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > System Availability": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > System Reliability": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Communication Security": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Internet Connection": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "32 > Value FR6 FR7 FR8 FR24 FR27 QR6 QR7 QR9 QR12 QR22": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "1/3": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 9,
+      "qualifying_paragraph_count": 0
+    },
+    "1/5": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 10,
+      "qualifying_paragraph_count": 0
+    },
+    "1/7": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 3,
+      "qualifying_paragraph_count": 0
+    },
+    "1/6": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "1/4": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 3,
+      "qualifying_paragraph_count": 0
+    },
+    "1/9": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "34": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "53": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "53 > Internet connection is mandatory for": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "1 > GPS connection is mandatory for the": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "54": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "55": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 1,
+      "qualifying_paragraph_count": 0
+    },
+    "55 > Appendix V: I-star": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "Section name matches non-requirement signals: ['appendix']",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    },
+    "56": {
+      "classification": "NON_REQUIREMENT",
+      "rationale": "No qualifying paragraphs and no context signals detected.",
+      "paragraph_count": 2,
+      "qualifying_paragraph_count": 0
+    }
+  },
+  "extraction_summary": {
+    "total_candidates_emitted": 17,
+    "strictly_qualified": 16,
+    "supporting_detail": 1
+  },
+  "confidence_distribution": {
+    "HIGH": 16,
+    "LOW": 1
+  },
+  "skip_log": [
+    {
+      "para_id": "doc_a7518e16b02c3792_p0001_s0002",
+      "section_path": "__SKIP__COVER__",
+      "reason": "too_short (13 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0003_s0016",
+      "section_path": "1. Introduction",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0003_s0018",
+      "section_path": "1. Introduction > 1.1 Purpose",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0003_s0022",
+      "section_path": "1. Introduction > 1.3 Definitions, acronyms, and abbreviations",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0003_s0024",
+      "section_path": "1. Introduction > Someone who interacts with the mobile phone application",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0003_s0026",
+      "section_path": "1. Introduction > Restaurant Owner",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0004_s0029",
+      "section_path": "2",
+      "reason": "too_short (13 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0004_s0031",
+      "section_path": "2 > Global Positioning System",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0004_s0033",
+      "section_path": "2 > Application Store",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0004_s0035",
+      "section_path": "SCALE",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0004_s0037",
+      "section_path": "METER",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0004_s0039",
+      "section_path": "DEFINED",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0004_s0041",
+      "section_path": "DEFINED > 1.4 References",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0005_s0043",
+      "section_path": "3",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0005_s0044",
+      "section_path": "3",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0005_s0046",
+      "section_path": "3 > 1.5 Overview",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0006_s0049",
+      "section_path": "2. Overall description",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0006_s0051",
+      "section_path": "2. Overall description > 2.1 Product perspective",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0006_s0057",
+      "section_path": "2. Overall description > The mobile application has some restrictions about the",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0006_s0059",
+      "section_path": "2. Overall description > 2.2 Product functions",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0007_s0064",
+      "section_path": "5 > 2.3 User characteristics",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0007_s0068",
+      "section_path": "5 > 2.5 Assumptions and dependencies",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0008_s0070",
+      "section_path": "6",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0008_s0072",
+      "section_path": "6 > 2.6 Apportioning of requirements",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0009_s0075",
+      "section_path": "3. Specific requirements",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0009_s0077",
+      "section_path": "3. Specific requirements > 3.1 External interface Requirements",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0009_s0079",
+      "section_path": "3. Specific requirements > 3.1 External interface Requirements > 3.1.1 User interfaces",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0009_s0081",
+      "section_path": "3. Specific requirements > Figure 2 - Login page",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0010_s0083",
+      "section_path": "8",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0010_s0085",
+      "section_path": "8 > 3.1.2 Hardware interfaces",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0010_s0087",
+      "section_path": "8 > 3.1.3 Software interfaces",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0011_s0089",
+      "section_path": "9",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0011_s0091",
+      "section_path": "9 > 3.1.4 Communications interfaces",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0011_s0093",
+      "section_path": "9 > 3.2 Functional requirements",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0011_s0098",
+      "section_path": "9 > TITLE: Download mobile application",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0011_s0103",
+      "section_path": "9 > TITLE: Download and notify users of new releases",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0012_s0119",
+      "section_path": "10 > TITLE: Retrieve password",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0012_s0124",
+      "section_path": "10 > TITLE: Mobile application - Search",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0013_s0142",
+      "section_path": "4. specific dish",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0013_s0147",
+      "section_path": "4. specific dish",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0013_s0152",
+      "section_path": "4. specific dish > TITLE: Mobile application - Navigation to restaurant",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0013_s0157",
+      "section_path": "4. specific dish > TITLE: Mobile application - Switch result view",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0014_s0159",
+      "section_path": "12",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0014_s0164",
+      "section_path": "12 > TITLE: Mobile application - Selecting the information link",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0014_s0169",
+      "section_path": "12 > TITLE: Mobile application - Search by price",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0014_s0174",
+      "section_path": "12 > TITLE: Mobile application - Search by destination",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0014_s0179",
+      "section_path": "12 > TITLE: Accepted input for price and destination search",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0015_s0185",
+      "section_path": "13",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0015_s0190",
+      "section_path": "13 > TITLE: Mobile application - Search by specific dish",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0015_s0195",
+      "section_path": "13 > TITLE: Mobile application - Free-text search",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0015_s0200",
+      "section_path": "13 > TITLE: Mobile application - No match found",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0015_s0205",
+      "section_path": "13 > TITLE: Mobile application - Sorting results",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0016_s0207",
+      "section_path": "14",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0016_s0212",
+      "section_path": "14 > TITLE: Mobile application - Filtering results",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0016_s0217",
+      "section_path": "14 > TITLE: Mobile application - Profile page",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0017_s0230",
+      "section_path": "15",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0017_s0235",
+      "section_path": "15 > And phone number",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0017_s0239",
+      "section_path": "15 > And the restaurant owner does not have an account",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0017_s0245",
+      "section_path": "15 > And mobile number",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0017_s0248",
+      "section_path": "15 > Given the restaurant owner has applied for verification",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0017_s0260",
+      "section_path": "15 > When the restaurant owner logs in with his/her account",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0017_s0264",
+      "section_path": "15 > And has lost the password",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0017_s0266",
+      "section_path": "15 > And submits the form",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0018_s0277",
+      "section_path": "16 > When the restaurant owner wants to manage information",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0018_s0279",
+      "section_path": "16 > Scenario: Filling in mandatory fields",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0018_s0285",
+      "section_path": "16 > And restaurant name",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0018_s0287",
+      "section_path": "16 > Scenario: Filling in optional fields",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0018_s0293",
+      "section_path": "16 > And mobile phone",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0018_s0295",
+      "section_path": "16 > Scenario: Filling in menu field",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0018_s0299",
+      "section_path": "16 > And dish price",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0018_s0301",
+      "section_path": "16 > Scenario: Adding information with mandatory fields",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0018_s0304",
+      "section_path": "16 > Then the information about the restaurant should be added",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0019_s0321",
+      "section_path": "17 > ID: FR25",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0019_s0324",
+      "section_path": "17 > A restaurant owner",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0019_s0326",
+      "section_path": "17 > Scenario: Select English as preferred language",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0019_s0330",
+      "section_path": "17 > Scenario: Select Swedish as preferred language",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0019_s0334",
+      "section_path": "17 > Scenario: Select French as preferred language",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0019_s0338",
+      "section_path": "17 > Scenario: Select Spanish as preferred language",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0020_s0352",
+      "section_path": "18 > When the administrator logs in with an administrator account",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0020_s0363",
+      "section_path": "18 > Then the restaurant owner should be able to log in",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0020_s0368",
+      "section_path": "18 > Then the restaurant owner should not be able to log in",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0020_s0378",
+      "section_path": "18 > When the administrator creates a new restaurant type",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0021_s0383",
+      "section_path": "19 > When the administrator edits an existing restaurant type",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0021_s0387",
+      "section_path": "19 > When the administrator deletes a restaurant type",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0021_s0405",
+      "section_path": "19 > When the administrator deletes a dish",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0022_s0433",
+      "section_path": "20 > Should be able to manage the users",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0023_s0463",
+      "section_path": "21 > ID: FR33",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0023_s0466",
+      "section_path": "21 > An administrator",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0023_s0484",
+      "section_path": "21 > 3.3 Performance requirements",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0023_s0488",
+      "section_path": "21 > TITLE: Prominent search feature",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0024_s0494",
+      "section_path": "22 > TITLE: Usage of the search feature",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0024_s0499",
+      "section_path": "22 > TITLE: Usage of the result in the list view",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0024_s0504",
+      "section_path": "22 > TITLE: Usage of the result in the map view",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0024_s0509",
+      "section_path": "22 > TITLE: Usage of the information link",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0024_s0516",
+      "section_path": "22 > SCALE: The response time of a search",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0025_s0521",
+      "section_path": "23 > TAG: SystemDependability",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0025_s0523",
+      "section_path": "23 > 3.4 Design constraints",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0025_s0527",
+      "section_path": "23 > TAG: HardDriveSpace",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0025_s0535",
+      "section_path": "23 > WISH: No more than 10 MB",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0025_s0537",
+      "section_path": "23 > 3.5 Software system attributes",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0026_s0542",
+      "section_path": "24",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0026_s0546",
+      "section_path": "24 > TAG: SystemAvailability",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0026_s0549",
+      "section_path": "24 > TITLE: Internet Connection",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0026_s0553",
+      "section_path": "24 > TITLE: GPS Connection",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0026_s0561",
+      "section_path": "24 > TAG: RestaurantOwnerLoginAccountSecurity",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0028_s0583",
+      "section_path": "26 > TITLE: Application extendibility",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0028_s0587",
+      "section_path": "26 > TITLE: Application testability",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0028_s0592",
+      "section_path": "26 > TITLE: Application portability",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0029_s0596",
+      "section_path": "4. Prioritization and Release Plan",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0029_s0598",
+      "section_path": "4. Prioritization and Release Plan > 4.1 Choice of prioritization method",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0029_s0600",
+      "section_path": "4. Prioritization and Release Plan > 4.2 Release Plan",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0030_s0602",
+      "section_path": "28",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1113",
+      "section_path": "32",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1117",
+      "section_path": "32 > Requirement Type",
+      "reason": "too_short (3 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1119",
+      "section_path": "32 > Mobile application - Search",
+      "reason": "too_short (12 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1121",
+      "section_path": "32 > Mobile application - Search result in a map view Function",
+      "reason": "too_short (3 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1123",
+      "section_path": "32 > Mobile application - Search result in a list view",
+      "reason": "too_short (13 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1125",
+      "section_path": "32 > Restaurant owner manages information",
+      "reason": "too_short (13 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1127",
+      "section_path": "32 > Administrator verifies restaurant owner",
+      "reason": "too_short (12 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1129",
+      "section_path": "32 > System response time",
+      "reason": "too_short (11 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1131",
+      "section_path": "32 > System Availability",
+      "reason": "too_short (11 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1133",
+      "section_path": "32 > System Reliability",
+      "reason": "too_short (12 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1135",
+      "section_path": "32 > Communication Security",
+      "reason": "too_short (12 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1137",
+      "section_path": "32 > Internet Connection",
+      "reason": "too_short (7 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1139",
+      "section_path": "32 > Value FR6 FR7 FR8 FR24 FR27 QR6 QR7 QR9 QR12 QR22",
+      "reason": "too_short (3 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1150",
+      "section_path": "7",
+      "reason": "too_short (3 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1161",
+      "section_path": "5",
+      "reason": "too_short (3 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1172",
+      "section_path": "3",
+      "reason": "too_short (4 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1183",
+      "section_path": "4",
+      "reason": "too_short (4 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1194",
+      "section_path": "2",
+      "reason": "too_short (3 chars)"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0034_s1205",
+      "section_path": "8",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0036_s1362",
+      "section_path": "34",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0055_s3112",
+      "section_path": "53",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0055_s3114",
+      "section_path": "53 > Internet connection is mandatory for",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0055_s3116",
+      "section_path": "1",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0055_s3118",
+      "section_path": "1 > GPS connection is mandatory for the",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0056_s3122",
+      "section_path": "54",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0057_s3125",
+      "section_path": "55 > Appendix V: I-star",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    },
+    {
+      "para_id": "doc_a7518e16b02c3792_p0058_s3127",
+      "section_path": "56",
+      "reason": "does_not_qualify_strict_rule_and_not_supporting_in_req_source"
+    }
+  ],
+  "skip_reason_summary": {
+    "does_not_qualify_strict_rule_and_not_supporting_in_req_source": 120,
+    "bullet_artifacts_skipped": 19
+  }
+}

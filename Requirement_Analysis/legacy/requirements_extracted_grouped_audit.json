@@ -1,0 +1,210 @@
+{
+  "audit_metadata": {
+    "doc_id": "doc_a7518e16b02c3792",
+    "source_file": "srs_example.pdf",
+    "stage": "Stage 2B – Structured Requirement Assembly",
+    "audit_timestamp": "2026-03-05T08:03:32.951177+00:00"
+  },
+  "input_summary": {
+    "total_paragraph_candidates_read": 17,
+    "unique_sections": 16
+  },
+  "output_summary": {
+    "structured_requirements_produced": 16,
+    "orphan_paragraphs": 0,
+    "confidence_distribution": {
+      "HIGH": 15,
+      "MEDIUM": 1
+    }
+  },
+  "grouping_log": [
+    {
+      "requirement_id": "REQ-5ae33ffbb2",
+      "section_path": "1. Introduction > 1.2 Scope",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0003_s0020",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0003_s0020"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0003_s0020 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-176cd511dd",
+      "section_path": "2. Overall description > The mobile application will need to communicate to a GPS",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0006_s0053",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0006_s0053"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0006_s0053 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-998f03b714",
+      "section_path": "2. Overall description > Since this is a data-centric product it will need somewhere",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0006_s0055",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0006_s0055"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0006_s0055 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-f94fd8b8dc",
+      "section_path": "5",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0007_s0062",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0007_s0062"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0007_s0062 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-52d9b1db77",
+      "section_path": "5 > 2.4 Constraints",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0007_s0066",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0007_s0066"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0007_s0066 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-1c3e7be646",
+      "section_path": "9 > TITLE: User registration - Mobile application",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0011_s0108",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0011_s0108"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0011_s0108 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-6fb4876aa5",
+      "section_path": "10 > TITLE: User log-in - Mobile application",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0012_s0114",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0012_s0114"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0012_s0114 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-0bd9d1c635",
+      "section_path": "DESC:",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0012_s0130",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0012_s0130",
+        "doc_a7518e16b02c3792_p0013_s0137"
+      ],
+      "group_size": 2,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0012_s0130 (strictly_qualifies=true). Attached 1 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-2116983954",
+      "section_path": "23 > TAG: ApplicationMemoryUsage",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0025_s0532",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0025_s0532"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0025_s0532 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-33aa790198",
+      "section_path": "24 > TAG: CommunicationSecurity",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0026_s0558",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0026_s0558"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0026_s0558 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-5056421036",
+      "section_path": "25",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0027_s0563",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0563"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0027_s0563 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-b6f7e74c0e",
+      "section_path": "25 > TAG: AdminLoginAccountSecurity",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0027_s0566",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0566"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0027_s0566 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-4c79cc259b",
+      "section_path": "25 > TAG: RestaurantOwnerAccountSecurity",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0027_s0569",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0569"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0027_s0569 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-3208c9474e",
+      "section_path": "25 > TAG: AdminAccountSecurity",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0027_s0572",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0572"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0027_s0572 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-f4d4c393e6",
+      "section_path": "25 > TAG: UserCreateAccountSecurity",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0027_s0575",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0575"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0027_s0575 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    },
+    {
+      "requirement_id": "REQ-6ae45e6c46",
+      "section_path": "25 > TAG: RestaurantOwnerCreateAccountSecurity",
+      "anchor_para_id": "doc_a7518e16b02c3792_p0027_s0578",
+      "grouped_para_ids": [
+        "doc_a7518e16b02c3792_p0027_s0578"
+      ],
+      "group_size": 1,
+      "grouping_rationale": "Anchor: doc_a7518e16b02c3792_p0027_s0578 (strictly_qualifies=true). Attached 0 supporting paragraph(s) from same section with attachable roles or confidence ≥ 0.45."
+    }
+  ],
+  "orphan_paragraphs": [],
+  "paragraph_disposition": {
+    "doc_a7518e16b02c3792_p0003_s0020": "grouped_into: REQ-5ae33ffbb2",
+    "doc_a7518e16b02c3792_p0006_s0053": "grouped_into: REQ-176cd511dd",
+    "doc_a7518e16b02c3792_p0006_s0055": "grouped_into: REQ-998f03b714",
+    "doc_a7518e16b02c3792_p0007_s0062": "grouped_into: REQ-f94fd8b8dc",
+    "doc_a7518e16b02c3792_p0007_s0066": "grouped_into: REQ-52d9b1db77",
+    "doc_a7518e16b02c3792_p0011_s0108": "grouped_into: REQ-1c3e7be646",
+    "doc_a7518e16b02c3792_p0012_s0114": "grouped_into: REQ-6fb4876aa5",
+    "doc_a7518e16b02c3792_p0012_s0130": "grouped_into: REQ-0bd9d1c635",
+    "doc_a7518e16b02c3792_p0013_s0137": "grouped_into: REQ-0bd9d1c635",
+    "doc_a7518e16b02c3792_p0025_s0532": "grouped_into: REQ-2116983954",
+    "doc_a7518e16b02c3792_p0026_s0558": "grouped_into: REQ-33aa790198",
+    "doc_a7518e16b02c3792_p0027_s0563": "grouped_into: REQ-5056421036",
+    "doc_a7518e16b02c3792_p0027_s0566": "grouped_into: REQ-b6f7e74c0e",
+    "doc_a7518e16b02c3792_p0027_s0569": "grouped_into: REQ-4c79cc259b",
+    "doc_a7518e16b02c3792_p0027_s0572": "grouped_into: REQ-3208c9474e",
+    "doc_a7518e16b02c3792_p0027_s0575": "grouped_into: REQ-f4d4c393e6",
+    "doc_a7518e16b02c3792_p0027_s0578": "grouped_into: REQ-6ae45e6c46"
+  },
+  "accounting_check": {
+    "total_candidates": 17,
+    "disposition_entries": 17,
+    "grouped": 17,
+    "orphaned": 0,
+    "invariant_holds": true
+  }
+}
