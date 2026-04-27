@@ -1,0 +1,28 @@
+{
+  "req_id": "CRU-FR10-01",
+  "timestamp_utc": "2026-04-20T15:50:52.024528+00:00",
+  "total_tests": 29,
+  "existing_tests": 19,
+  "new_tests": 10,
+  "new_by_type": {
+    "positive": 1,
+    "negative": 1,
+    "edge": 1,
+    "performance": 0,
+    "other": 7
+  },
+  "new_by_priority": {
+    "High": 9,
+    "Medium": 1,
+    "Low": 0
+  },
+  "evidence_grounding": {
+    "explicit": 0,
+    "derived": 10,
+    "none": 0
+  },
+  "evidence_chunk_id": "CH_720d5cc3b2978d902989c8239a11d588816c4b3315cc6034fcbfe8d7fed8055a",
+  "evidence_chunk_text": "User A user should be able to switch between a map view and a list view for all search options.",
+  "before_snapshot": "knowledge_graph/compare_result/comparison/snapshot_before.json",
+  "after_snapshot": "knowledge_graph/compare_result/comparison/snapshot_after.json"
+}

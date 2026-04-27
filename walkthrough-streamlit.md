@@ -1,4 +1,4 @@
-# Welcome to the AI Pentest Engine UI ⚡
+# Welcome to the AI Pentest Engine UI
 
 I've successfully created a completely autonomous, unified frontend for your Pentest Generation Pipeline! 
 
@@ -13,10 +13,10 @@ The new UI is built with **Streamlit** and features a very clean, dark-mode styl
 
 ---
 
-## 🏃 How to Run the UI
+## How to Run the UI
 
 ### Method 1: Running Locally (Windows/Mac)
-If you are running this on your own machine, simply open a terminal in your `Autopilot-QA` folder and type:
+If you are running this on your own machine, simply open a terminal in your `AI-Pentest-Gen` folder and type:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py

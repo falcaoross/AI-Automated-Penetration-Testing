@@ -3508,7 +3508,7 @@
     {
       "code": "INFO-TYPE-DEFAULT-QUALITY",
       "req_id": "QR23",
-      "message": "quality_attributes type defaulted to 'quality' — no keyword matched.",
+      "message": "quality_attributes type defaulted to 'quality' - no keyword matched.",
       "severity": "info"
     },
     {

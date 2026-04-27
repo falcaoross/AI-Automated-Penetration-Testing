@@ -2383,7 +2383,7 @@
       "toc_confirmed": true,
       "body_confirmed": false,
       "low_confidence_confirmation": true,
-      "text": "Figure 5 – List view |  | Figure 6 – Map view |  | Figure 7 – Filter menu",
+      "text": "Figure 5 - List view |  | Figure 6 - Map view |  | Figure 7 - Filter menu",
       "source_locator": {
         "page": 8,
         "para": 7
@@ -2394,11 +2394,11 @@
       "version": "1.0",
       "table": {
         "headers": [
-          "Figure 5 – List view",
+          "Figure 5 - List view",
           "",
-          "Figure 6 – Map view",
+          "Figure 6 - Map view",
           "",
-          "Figure 7 – Filter menu"
+          "Figure 7 - Filter menu"
         ],
         "rows": []
       }
@@ -11055,7 +11055,7 @@
       "toc_confirmed": true,
       "body_confirmed": false,
       "low_confidence_confirmation": false,
-      "text": "Table 2 – Select of ten most important requirements |  |  |  |  |  |  |  | \nRequirement ID | Magnus | Elmira | Faegheh | Niclas | Farhan | Sean | Sarah | Total\nFR1 | 9 | 7 | 5 | 6 | 6 | 8 | 6 | 47\nFR2 | 3 | 6 | 4 | 3 | 4 | 5 | 3 | 28\nFR3 | 4 | 6 | 8 | 6 | 7 | 7 | 6 | 44\nFR4 | 6 | 5 | 3 | 6 | 7 | 6 | 6 | 39\nFR5 | 6 | 9 | 3 | 5 | 7 | 6 | 5 | 41\nFR6 | 8 | 10 | 10 | 9 | 9 | 10 | 10 | 66\nFR7 | 10 | 8 | 10 | 10 | 8 | 10 | 8 | 64\nFR8 | 10 | 10 | 10 | 8 | 8 | 10 | 8 | 64\nFR9 | 6 | 8 | 5 | 8 | 9 | 7 | 8 | 51\nFR10 | 3 | 6 | 7 | 5 | 6 | 8 | 4 | 39\nFR11 | 3 | 4 | 3 | 6 | 5 | 5 | 5 | 31\nFR12 | 4 | 3 | 7 | 6 | 6 | 7 | 7 | 40\nFR13 | 4 | 6 | 9 | 7 | 7 | 7 | 7 | 47\nFR14 | 4 | 4 | 3 | 6 | 6 | 6 | 5 | 34\nFR15 | 4 | 7 | 7 | 5 | 6 | 6 | 6 | 41\nFR16 | 4 | 7 | 5 | 5 | 6 | 6 | 6 | 39\nFR17 | 4 | 3 | 4 | 2 | 5 | 7 | 3 | 28\nFR18 | 6 | 6 | 3 | 7 | 4 | 4 | 6 | 36\nFR19 | 5 | 4 | 5 | 5 | 4 | 7 | 5 | 35\nFR20 | 5 | 7 | 6 | 5 | 6 | 6 | 5 | 40\nFR21 | 5 | 4 | 4 | 6 | 5 | 4 | 6 | 34\nFR22 | 6 | 8 | 6 | 6 | 8 | 7 | 6 | 47",
+      "text": "Table 2 - Select of ten most important requirements |  |  |  |  |  |  |  | \nRequirement ID | Magnus | Elmira | Faegheh | Niclas | Farhan | Sean | Sarah | Total\nFR1 | 9 | 7 | 5 | 6 | 6 | 8 | 6 | 47\nFR2 | 3 | 6 | 4 | 3 | 4 | 5 | 3 | 28\nFR3 | 4 | 6 | 8 | 6 | 7 | 7 | 6 | 44\nFR4 | 6 | 5 | 3 | 6 | 7 | 6 | 6 | 39\nFR5 | 6 | 9 | 3 | 5 | 7 | 6 | 5 | 41\nFR6 | 8 | 10 | 10 | 9 | 9 | 10 | 10 | 66\nFR7 | 10 | 8 | 10 | 10 | 8 | 10 | 8 | 64\nFR8 | 10 | 10 | 10 | 8 | 8 | 10 | 8 | 64\nFR9 | 6 | 8 | 5 | 8 | 9 | 7 | 8 | 51\nFR10 | 3 | 6 | 7 | 5 | 6 | 8 | 4 | 39\nFR11 | 3 | 4 | 3 | 6 | 5 | 5 | 5 | 31\nFR12 | 4 | 3 | 7 | 6 | 6 | 7 | 7 | 40\nFR13 | 4 | 6 | 9 | 7 | 7 | 7 | 7 | 47\nFR14 | 4 | 4 | 3 | 6 | 6 | 6 | 5 | 34\nFR15 | 4 | 7 | 7 | 5 | 6 | 6 | 6 | 41\nFR16 | 4 | 7 | 5 | 5 | 6 | 6 | 6 | 39\nFR17 | 4 | 3 | 4 | 2 | 5 | 7 | 3 | 28\nFR18 | 6 | 6 | 3 | 7 | 4 | 4 | 6 | 36\nFR19 | 5 | 4 | 5 | 5 | 4 | 7 | 5 | 35\nFR20 | 5 | 7 | 6 | 5 | 6 | 6 | 5 | 40\nFR21 | 5 | 4 | 4 | 6 | 5 | 4 | 6 | 34\nFR22 | 6 | 8 | 6 | 6 | 8 | 7 | 6 | 47",
       "source_locator": {
         "page": 29,
         "para": 24
@@ -11066,7 +11066,7 @@
       "version": "1.0",
       "table": {
         "headers": [
-          "Table 2 – Select of ten most important requirements",
+          "Table 2 - Select of ten most important requirements",
           "",
           "",
           "",
@@ -13239,7 +13239,7 @@
       "toc_confirmed": true,
       "body_confirmed": false,
       "low_confidence_confirmation": false,
-      "text": "Table 3 – 10 most important requirements |  | \nRequirement ID | Title | Requirement Type\nFR6 | Mobile application - Search | Function\nFR7 | Mobile application - Search result in a map view | Function\nFR8 | Mobile application - Search result in a list view | Function\nFR24 | Restaurant owner manages information | Function\nFR27 | Administrator verifies restaurant owner | Function\nQR6 | System response time | Quality\nQR7 | System Availability | Quality\nQR9 | System Reliability | Quality\nQR12 | Communication Security | Quality\nQR22 | Internet Connection | Quality",
+      "text": "Table 3 - 10 most important requirements |  | \nRequirement ID | Title | Requirement Type\nFR6 | Mobile application - Search | Function\nFR7 | Mobile application - Search result in a map view | Function\nFR8 | Mobile application - Search result in a list view | Function\nFR24 | Restaurant owner manages information | Function\nFR27 | Administrator verifies restaurant owner | Function\nQR6 | System response time | Quality\nQR7 | System Availability | Quality\nQR9 | System Reliability | Quality\nQR12 | Communication Security | Quality\nQR22 | Internet Connection | Quality",
       "source_locator": {
         "page": 32,
         "para": 22
@@ -13250,7 +13250,7 @@
       "version": "1.0",
       "table": {
         "headers": [
-          "Table 3 – 10 most important requirements",
+          "Table 3 - 10 most important requirements",
           "",
           ""
         ],
@@ -13329,7 +13329,7 @@
       "toc_confirmed": true,
       "body_confirmed": false,
       "low_confidence_confirmation": false,
-      "text": "Table 4 – Value |  |  |  |  |  |  |  |  |  | \nValue | FR6 | FR7 | FR8 | FR24 | FR27 | QR6 | QR7 | QR9 | QR12 | QR22\nFR6 | 1 | 5 | 7 | 7 | 1/3 | 1/5 | 1/3 | 1/3 | 5 | 7\nFR7 | 1/5 | 1 | 3 | 5 | 6 | 1/5 | 1/3 | 1/3 | 1/3 | 5\nFR8 | 1/7 | 1/3 | 1 | 4 | 5 | 1/6 | 1/4 | 1/4 | 1/5 | 3\nFR24 | 1/7 | 1/5 | 1/4 | 1 | 1/3 | 1/5 | 1/5 | 1/3 | 5 | 4\nFR27 | 3 | 1/6 | 1/5 | 3 | 1 | 1/9 | 1/5 | 1/5 | 1/7 | 2\nQR6 | 5 | 5 | 6 | 5 | 9 | 1 | 3 | 3 | 2 | 8",
+      "text": "Table 4 - Value |  |  |  |  |  |  |  |  |  | \nValue | FR6 | FR7 | FR8 | FR24 | FR27 | QR6 | QR7 | QR9 | QR12 | QR22\nFR6 | 1 | 5 | 7 | 7 | 1/3 | 1/5 | 1/3 | 1/3 | 5 | 7\nFR7 | 1/5 | 1 | 3 | 5 | 6 | 1/5 | 1/3 | 1/3 | 1/3 | 5\nFR8 | 1/7 | 1/3 | 1 | 4 | 5 | 1/6 | 1/4 | 1/4 | 1/5 | 3\nFR24 | 1/7 | 1/5 | 1/4 | 1 | 1/3 | 1/5 | 1/5 | 1/3 | 5 | 4\nFR27 | 3 | 1/6 | 1/5 | 3 | 1 | 1/9 | 1/5 | 1/5 | 1/7 | 2\nQR6 | 5 | 5 | 6 | 5 | 9 | 1 | 3 | 3 | 2 | 8",
       "source_locator": {
         "page": 32,
         "para": 23
@@ -13340,7 +13340,7 @@
       "version": "1.0",
       "table": {
         "headers": [
-          "Table 4 – Value",
+          "Table 4 - Value",
           "",
           "",
           "",
@@ -14398,7 +14398,7 @@
       "toc_confirmed": true,
       "body_confirmed": false,
       "low_confidence_confirmation": false,
-      "text": " | Table 7 – Data of five-way priority scheme prioritization |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nRequirement\nID |  |  |  |  | Priority by Stakeholder |  |  |  |  |  |  |  |  |  |  | \nFR1 |  | Magnus\nElmira\nNiclas\nFaegheh\nSarah |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | \n |  |  |  |  | 1\n1\n1\n1\n1 |  |  | -2\n-1\n-2\n-2\n-1 |  |  | -2\n-2\n-2\n-2\n-1 |  |  | 2\n2\n1\n1\n1 |  | \n |  |  | Average |  |  | 1 |  |  | -1,6 |  |  | -1,8 |  |  | 1,4 | \n |  |  | Sum |  |  | -1 |  |  |  |  |  |  |  |  |  | \n |  |  | Rank of |  |  |  |  |  |  |  |  |  |  |  |  | \n |  |  | Req. |  |  | 13 |  |  |  |  |  |  |  |  |  | \nFR2 |  | Magnus\nElmira\nNiclas\nFaegheh\nSarah |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | \n |  |  |  |  | 1\n1\n0\n-1\n0 |  |  | -2\n-1\n-2\n-2\n-2 |  |  | -2\n-2\n-2\n-2\n-2 |  |  | 1\n1\n1\n0\n0 |  | \n |  |  | Average |  |  | 0,2 |  |  | -1,8 |  |  | -2 |  |  | 0,6 | \n |  |  | Sum |  |  | -3 |  |  |  |  |  |  |  |  |  | \n |  |  | Rank of |  |  |  |  |  |  |  |  |  |  |  |  | \n |  |  | Req. |  |  | 34 |  |  |  |  |  |  |  |  |  | \nFR3 |  | Magnus\nElmira\nNiclas\nFaegheh\nSarah |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | \n |  |  |  |  | 1\n0\n1\n0\n1 |  |  | -2\n-2\n-2\n-2\n-2 |  |  | -2\n-2\n-2\n-2\n-1 |  |  | 1\n1\n0\n1\n1 |  | \n |  |  | Average |  |  | 0,6 |  |  | -2 |  |  | -1,8 |  |  | 0,8 | \n |  |  | Sum |  |  | -2,4 |  |  |  |  |  |  |  |  |  | \n |  |  | Rank of |  |  |  |  |  |  |  |  |  |  |  |  | \n |  |  | Req. |  |  | 29 |  |  |  |  |  |  |  |  |  | \nFR4 |  | Magnus\nElmira\nNiclas\nFaegheh\nSarah |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | \n |  |  |  |  | 0\n0\n1\n0\n0 |  |  | -2\n-2\n-2\n-2\n-2 |  |  | -2\n-2\n-2\n-2\n-2 |  |  | 0\n0\n0\n-1\n0 |  | \n |  |  | Average |  |  | 0,2 |  |  | -2 |  |  | -2 |  |  | -0,2 | \n |  |  | Sum |  |  | -4 |  |  |  |  |  |  |  |  |  | \n |  |  | Rank of |  |  |  |  |  |  |  |  |  |  |  |  | \n |  |  | Req. |  |  | 41 |  |  |  |  |  |  |  |  |  | \n |  |  |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | ",
+      "text": " | Table 7 - Data of five-way priority scheme prioritization |  |  |  |  |  |  |  |  |  |  |  |  |  |  | \nRequirement\nID |  |  |  |  | Priority by Stakeholder |  |  |  |  |  |  |  |  |  |  | \nFR1 |  | Magnus\nElmira\nNiclas\nFaegheh\nSarah |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | \n |  |  |  |  | 1\n1\n1\n1\n1 |  |  | -2\n-1\n-2\n-2\n-1 |  |  | -2\n-2\n-2\n-2\n-1 |  |  | 2\n2\n1\n1\n1 |  | \n |  |  | Average |  |  | 1 |  |  | -1,6 |  |  | -1,8 |  |  | 1,4 | \n |  |  | Sum |  |  | -1 |  |  |  |  |  |  |  |  |  | \n |  |  | Rank of |  |  |  |  |  |  |  |  |  |  |  |  | \n |  |  | Req. |  |  | 13 |  |  |  |  |  |  |  |  |  | \nFR2 |  | Magnus\nElmira\nNiclas\nFaegheh\nSarah |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | \n |  |  |  |  | 1\n1\n0\n-1\n0 |  |  | -2\n-1\n-2\n-2\n-2 |  |  | -2\n-2\n-2\n-2\n-2 |  |  | 1\n1\n1\n0\n0 |  | \n |  |  | Average |  |  | 0,2 |  |  | -1,8 |  |  | -2 |  |  | 0,6 | \n |  |  | Sum |  |  | -3 |  |  |  |  |  |  |  |  |  | \n |  |  | Rank of |  |  |  |  |  |  |  |  |  |  |  |  | \n |  |  | Req. |  |  | 34 |  |  |  |  |  |  |  |  |  | \nFR3 |  | Magnus\nElmira\nNiclas\nFaegheh\nSarah |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | \n |  |  |  |  | 1\n0\n1\n0\n1 |  |  | -2\n-2\n-2\n-2\n-2 |  |  | -2\n-2\n-2\n-2\n-1 |  |  | 1\n1\n0\n1\n1 |  | \n |  |  | Average |  |  | 0,6 |  |  | -2 |  |  | -1,8 |  |  | 0,8 | \n |  |  | Sum |  |  | -2,4 |  |  |  |  |  |  |  |  |  | \n |  |  | Rank of |  |  |  |  |  |  |  |  |  |  |  |  | \n |  |  | Req. |  |  | 29 |  |  |  |  |  |  |  |  |  | \nFR4 |  | Magnus\nElmira\nNiclas\nFaegheh\nSarah |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | \n |  |  |  |  | 0\n0\n1\n0\n0 |  |  | -2\n-2\n-2\n-2\n-2 |  |  | -2\n-2\n-2\n-2\n-2 |  |  | 0\n0\n0\n-1\n0 |  | \n |  |  | Average |  |  | 0,2 |  |  | -2 |  |  | -2 |  |  | -0,2 | \n |  |  | Sum |  |  | -4 |  |  |  |  |  |  |  |  |  | \n |  |  | Rank of |  |  |  |  |  |  |  |  |  |  |  |  | \n |  |  | Req. |  |  | 41 |  |  |  |  |  |  |  |  |  | \n |  |  |  |  | User |  |  | Restaurant owner |  |  | Administrator |  |  | Customer |  | ",
       "source_locator": {
         "page": 36,
         "para": 3
@@ -14410,7 +14410,7 @@
       "table": {
         "headers": [
           "",
-          "Table 7 – Data of five-way priority scheme prioritization",
+          "Table 7 - Data of five-way priority scheme prioritization",
           "",
           "",
           "",
@@ -19899,7 +19899,7 @@
       "toc_confirmed": true,
       "body_confirmed": false,
       "low_confidence_confirmation": false,
-      "text": "Table 8 – Result of five-way priority scheme prioritization | \nPriority | Requirement ID",
+      "text": "Table 8 - Result of five-way priority scheme prioritization | \nPriority | Requirement ID",
       "source_locator": {
         "page": 45,
         "para": 3
@@ -19910,7 +19910,7 @@
       "version": "1.0",
       "table": {
         "headers": [
-          "Table 8 – Result of five-way priority scheme prioritization",
+          "Table 8 - Result of five-way priority scheme prioritization",
           ""
         ],
         "rows": [
@@ -20249,7 +20249,7 @@
       "toc_confirmed": true,
       "body_confirmed": false,
       "low_confidence_confirmation": false,
-      "text": "Table 9 – Release plan |  |  |  |  | \nRE: | Dependencies | Description | Motivation | Release | Duration\nFR1 | - | Download\nmobile\napplication | This requirement makes the\napplication available for users and is\ntherefore an important requirement to\ninclude in the first release. | 1 | 80\nFR2 | FR1 | Download and\nnotify users of\nnew releases | The download of the new versions is\nimportant for users to be able to\nreceive the future release of the\napplication and will therefore be\nincluded in the first release. | 1 | 2\nFR3 | - | User\nregistration | For the user to be able to use the\napplication, the user has to registrant.\nConsequently, this requirement needs\nto be met in the first release. | 1 | 4\nFR4 | FR1, FR3 | User Log-in | For the user to be able to use the\napplication, the user has to log in.\nConsequently, this requirement needs\nto be met in the first release. | 1 | 2\nFR5 | FR1 | Retrieve\nPassword | For the user to be able to receive a\nforgotten password will have to wait\nto the second release. This is not vital\nfor the application and was therefore\nnot included in the first release. | 2 | 1\nFR6 | FR4 | Search | The search feature is one of the most\nimportant and vital part of the\nsystem. It's part of the basic goal of\nthe program and should therefore be\nincluded in the first release. | 1 | 2\nFR7 | FR6, QR22,\nQR23 | Search result in\na map view | The ability to show the search result\nin a map view is part of the basic\ngoal of the program and should\ntherefore be included in the first\nrelease. | 1 | 1\nFR8 | FR6, QR22 | Search result in\na list view | The ability to show the search result\nin a list view is part of the basic goal | 2 | 2",
+      "text": "Table 9 - Release plan |  |  |  |  | \nRE: | Dependencies | Description | Motivation | Release | Duration\nFR1 | - | Download\nmobile\napplication | This requirement makes the\napplication available for users and is\ntherefore an important requirement to\ninclude in the first release. | 1 | 80\nFR2 | FR1 | Download and\nnotify users of\nnew releases | The download of the new versions is\nimportant for users to be able to\nreceive the future release of the\napplication and will therefore be\nincluded in the first release. | 1 | 2\nFR3 | - | User\nregistration | For the user to be able to use the\napplication, the user has to registrant.\nConsequently, this requirement needs\nto be met in the first release. | 1 | 4\nFR4 | FR1, FR3 | User Log-in | For the user to be able to use the\napplication, the user has to log in.\nConsequently, this requirement needs\nto be met in the first release. | 1 | 2\nFR5 | FR1 | Retrieve\nPassword | For the user to be able to receive a\nforgotten password will have to wait\nto the second release. This is not vital\nfor the application and was therefore\nnot included in the first release. | 2 | 1\nFR6 | FR4 | Search | The search feature is one of the most\nimportant and vital part of the\nsystem. It's part of the basic goal of\nthe program and should therefore be\nincluded in the first release. | 1 | 2\nFR7 | FR6, QR22,\nQR23 | Search result in\na map view | The ability to show the search result\nin a map view is part of the basic\ngoal of the program and should\ntherefore be included in the first\nrelease. | 1 | 1\nFR8 | FR6, QR22 | Search result in\na list view | The ability to show the search result\nin a list view is part of the basic goal | 2 | 2",
       "source_locator": {
         "page": 47,
         "para": 11
@@ -20260,7 +20260,7 @@
       "version": "1.0",
       "table": {
         "headers": [
-          "Table 9 – Release plan",
+          "Table 9 - Release plan",
           "",
           "",
           "",
