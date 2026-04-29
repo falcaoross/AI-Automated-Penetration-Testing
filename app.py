@@ -1,13 +1,15 @@
 import streamlit as st
 import os
 import subprocess
-import glob
 import json
 import time
 import signal
+import html
 from pathlib import Path
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+from pipeline_utils import (
+    load_status, save_status, clear_status, is_pid_running, 
+    STATUS_FILE, LOG_PATH, BASE_DIR
+)
 
 st.set_page_config(page_title="AI Pentest Engine", layout="wide", page_icon="")
 
@@ -413,11 +415,52 @@ st.markdown("""
     }
 
     .step-dot {
-        width: 7px;
-        height: 7px;
+        width: 8px;
+        height: 8px;
         border-radius: 50%;
-        background: var(--maroon);
+        background: var(--gray-light);
         flex-shrink: 0;
+        transition: all 0.3s ease;
+    }
+    
+    .step-dot.active {
+        background: var(--maroon);
+        box-shadow: 0 0 0 3px var(--maroon-muted);
+    }
+    
+    .step-dot.completed {
+        background: var(--maroon-deep);
+    }
+
+    /* -- Log container -- */
+    .log-container {
+        background-color: #faf8f8;
+        border: 1px solid var(--border);
+        border-radius: 2px;
+        padding: 10px;
+        height: 400px;
+        overflow-y: scroll;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.75rem;
+        line-height: 1.65;
+        color: var(--gray-dark);
+        white-space: pre-wrap;
+    }
+
+    /* -- Slider Label (Matching h3 style) -- */
+    .stSlider label p {
+        font-family: 'JetBrains Mono', monospace !important;
+        font-size: 0.65rem !important;
+        font-weight: 500 !important;
+        letter-spacing: 0.18em !important;
+        text-transform: uppercase !important;
+        color: var(--maroon) !important;
+    }
+
+    /* -- Input Label and Caption -- */
+    .stTextInput label p, [data-testid="stCaptionContainer"] {
+        color: var(--gray-mid) !important;
+        font-weight: 500;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -425,9 +468,9 @@ st.markdown("""
 # -- Header --
 st.markdown("""
 <div class="app-header">
-    <div class="app-eyebrow">Security Intelligence Platform</div>
-    <div class="app-title">AI Pentest <span>Engine</span></div>
-    <div class="app-subtitle">Automated OWASP Vulnerability Generation Pipeline</div>
+    <div class="app-eyebrow">Security Testing Platform</div>
+    <div class="app-title">AI Pentest <span>Test Case Generation</span></div>
+    <div class="app-subtitle">Automated OWASP Vulnerability Testing Pipeline</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -443,12 +486,20 @@ with col1:
     num_critical = st.slider("Critical Requirements to Test", min_value=5, max_value=50, value=25, step=5)
 
     st.markdown("<br>", unsafe_allow_html=True)
-    with st.expander("Advanced Settings", expanded=False):
-        model_name = st.text_input("Ollama Model Name", value="llama3")
+    with st.expander("Choose Model", expanded=False):
+        model_name = st.text_input("Ollama Model Name", value="qwen2.5:14b-instruct")
         st.caption("Common models: llama3, llama3:8b, mistral, qwen2.5:14b-instruct")
 
     st.markdown("<br>", unsafe_allow_html=True)
-    run_btn = st.button("Launch Pentest Pipeline")
+    run_btn = st.button("Execute")
+
+def is_ollama_online():
+    import requests
+    try:
+        r = requests.get("http://localhost:11434/api/tags")
+        return r.status_code == 200
+    except:
+        return False
 
 # Status Persistence
 STATUS_FILE = os.path.join(BASE_DIR, ".pipeline_status.json")
@@ -487,172 +538,132 @@ def is_pid_running(pid):
     except OSError:
         return False
 
-def run_step(step_name, cmd, cwd, logs_container=None):
-    abs_cwd = os.path.join(BASE_DIR, cwd)
-    if logs_container is None:
-        logs_container = st.empty()
-
-    log_path = os.path.join(BASE_DIR, "pipeline.log")
-
-    env = os.environ.copy()
-    env["PYTHONUNBUFFERED"] = "1"
-
-    with open(log_path, "a", encoding="utf-8") as log_file:
-        log_file.write(f"\n\n>>> STARTING STEP: {step_name} at {time.ctime()} <<<\n")
-        log_file.flush()
-
-        process = subprocess.Popen(
-            cmd,
-            cwd=abs_cwd,
-            shell=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            text=True,
-            env=env,
-            bufsize=1,
-            universal_newlines=True
-        )
-
-        save_status(step_name, is_running=True, pid=process.pid)
-
-        full_output = []
-        while True:
-            line = process.stdout.readline()
-            if not line and process.poll() is not None:
-                break
-            if line:
-                full_output.append(line)
-                log_file.write(line)
-                log_file.flush()
-                logs_container.code("".join(full_output[-15:]))
-
-        rc = process.poll()
-        if rc == 0:
-            save_status(step_name, is_running=False)
-            return True, "".join(full_output)
-        else:
-            save_status(step_name, is_running=False)
-            return False, "".join(full_output)
-
-def is_ollama_online():
-    import requests
-    try:
-        r = requests.get("http://localhost:11434/api/tags")
-        return r.status_code == 200
-    except:
-        return False
+def render_stop_button(placeholder=None):
+    pipeline_status = load_status()
+    if pipeline_status and pipeline_status.get("is_running"):
+        if is_pid_running(pipeline_status.get("pid")):
+            container = placeholder if placeholder else st
+            with container:
+                st.info(f"Pipeline is currently running: {pipeline_status.get('stage')}")
+                if st.button("Stop Pipeline", key=f"stop_{pipeline_status.get('pid')}"):
+                    try:
+                        import signal
+                        os.kill(pipeline_status.get("pid"), signal.SIGTERM)
+                        st.success("Sent termination signal. Refreshing...")
+                        clear_status()
+                        time.sleep(1)
+                        st.rerun()
+                    except:
+                        st.error("Failed to stop process.")
+            return True
+    return False
 
 with col2:
     st.markdown("### Execution Pipeline")
     status_container = st.empty()
+    stop_placeholder = st.empty()
 
     pipeline_status = load_status()
-    is_already_running = False
-    if pipeline_status and pipeline_status.get("is_running"):
-        if is_pid_running(pipeline_status.get("pid")):
-            is_already_running = True
-            st.info(f"Pipeline is currently running: {pipeline_status.get('stage')}")
-            if st.button("Stop Pipeline"):
-                try:
-                    os.kill(pipeline_status.get("pid"), signal.SIGTERM)
-                    st.success("Sent termination signal. Refreshing...")
-                    clear_status()
-                    time.sleep(1)
-                    st.rerun()
-                except:
-                    st.error("Failed to stop process.")
-
+    is_already_running = render_stop_button(stop_placeholder)
+    
     logs_expander = st.expander("Terminal Logs", expanded=is_already_running)
     logs_display = logs_expander.empty()
 
     if is_already_running:
+        # Step Indicators
+        steps = [
+            ("Document Parsing", "Stage 1"),
+            ("Requirement Analysis", "Stage 2"),
+            ("Requirement Units Structuring", "Stage 3"),
+            ("Segmentation & Classification", "Stage 4"),
+            ("Testcase Generation", "Stage 5")
+        ]
+        
+        current_stage = pipeline_status.get("stage", "")
+        
+        for stage_name, step_label in steps:
+            is_done = False
+            # Very simple completion check: if we are past this stage, it's done
+            # But since stages are sequential, we can just check index
+            stage_idx = [s[0] for s in steps].index(stage_name)
+            current_idx = -1
+            try:
+                current_idx = [s[0] for s in steps].index(current_stage)
+            except: pass
+            
+            dot_class = "step-dot"
+            if current_stage == stage_name:
+                dot_class = "step-dot active" # We can add active styling
+            elif current_idx > stage_idx or current_stage == "Completed":
+                dot_class = "step-dot completed" # We can add completed styling
+                
+            st.markdown(f'<div class="step-row"><div class="{dot_class}"></div>{step_label} - {stage_name}</div>', unsafe_allow_html=True)
+
+        # Smooth Polling Loop
         log_path = os.path.join(BASE_DIR, "pipeline.log")
-        if os.path.exists(log_path):
-            with open(log_path, "r", encoding="utf-8") as f:
-                content = f.readlines()
-                logs_display.code("".join(content[-50:]))
-        time.sleep(2)
+        last_content = ""
+        
+        while is_pid_running(pipeline_status.get("pid")):
+            if os.path.exists(log_path):
+                with open(log_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                    if content != last_content:
+                        safe_content = html.escape(content)
+                        logs_display.markdown(f'''
+                            <div id="log-container-poll" class="log-container">{safe_content}</div>
+                            <script>
+                                var elem = document.getElementById("log-container-poll");
+                                if (elem) {{ elem.scrollTop = elem.scrollHeight; }}
+                            </script>
+                        ''', unsafe_allow_html=True)
+                        last_content = content
+            
+            time.sleep(3)
+            
+            # Check for stage changes to update the entire UI
+            new_status = load_status()
+            if not new_status or not new_status.get("is_running") or new_status.get("stage") != current_stage:
+                st.rerun()
+
+        # If we exit the loop, the process finished
         st.rerun()
 
     if run_btn and pdf_file is not None and not is_already_running:
-        log_path = os.path.join(BASE_DIR, "pipeline.log")
-        with open(log_path, "w", encoding="utf-8") as f:
+        # Check Ollama
+        if not is_ollama_online():
+            st.error("Ollama is not running. Please start the Ollama server first.")
+            st.stop()
+
+        # Initialize Log
+        with open(LOG_PATH, "w", encoding="utf-8") as f:
             f.write(f"--- Pipeline Initialized at {time.ctime()} ---\n")
 
+        # Save PDF
         input_dir = os.path.join(BASE_DIR, "input")
         os.makedirs(input_dir, exist_ok=True)
         pdf_path = os.path.join(input_dir, "uploaded_srs.pdf")
         with open(pdf_path, "wb") as f:
             f.write(pdf_file.getbuffer())
 
-        status_container.info("PDF uploaded. Starting pipeline...")
-
-        st.markdown('<div class="step-row"><div class="step-dot"></div>Step 1 - Document Parsing</div>', unsafe_allow_html=True)
-        s1_ok, s1_out = run_step(
-            "Document Parsing",
-            "python runner.py ../input/uploaded_srs.pdf --output-dir 01_output --doc-id DOC-UPLOADED-SRS",
-            "Document_Parsing",
-            logs_display
+        status_container.info("Running Background Processess...")
+        
+        # Launch Orchestrator
+        cmd = f"python pipeline_orchestrator.py --model {model_name} --num_critical {num_critical}"
+        
+        # Start new session to detach from Streamlit
+        process = subprocess.Popen(
+            cmd,
+            shell=True,
+            cwd=BASE_DIR,
+            start_new_session=True
         )
-        if not s1_ok:
-            st.error("Failed at Document Parsing")
-            st.stop()
+        
+        save_status("Initializing", is_running=True, pid=process.pid)
+        time.sleep(2)
+        st.rerun()
 
-        st.markdown('<div class="step-row"><div class="step-dot"></div>Step 2 - Requirement Analysis</div>', unsafe_allow_html=True)
-
-        if not is_ollama_online():
-            st.error("Ollama is not running. Please start the Ollama server first.")
-            st.stop()
-
-        os.makedirs(os.path.join(BASE_DIR, "Requirement_Analysis", "output"), exist_ok=True)
-        s2_ok, s2_out = run_step(
-            "Requirement Analysis",
-            f"python runner.py --blocks ../Document_Parsing/01_output/DOC-UPLOADED-SRS_blocks.json --skeleton ../Document_Parsing/01_output/DOC-UPLOADED-SRS_skeleton.json --output output/requirements.json --model {model_name} --timeout 600",
-            "Requirement_Analysis",
-            logs_display
-        )
-        if not s2_ok:
-            st.error("Failed at Requirement Analysis")
-            st.stop()
-
-        st.markdown('<div class="step-row"><div class="step-dot"></div>Step 3 - Requirement Units Structuring</div>', unsafe_allow_html=True)
-        os.makedirs(os.path.join(BASE_DIR, "Requirement_Units_Structuring", "output"), exist_ok=True)
-        s3_ok, s3_out = run_step(
-            "Requirement Units Structuring",
-            "python runner.py --requirements ../Requirement_Analysis/output/requirements.json --skeleton ../Document_Parsing/01_output/DOC-UPLOADED-SRS_skeleton.json --output output/cru_units.json",
-            "Requirement_Units_Structuring",
-            logs_display
-        )
-        if not s3_ok:
-            st.error("Failed at Requirement Units Structuring")
-            st.stop()
-
-        st.markdown('<div class="step-row"><div class="step-dot"></div>Step 4 - Segmentation & Classification</div>', unsafe_allow_html=True)
-        s4_ok, s4_out = run_step(
-            "Segmentation & Classification",
-            "python chunk_domain.py --input ../Requirement_Units_Structuring/output/cru_units.json --output output/chunked_crus.json",
-            "Segmentation_and_Classification",
-            logs_display
-        )
-        if not s4_ok:
-            st.error("Failed at Segmentation")
-            st.stop()
-
-        st.markdown('<div class="step-row"><div class="step-dot"></div>Step 5 - Testcase Generation (this may take several minutes)</div>', unsafe_allow_html=True)
-        os.environ["NUM_CRITICAL_REQUIREMENTS"] = str(num_critical)
-        os.environ["OLLAMA_MODEL"] = model_name
-        s5_ok, s5_out = run_step(
-            "Testcase Generation",
-            "python llm_test_case_gen.py",
-            "Testcase_Generation",
-            logs_display
-        )
-        if not s5_ok:
-            st.error("Failed at Testcase Generation")
-            st.stop()
-
-        st.success("Pipeline completed successfully.")
-        clear_status()
+    elif run_btn and pdf_file is None:
+        st.warning("Please upload a PDF file to proceed.")
 
         st.markdown("### Results")
         output_dir = os.path.join(BASE_DIR, "Testcase_Generation", "output")

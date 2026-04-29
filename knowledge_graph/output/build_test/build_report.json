@@ -5,7 +5,7 @@
     "db": "output\\test_graph.duckdb",
     "cru": "03_CRU_Normalization\\output\\cru_units.json",
     "chunks": "04_Semantic_Chunking_and_Domain_Tagging\\output\\chunked_crus_with_domain.json",
-    "tests": "05_AI_powered_TestCaseGeneration\\output\\optimized_test_cases_20260403_225627.json"
+    "tests": "05_AI_powered_TestCaseGeneration\\output\\AI_Pentest_Report_OWASP_20260403_225627.json"
   },
   "stats": {
     "total_nodes": 1139,

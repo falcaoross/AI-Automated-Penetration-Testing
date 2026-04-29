@@ -16,7 +16,7 @@ DB_PATH = ROOT / "knowledge_graph"/ "output" / "knowledge_graph.duckdb"
 REQ_PATH = ROOT / "02_Requirement_Understanding" / "output" / "requirements.json"
 CRU_PATH = ROOT / "03_CRU_Normalization" / "output" / "cru_units.json"
 CHUNK_PATH = ROOT / "04_Semantic_Chunking_and_Domain_Tagging" / "output" / "chunked_crus_with_domain.json"
-TEST_PATH = ROOT / "optimized_test_cases_20260403_225627.json"
+TEST_PATH = ROOT / "AI_Pentest_Report_OWASP_20260403_225627.json"
 VECTOR_DIR = ROOT / "knowledge_graph" / "vector"
 
 st.set_page_config(page_title="GraphRAG Debug Console", layout="wide")
